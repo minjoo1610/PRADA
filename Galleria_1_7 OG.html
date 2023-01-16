@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRADA</title>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+
+    <div class="scContainer" id="searchContainer">
+        <form>
+            <input type="search" placeholder="Search on prada.com" title="insert ur searchKeyword">
+            <input type="submit" value="search">
+        </form>
+    </div>
+    <!-- Search -->
+
+    <!-- WISHLIST & SHOPPING BAG -->
+    <div class="wishNcart">
+        <input type="button" value="close" class="btn_close">
+        <ul>
+            <li data-container="wishContainer" class="btnActive" >
+                WISH LIST
+            </li>
+
+            <li data-container="cartContainer" class="btnActive">
+                SHOPPING BAG
+            </li>
+        </ul>
+        <div id="wishContainer">
+            <ol class="wishBox active">
+                <li>
+                    <figure>
+                        <img src="images/wish_img.jpg" alt="wish_img">
+                        <figcaption>
+                            <dl>
+                                <dt>Prada Margit Leather Small Hobo Bag</dt>
+                                <dd class="colorCg">Clay gray</dd>
+                                <dd>2,810,000 WON</dd>
+                            </dl>
+                            <input type="button" value="spicon">
+                            <input type="button" value="delete">
+                        </figcaption>
+                    </figure>
+                    <a href="index_after.html" class="btn blackWhite">CONTINUE SHOPPING</a>
+                </li>
+            </ol> 
+            <div class="emptyBox">
+                Wishlist is empty
+                <a href="index_after.html" class="btn blackWhite">CONTINUE SHOPPING</a>
+            </div>
+        </div>
+        
+        <div id="cartContainer" class="active">
+            <div class="cartBox active">
+                <ol>
+                    <li>
+                        <figure>
+                            <img src="images/cart_img.jpg" alt="shopping_img">
+                            <figcaption>
+                                <dl>
+                                    <dt>Prada saffiano leather <br> mini bag</dt>
+                                    <dd class="colorAB">Astral Blue</dd>
+                                    <dd>3,040,000 WON</dd>
+                                    <dd>
+                                        Quantity: <span>1</span> <br>
+                                        <input type="button" id="countPlus" value="countUp">
+                                        <input type="button" id="countMinus" value="countDown">
+                                    </dd>
+                                </dl>
+                                <input type="button" value="whicon">
+                                <input type="button" value="delete">
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ol> 
+                <div>
+                    <label for="subtotal">SUB TOTAL</label>
+                    <input type="text" id="subtotal" value="3,040,000"> 
+                    <span>WON</span>
+                </div>
+                <a class="btn blackWhite" href="contents_Payment.html">Check-out in progress</a>
+                <div>
+                    <h3>Need help?</h3>
+                    <p><a href="faq.html" class="btn_underline">FAQ</a>You can find information at</p>
+                    <h3>Contact us</h3>
+                    <p>Monday through Sunday 9:30 AM - 6:30 PM</p>
+                    <p><a href="contacts.html" class="btn_underline">online inquiry</a>Or call us</p>
+                    <p>Customer Service Center : 001 800 7723 2000</p>
+                    <p>If you need support or have any questions, <br>we're here to help.</p>
+                </div>
+            </div>
+            <div class="emptyBox">
+                cartlist is empty
+                <a href="index_after.html" class="btn blackWhite">CONTINUE SHOPPING</a>
+            </div>  
+        </div>
+    </div>
+    <!-- WISHLIST & SHOPPING BAG -->
+    
+    <div id="fnbContainer">
+        <div>
+            <ul>
+                <li>
+                    bag
+                    <ol>
+                        <li>
+                            <a href="list_All_handbags.html">All handbags</a>
+                        </li>
+                        <li>
+                            <a href="list_shoulder_bag.html">shoulder bag</a>
+                        </li>
+                        <li>
+                            <a href="list_top_handle.html">top handle</a>
+                        </li>
+                        <li>
+                            <a href="list_mini_bag.html">mini bag</a>
+                        </li>
+                        <li>
+                            <a href="list_hobo_bag.html">hobo bag</a>
+                        </li>
+                        <li>
+                            <a href="list_tote_bag.html">tote bag</a>
+                        </li>
+                        <li>
+                            <a href="list_clutch.html">clutch</a>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="contents_galleria.html">Galleria</a>
+                </li>
+                <li>
+                    <a href="list_pradasphere.html">PRADASPHERE</a>
+                </li>
+                <li>
+                    <a href="contents_fashion_show.html">2022 fashion show</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- fnb -->
+
+
+    <!-- header -->
+
+    <header>
+        <div>
+            <h1>
+                <a href="index.html" class="active">
+                    <img src="images/PRADA_LOGO.jpg" alt="prada">
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <input type="button" data-popup="searchContainer" value="searchContainer">
+                    </li>
+                    <li>
+                        <a href="user.html">user</a>
+                    </li>
+                    <li>
+                        <input type="button" data-container="wishNcart" value="wishContainer">
+                    </li>
+                    <li>
+                        <input type="button" data-container="wishNcart" value="cartContainer">
+                    </li>
+                    <li>
+                        <button class="material-symbols-outlined" data-container="fnbContainer" id="fnbButton">menu</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- header -->
+    
+    <div class="detailContainer">
+        <ul>
+            <li><img src="images/galleria/1_7-OG-Galleria_1.jpg" alt="1-7-OG-Galleria_1_Front"></li>
+            <li><img src="images/galleria/1_7-OG-Galleria_2.jpg" alt="1-7-OG-Galleria_2_wearing_shot"></li>
+            <li><img src="images/galleria/1_7-OG-Galleria_3.jpg" alt="1-7-OG-Galleria_3_left_side"></li>
+            <li><img src="images/galleria/1_7-OG-Galleria_4.jpg" alt="1-7-OG-Galleria_4_back"></li>
+            <li><img src="images/galleria/1_7-OG-Galleria_5.jpg" alt="1-7-OG-Galleria_5_inside"></li>
+            <li><img src="images/galleria/1_7-OG-Galleria_6.jpg" alt="1-7-OG-Galleria_6_logo_shot"></li>
+            <li><img src="images/galleria/1_7-OG-Galleria_7.jpg" alt="1-7-OG-Galleria_7_whole_body "></li>
+        </ul>
+        <aside>
+            <input type="button" value="OPEN" class="toggleBtn">
+            <h2>
+                Prada Galleria Saffiano leather medium bag
+                <a href="#">add to Wish</a>
+            </h2>
+            <p>
+                The Prada Galleria bag is the epitome of timeless elegance, named after the historic store 
+                Mario Prada opened in 1913 at the Galleria Vittorio Emanuele II in Milan. 
+                Crafted from saffiano leather, this bag has a double handle and a detachable shoulder strap 
+                so it can be worn as a shoulder bag or handbag. Its sleek and simple design is adorned with 
+                a leather triangle logo and gold-tone metal hardware.       
+            </p>
+            <div>
+                <mark class="colorORG">Orange</mark>
+                <span>
+                    <small>Product code: 1BA863_NZV_F0049_V_OOO</small>
+                    <input type="text" value="3,780,000 WON" readonly>
+                </span>
+            </div>
+            <a href="#" data-container="wishNcart" class="btn blackWhite">ADD TO CART</a>
+            <details>
+                <summary>Explanation</summary>
+                <ul>
+                    <li>leather handle</li>
+                    <li>Removable and adjustable 115 cm leather shoulder strap</li>
+                    <li>Detachable Leather Keychain</li>
+                    <li>external zip pocket</li>
+                    <li>metal hardware</li>
+                    <li>Metal lettering logo on front leather triangle</li>
+                    <li>side snap closure</li>
+                    <li>Logo-print nylon lining with 2 pockets (one zipped)</li>
+                    <li>with pedestal</li>
+                    <li>Manufacturer: Prada SpA</li>
+                    <li>Importer name: Prada Korea (U)</li>
+                    <li>This is a product that requires special care.</li> 
+                    <li>Please refer to the FAQ for the management method . The warranty period is 1 year.</li> 
+                    <li>Please refer to the Terms of Use for details . Origin information <br></li>
+                    <li>19.5 cm high</li>
+                    <li>12 cm long</li>
+                    <li>28 cm wide</li>
+                </ul>   
+            </details>
+            <details>
+                <summary>Shipping and Returns</summary>
+                <p>All orders are created, subject to availability of shipping products, and are processed 
+                    within 3-5 business days.
+                </p>
+                <p>
+                    The estimated delivery completion period can be checked after the actual delivery date. 
+                    You can check the delivery status through the tracking number delivered to you after completing
+                    the order. You can return the product free of charge through our designated delivery company 
+                    within 14 days of receipt of the product.
+                </p>
+            </details>
+            <details>
+                <summary>mixing ratio</summary>
+                <span>leather</span>
+            </details>
+        </aside>
+    </div>
+    
+    <!-- footer -->
+    <footer>
+        <div>
+            <h2>
+                <img src="images/prada_footer_logo.jpg" alt="prada">
+            </h2>
+            <ul>
+                <li><a href="about_us.html">ABOUT US</a></li>
+                <li><a href="contacts.html">CONTACTS</a></li>
+                <li><a href="store.html">STORE</a></li>
+            </ul>
+            <ol>
+                <li><a href="https://www.instagram.com/prada/" target="_blank" class="snsin">instagram</a></li>
+                <li><a href="https://twitter.com/PRADA" target="_blank" class="snstw">twitter</a></li>
+                <li><a href="https://www.facebook.com/Prada/" target="_blank" class="snsfa">facebook</a></li>
+                <li><a href="https://www.youtube.com/PRADA" target="_blank" class="snsyou">youtube</a></li>
+            </ol>        
+        </div>
+        <div>
+            <p>©PRADA 2007 - 2021 | VAT213-86-18599</p>
+            <span>
+                <a href="Terms_of_Use.html">Terms of Use</a> 
+                <a href="Terms_of_Sale.html">Terms of Sale</a> 
+                <a href="privacy_policy.html">privacy policy</a> 
+            </span>
+        </div>  
+    </footer>
+</body>
+</html>

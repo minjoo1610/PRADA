@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRADA</title>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+    
+    <!-- Search -->
+    <div class="scContainer" id="searchContainer">
+        <form>
+            <input type="search" placeholder="Search on prada.com" title="insert ur searchKeyword">
+            <input type="submit" value="search">
+        </form>
+    </div>
+    <!-- Search -->
+
+    <!-- WISHLIST & SHOPPING BAG -->
+    <div class="wishNcart">
+        <input type="button" value="close" class="btn_close">
+        <ul>
+            <li data-container="wishContainer" class="btnActive" >
+                WISH LIST
+            </li>
+
+            <li data-container="cartContainer" class="btnActive">
+                SHOPPING BAG
+            </li>
+        </ul>
+        <div id="wishContainer">
+            <ol class="wishBox active">
+                <li>
+                    <figure>
+                        <img src="images/wish_img.jpg" alt="wish_img">
+                        <figcaption>
+                            <dl>
+                                <dt>Prada Margit Leather Small Hobo Bag</dt>
+                                <dd class="colorCg">Clay gray</dd>
+                                <dd>2,810,000 WON</dd>
+                            </dl>
+                            <input type="button" value="spicon">
+                            <input type="button" value="delete">
+                        </figcaption>
+                    </figure>
+                    <a href="index_after.html" class="btn blackWhite">CONTINUE SHOPPING</a>
+                </li>
+            </ol> 
+            <div class="emptyBox">
+                Wishlist is empty
+                <a href="index_after.html" class="btn blackWhite">CONTINUE SHOPPING</a>
+            </div>
+        </div>
+        
+        <div id="cartContainer" class="active">
+            <div class="cartBox active">
+                <ol>
+                    <li>
+                        <figure>
+                            <img src="images/cart_img.jpg" alt="shopping_img">
+                            <figcaption>
+                                <dl>
+                                    <dt>Prada saffiano leather <br> mini bag</dt>
+                                    <dd class="colorAB">Astral Blue</dd>
+                                    <dd>3,040,000 WON</dd>
+                                    <dd>
+                                        Quantity: <span>1</span> <br>
+                                        <input type="button" id="countPlus" value="countUp">
+                                        <input type="button" id="countMinus" value="countDown">
+                                    </dd>
+                                </dl>
+                                <input type="button" value="whicon">
+                                <input type="button" value="delete">
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ol> 
+                <div>
+                    <label for="subtotal">SUB TOTAL</label>
+                    <input type="text" id="subtotal" value="3,040,000"> 
+                    <span>WON</span>
+                </div>
+                <a class="btn blackWhite" href="contents_Payment.html">Check-out in progress</a>
+                <div>
+                    <h3>Need help?</h3>
+                    <p><a href="faq.html" class="btn_underline">FAQ</a>You can find information at</p>
+                    <h3>Contact us</h3>
+                    <p>Monday through Sunday 9:30 AM - 6:30 PM</p>
+                    <p><a href="contacts.html" class="btn_underline">online inquiry</a>Or call us</p>
+                    <p>Customer Service Center : 001 800 7723 2000</p>
+                    <p>If you need support or have any questions, <br>we're here to help.</p>
+                </div>
+            </div>
+            <div class="emptyBox">
+                cartlist is empty
+                <a href="index_after.html" class="btn blackWhite">CONTINUE SHOPPING</a>
+            </div>  
+        </div>
+    </div>
+    <!-- WISHLIST & SHOPPING BAG -->
+    <div id="fnbContainer">
+        <div>
+            <ul>
+                <li>
+                    bag
+                    <ol>
+                        <li>
+                            <a href="list_All_handbags.html">All handbags</a>
+                        </li>
+                        <li>
+                            <a href="list_shoulder_bag.html">shoulder bag</a>
+                        </li>
+                        <li>
+                            <a href="list_top_handle.html">top handle</a>
+                        </li>
+                        <li>
+                            <a href="list_mini_bag.html">mini bag</a>
+                        </li>
+                        <li>
+                            <a href="list_hobo_bag.html">hobo bag</a>
+                        </li>
+                        <li>
+                            <a href="list_tote_bag.html">tote bag</a>
+                        </li>
+                        <li>
+                            <a href="list_clutch.html">clutch</a>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="contents_galleria.html">Galleria</a>
+                </li>
+                <li>
+                    <a href="list_pradasphere.html">PRADASPHERE</a>
+                </li>
+                <li>
+                    <a href="contents_fashion_show.html">2022 fashion show</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- fnb -->
+    
+    <!-- header -->
+
+    <header>
+        <div>
+            <h1>
+                <a href="index.html" class="active">
+                    <img src="images/PRADA_LOGO.jpg" alt="prada">
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <input type="button" data-popup="searchContainer" value="searchContainer">
+                    </li>
+                    <li>
+                        <a href="user.html">user</a>
+                    </li>
+                    <li>
+                        <input type="button" data-container="wishNcart" value="wishContainer">
+                    </li>
+                    <li>
+                        <input type="button" data-container="wishNcart" value="cartContainer">
+                    </li>
+                    <li>
+                        <button class="material-symbols-outlined" data-container="fnbContainer" id="fnbButton">menu</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- header -->
+
+    <!-- page -->
+    <div class="clutchList">
+        <h2>Clutch</h2>
+        <ul>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch1_7_BK.jpg" alt="clutch_1_7_BK_img">
+                    <figcaption>
+                        <a href="clutch_1_7_BK.html">
+                            <dl>
+                                <dt>Reedition 2000 nylon shoulder bag</dt>
+                                <dd class="colorBK">Black</dd>
+                                <dd>1,790,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">                        
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch2_6_WR.jpg" alt="Clutch2_6_WR_img">
+                    <figcaption>
+                        <a href="clutch_2_6_WR.html">
+                            <dl>
+                                <dt>prada system nappa patchwork clutch</dt>
+                                <dd class="colorWL">Water lily</dd>                            
+                                <dd>2,640,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon"> 
+                    </figcaption>
+                </figure>    
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch3_5_BK.jpg" alt="Clutch3_5_BK_img">
+                    <figcaption>
+                        <a href="clutch_3_5_BK.html">
+                            <dl>
+                                <dt>nylon clutch</dt>
+                                <dd class="colorBK">Black</dd>
+                                <dd>1,230,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon"> 
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch3_5_CB.jpg" alt="Clutch3_5_CB_img">
+                    <figcaption>
+                        <a href="clutch_3_5_CB.html">
+                            <dl>
+                                <dt>nylon clutch</dt>
+                                <dd class="colorCB">cameo beige</dd>
+                                <dd>1,230,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>    
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch4_4_CW.jpg" alt="Clutch4_4_CW_img">
+                    <figcaption>
+                        <a href="clutch_4_4_CW.html">
+                            <dl>
+                                <dt>Envelope leather clutchwith shoulder strap</dt>
+                                <dd class="colorCW">chalk white</dd>                            
+                                <dd>940,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch4_4_BK.jpg" alt="Clutch4_4_BK_img">
+                    <figcaption>
+                        <a href="clutch_4_4_BK.html">
+                            <dl>
+                                <dt>Envelope leather clutchwith shoulder strap</dt>
+                                <dd class="colorBK">Black</dd>
+                                <dd>940,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch5_7_BK.jpg" alt="Clutch5_7_BK_img">
+                    <figcaption>
+                        <a href="clutch5_7_BK.html">
+                            <dl>
+                                <dt>fringed nylon clutch</dt>
+                                <dd class="colorBK">Black</dd>                            
+                                <dd>2,060,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch6_6_NB.jpg" alt="Clutch6_6_NB_img">
+                    <figcaption>
+                        <a href="clutch6_6_NB.html">
+                            <dl>
+                                <dt>satin clutch</dt>
+                                <dd class="colorNBG">nude beige</dd>                            
+                                <dd>2,460,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch7_7_BK.jpg" alt="Clutch7_7_BK_img">
+                    <figcaption>
+                        <a href="clutch7_7_BK.html">
+                            <dl>
+                                <dt>wicker clutch</dt>
+                                <dd class="colorBK">Black</dd>                            
+                                <dd>2,330,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch7_7_TBK.jpg" alt="Clutch7_7_TBK_img">
+                    <figcaption>
+                        <a href="clutch7_7_TBK.html">
+                            <dl>
+                                <dt>wicker clutch</dt>
+                                <dd class="colorTEN">Tan</dd>
+                                <dd class="colorBK">Black</dd>    
+                                <dd>2,330,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch8_6_RPB.jpg" alt="Clutch8_6_RPB_img">
+                    <figcaption>
+                        <a href="clutch8_6_RPB.html">
+                            <dl>
+                                <dt>Saffiano leather medium pouch</dt>
+                                <dd class="colorRED">Red</dd>
+                                <dd class="colorPLB">Pale Blue</dd>  
+                                <dd>1,280,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch8_6_BAB.jpg" alt="Clutch8_6_BAB_img">
+                    <figcaption>
+                        <a href="clutch8_6_BAB.html">
+                            <dl>
+                                <dt>Saffiano leather medium pouch</dt>
+                                <dd class="colorBK">Black</dd>
+                                <dd class="colorAB">Astral Blue</dd>
+                                <dd>1,280,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>                
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch9_6_BK.jpg" alt="Clutch9_6_BK_img">
+                    <figcaption>
+                        <a href="clutch9_6_BK.html">
+                            <dl>
+                                <dt>Nylon Cosmetic Pouch</dt>
+                                <dd class="colorBK">Black</dd>
+                                <dd>550,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch9_6_PWB.jpg" alt="Clutch9_6_PWB_img">
+                    <figcaption>
+                        <a href="clutch9_6_PWB.html">
+                            <dl>
+                                <dt>Nylon Cosmetic Pouch</dt>
+                                <dd class="colorPWB">periwinkle blue</dd>
+                                <dd>550,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch9_6_BP.jpg" alt="Clutch9_6_BP_img">
+                    <figcaption>
+                        <a href="clutch9_6_BP.html">
+                            <dl>
+                                <dt>Nylon Cosmetic Pouch</dt>
+                                <dd class="colorBNP">begonia pink</dd>
+                                <dd>550,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch9_6_PY.jpg" alt="Clutch9_6_PY_img">
+                    <figcaption>
+                        <a href="clutch9_6_PY.html">
+                            <dl>
+                                <dt>Nylon Cosmetic Pouch</dt>
+                                <dd class="colorPY">Pineapple Yellow</dd>
+                                <dd>550,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch10_6_BK.jpg" alt="Clutch10_6_BK_img">
+                    <figcaption>
+                        <a href="clutch10_6_BK.html">
+                            <dl>
+                                <dt>saffiano leather clutch</dt>
+                                <dd class="colorBK">Black</dd>
+                                <dd>1,120,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch10_6_BA.jpg" alt="Clutch10_6_BA_img">
+                    <figcaption>
+                        <a href="clutch10_6_BA.html">
+                            <dl>
+                                <dt>saffiano leather clutch</dt>
+                                <dd class="colorBE">blueet</dd>
+                                <dd>1,120,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch10_6_FER.jpg" alt="Clutch10_6_FER_img">
+                    <figcaption>
+                        <a href="clutch10_6_FER.html">
+                            <dl>
+                                <dt>saffiano leather clutch</dt>
+                                <dd class="colorFER">fire engine red</dd>
+                                <dd>1,120,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch11_4_BK.jpg" alt="Clutch11_4_BK_img">
+                    <figcaption>
+                        <a href="clutch11_4_BK.html">
+                            <dl>
+                                <dt>Nappa leather mini pouch with necklace</dt>
+                                <dd class="colorBK">Black</dd>
+                                <dd>740,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch12_3_BK.jpg" alt="Clutch12_3_BK_img">
+                    <figcaption>
+                        <a href="clutch12_3_BK.html">
+                            <dl>
+                                <dt>brushed leather mini pouch</dt>
+                                <dd class="colorBK">Black</dd>
+                                <dd>970,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch12_3_WT.jpg" alt="Clutch12_3_WT_img">
+                    <figcaption>
+                        <a href="clutch12_3_WT.html">
+                            <dl>
+                                <dt>brushed leather mini pouch</dt>
+                                <dd class="colorWT">White</dd>
+                                <dd>970,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch12_3_SV.jpg" alt="Clutch12_3_SV_img">
+                    <figcaption>
+                        <a href="clutch12_3_SV.html">
+                            <dl>
+                                <dt>brushed leather mini pouch</dt>
+                                <dd class="colorSV">silver</dd>
+                                <dd>970,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch13_3_BK.jpg" alt="Clutch13_3_BK_img">
+                    <figcaption>
+                        <a href="clutch13_3_BK.html">
+                            <dl>
+                                <dt>brushed leather mini pouch</dt>
+                                <dd class="colorBK">Black</dd>
+                                <dd>970,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch13_3_WT.jpg" alt="Clutch13_3_WT_img">
+                    <figcaption>
+                        <a href="clutch13_3_WT.html">
+                            <dl>
+                                <dt>brushed leather mini pouch</dt>
+                                <dd class="colorWT">White</dd>
+                                <dd>970,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch13_3_SV.jpg" alt="Clutch13_3_SV_img">
+                    <figcaption>
+                        <a href="clutch13_3_SV.html">
+                            <dl>
+                                <dt>brushed leather mini pouch</dt>
+                                <dd class="colorSV">silver</dd>
+                                <dd>970,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch14_4_BK.jpg" alt="Clutch14_4_BK_img">
+                    <figcaption>
+                        <a href="clutch14_4_BK.html">
+                            <dl>
+                                <dt>nylon mini pouch</dt>
+                                <dd class="colorBK">Black</dd>
+                                <dd>550,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch15_5_BK.jpg" alt="Clutch15_5_BK_img">
+                    <figcaption>
+                        <a href="clutch15_5_BK.html">
+                            <dl>
+                                <dt>nylon pouch</dt>
+                                <dd class="colorBK">Black</dd>
+                                <dd>1,020,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch16_5_BK.jpg" alt="Clutch16_5_BK_img">
+                    <figcaption>
+                        <a href="clutch16_5_BK.html">
+                            <dl>
+                                <dt>saffiano leather pouch</dt>
+                                <dd class="colorBK">Black</dd>
+                                <dd>1,380,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch16_5_BB.jpg" alt="Clutch16_5_BB_img">
+                    <figcaption>
+                        <a href="clutch16_5_BB.html">
+                            <dl>
+                                <dt>saffiano leather pouch</dt>
+                                <dd class="colorBB">baltic blue</dd>
+                                <dd>1,380,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch17_3_BK.jpg" alt="Clutch17_3_BK_img">
+                    <figcaption>
+                        <a href="clutch17_3_BK.html">
+                            <dl>
+                                <dt>saffiano leather mini pouch</dt>
+                                <dd class="colorBK">Black</dd>
+                                <dd>790,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch17_3_CW.jpg" alt="Clutch17_3_CW_img">
+                    <figcaption>
+                        <a href="clutch17_3_CW.html">
+                            <dl>
+                                <dt>saffiano leather mini pouch</dt>
+                                <dd class="colorCW">chalk white</dd>
+                                <dd>790,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch18_4_BK.jpg" alt="Clutch18_4_BK_img">
+                    <figcaption>
+                        <a href="clutch18_4_BK.html">
+                            <dl>
+                                <dt>round brushed leather mini pouch</dt>
+                                <dd class="colorBK">Black</dd>
+                                <dd>630,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch18_4_SV.jpg" alt="Clutch18_4_SV_img">
+                    <figcaption>
+                        <a href="clutch18_4_SV.html">
+                            <dl>
+                                <dt>round brushed leather mini pouch</dt>
+                                <dd class="colorSV">silver</dd>
+                                <dd>630,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch19_4_BK.jpg" alt="Clutch19_4_BK_img">
+                    <figcaption>
+                        <a href="clutch19_4_BK.html">
+                            <dl>
+                                <dt>heart brushed leather mini pouch</dt>
+                                <dd class="colorBK">Black</dd>
+                                <dd>630,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch19_4_WT.jpg" alt="Clutch19_4_WT_img">
+                    <figcaption>
+                        <a href="clutch19_4_WT.html">
+                            <dl>
+                                <dt>heart brushed leather mini pouch</dt>
+                                <dd class="colorWT">White</dd>
+                                <dd>630,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch19_4_SV.jpg" alt="Clutch19_4_SV_img">
+                    <figcaption>
+                        <a href="clutch19_4_SV.html">
+                            <dl>
+                                <dt>heart brushed leather mini pouch</dt>
+                                <dd class="colorSV">silver</dd>
+                                <dd>630,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch21_4_TWT.jpg" alt="Clutch21_4_TWT_img">
+                    <figcaption>
+                        <a href="clutch21_4_TWT.html">
+                            <dl>
+                                <dt>Wicker and leather mini pouch</dt>
+                                <dd class="colorTEN">Tan</dd>
+                                <dd class="colorWT">white</dd>
+                                <dd>1,230,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch22_4_TWT.jpg" alt="Clutch22_4_TWT_img">
+                    <figcaption>
+                        <a href="clutch22_4_TWT.html">
+                            <dl>
+                                <dt>Wicker and leather mini pouch</dt>
+                                <dd class="colorTEN">Tan</dd>
+                                <dd class="colorWT">white</dd>
+                                <dd>1,180,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch23_3_CG.jpg" alt="Clutch23_3_CG_img">
+                    <figcaption>
+                        <a href="clutch23_3_CG.html">
+                            <dl>
+                                <dt>Printed nylon smartphone pouch</dt>
+                                <dd class="colorCG">Cloudy Gray</dd>
+                                <dd>740,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch24_5_BK.jpg" alt="Clutch24_5_BK_img">
+                    <figcaption>
+                        <a href="clutch24_5_BK.html">
+                            <dl>
+                                <dt>slipper travel pouch</dt>
+                                <dd class="colorBK">Black</dd>
+                                <dd>740,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch25_4_BK.jpg" alt="Clutch25_4_BK_img">
+                    <figcaption>
+                        <a href="clutch25_4_BK.html">
+                            <dl>
+                                <dt>Nappa leather mini pouch with elastic band</dt>
+                                <dd class="colorBK">Black</dd>
+                                <dd>580,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch26_6_PPY.jpg" alt="Clutch26_6_PPY_img">
+                    <figcaption>
+                        <a href="clutch26_6_PPY.html">
+                            <dl>
+                                <dt>Nylon Cosmetic Pouch</dt>
+                                <dd class="colorPPY">papaya</dd>
+                                <dd>410,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch26_6_BK.jpg" alt="Clutch26_6_BK_img">
+                    <figcaption>
+                        <a href="clutch26_6_BK.html">
+                            <dl>
+                                <dt>Nylon Cosmetic Pouch</dt>
+                                <dd class="colorBK">Black</dd>
+                                <dd>410,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch27_6_BK.jpg" alt="Clutch27_6_BK_img">
+                    <figcaption>
+                        <a href="clutch27_6_BK.html">
+                            <dl>
+                                <dt>My Character Nylon Pouch</dt>
+                                <dd class="colorBK">Black</dd>
+                                <dd>720,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch28_6_BK.jpg" alt="Clutch28_6_BK_img">
+                    <figcaption>
+                        <a href="clutch28_6_BK.html">
+                            <dl>
+                                <dt>nylon pouch</dt>
+                                <dd class="colorBK">Black</dd>
+                                <dd>640,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch28_6_RD.jpg" alt="Clutch28_6_RD_img">
+                    <figcaption>
+                        <a href="clutch28_6_RD.html">
+                            <dl>
+                                <dt>nylon pouch</dt>
+                                <dd class="colorRED">RED</dd>
+                                <dd>640,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch29_6_BK.jpg" alt="Clutch29_6_BK_img">
+                    <figcaption>
+                        <a href="clutch29_6_BK.html">
+                            <dl>
+                                <dt>triangle leather pouch</dt>
+                                <dd class="colorBK">Black</dd>
+                                <dd>1,460,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch29_6_WT.jpg" alt="Clutch29_6_WT_img">
+                    <figcaption>
+                        <a href="clutch29_6_WT.html">
+                            <dl>
+                                <dt>triangle leather pouch</dt>
+                                <dd class="colorWT">White</dd>
+                                <dd>1,460,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch29_6_MG.jpg" alt="Clutch29_6_MG_img">
+                    <figcaption>
+                        <a href="clutch29_6_MG.html">
+                            <dl>
+                                <dt>triangle leather pouch</dt>
+                                <dd class="colorMNG">mango</dd>
+                                <dd>1,460,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch30_4_BA.jpg" alt="Clutch30_4_BA_img">
+                    <figcaption>
+                        <a href="clutch30_4_BA.html">
+                            <dl>
+                                <dt>Saffiano Leather Tricks</dt>
+                                <dd class="colorBE">blueet</dd>
+                                <dd>550,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch30_4_FER.jpg" alt="Clutch30_4_FER_img">
+                    <figcaption>
+                        <a href="clutch30_4_FER.html">
+                            <dl>
+                                <dt>Saffiano Leather Tricks</dt>
+                                <dd class="colorFER">fire engine red</dd>
+                                <dd>550,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch30_4_CWT.jpg" alt="Clutch30_4_CWT_img">
+                    <figcaption>
+                        <a href="clutch30_4_CWT.html">
+                            <dl>
+                                <dt>Saffiano Leather Tricks</dt>
+                                <dd class="colorCWT">chalk white</dd>
+                                <dd>550,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/listpage/l_Clutch31_5_BK.jpg" alt="Clutch31_5_BK_img">
+                    <figcaption>
+                        <a href="clutch31_5_BK.html">
+                            <dl>
+                                <dt>slipper travel pouch</dt>
+                                <dd class="colorBK">Black</dd>
+                                <dd>740,000 WON</dd>
+                            </dl>
+                        </a>
+                        <input type="button" value="hticon">
+                    </figcaption>
+                </figure>
+            </li>
+        </ul>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div>
+            <h2>
+                <img src="images/prada_footer_logo.jpg" alt="prada">
+            </h2>
+            <ul>
+                <li><a href="about_us.html">ABOUT US</a></li>
+                <li><a href="contacts.html">CONTACTS</a></li>
+                <li><a href="store.html">STORE</a></li>
+            </ul>
+            <ol>
+                <li><a href="https://www.instagram.com/prada/" target="_blank" class="snsin">instagram</a></li>
+                <li><a href="https://twitter.com/PRADA" target="_blank" class="snstw">twitter</a></li>
+                <li><a href="https://www.facebook.com/Prada/" target="_blank" class="snsfa">facebook</a></li>
+                <li><a href="https://www.youtube.com/PRADA" target="_blank" class="snsyou">youtube</a></li>
+            </ol>        
+        </div>
+        <div>
+            <p>©PRADA 2007 - 2021 | VAT213-86-18599</p>
+            <span>
+                <a href="Terms_of_Use.html">Terms of Use</a> 
+                <a href="Terms_of_Sale.html">Terms of Sale</a> 
+                <a href="privacy_policy.html">privacy policy</a> 
+            </span>
+        </div>  
+    </footer>
+</body>
+</html>
