@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRADA</title>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+    <!-- Search -->
+    <div class="scContainer" id="searchContainer">
+        <form>
+            <input type="search" placeholder="Search on prada.com" title="insert ur searchKeyword">
+            <input type="submit" value="search">
+        </form>
+    </div>
+    <!-- Search -->
+
+    <!-- WISHLIST & SHOPPING BAG -->
+    <div class="wishNcart">
+        <input type="button" value="close" class="btn_close">
+        <ul>
+            <li data-container="wishContainer" class="btnActive">
+                WISH LIST
+            </li>
+
+            <li data-container="cartContainer" class="btnActive">
+                SHOPPING BAG
+            </li>
+        </ul>
+        <div id="wishContainer">
+            <ol class="wishBox active">
+                <li>
+                    <figure>
+                        <img src="images/wish_img.jpg" alt="wish_img">
+                        <figcaption>
+                            <dl>
+                                <dt>Prada Margit Leather Small Hobo Bag</dt>
+                                <dd class="colorCg">Clay gray</dd>
+                                <dd>2,810,000 WON</dd>
+                            </dl>
+                            <input type="button" value="spicon">
+                            <input type="button" value="delete">
+                        </figcaption>
+                    </figure>
+                    <a href="index_after.html" class="btn blackWhite">CONTINUE SHOPPING</a>
+                </li>
+            </ol> 
+            <div class="emptyBox">
+                Wishlist is empty
+                <a href="index_after.html" class="btn blackWhite">CONTINUE SHOPPING</a>
+            </div>
+        </div>
+        
+        <div id="cartContainer" class="active">
+            <div class="cartBox active">
+                <ol>
+                    <li>
+                        <figure>
+                            <img src="images/cart_img.jpg" alt="shopping_img">
+                            <figcaption>
+                                <dl>
+                                    <dt>Prada saffiano leather <br> mini bag</dt>
+                                    <dd class="colorAB">Astral Blue</dd>
+                                    <dd>3,040,000 WON</dd>
+                                    <dd>
+                                        Quantity: <span>1</span> <br>
+                                        <input type="button" id="countPlus" value="countUp">
+                                        <input type="button" id="countMinus" value="countDown">
+                                    </dd>
+                                </dl>
+                                <input type="button" value="whicon">
+                                <input type="button" value="delete">
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ol> 
+                <div>
+                    <label for="subtotal">SUB TOTAL</label>
+                    <input type="text" id="subtotal" value="3,040,000"> 
+                    <span>WON</span>
+                </div>
+                <a class="btn blackWhite" href="contents_Payment.html">Check-out in progress</a>
+                <div>
+                    <h3>Need help?</h3>
+                    <p><a href="faq.html" class="btn_underline">FAQ</a>You can find information at</p>
+                    <h3>Contact us</h3>
+                    <p>Monday through Sunday 9:30 AM - 6:30 PM</p>
+                    <p><a href="contacts.html" class="btn_underline">online inquiry</a>Or call us</p>
+                    <p>Customer Service Center : 001 800 7723 2000</p>
+                    <p>If you need support or have any questions, <br>we're here to help.</p>
+                </div>
+            </div>
+            <div class="emptyBox">
+                cartlist is empty
+                <a href="index_after.html" class="btn blackWhite">CONTINUE SHOPPING</a>
+            </div>  
+        </div>
+    </div>
+    <!-- WISHLIST & SHOPPING BAG -->
+
+    <div id="fnbContainer">
+        <div>
+            <ul>
+                <li>
+                    bag
+                    <ol>
+                        <li>
+                            <a href="list_All_handbags.html">All handbags</a>
+                        </li>
+                        <li>
+                            <a href="list_shoulder_bag.html">shoulder bag</a>
+                        </li>
+                        <li>
+                            <a href="list_top_handle.html">top handle</a>
+                        </li>
+                        <li>
+                            <a href="list_mini_bag.html">mini bag</a>
+                        </li>
+                        <li>
+                            <a href="list_hobo_bag.html">hobo bag</a>
+                        </li>
+                        <li>
+                            <a href="list_tote_bag.html">tote bag</a>
+                        </li>
+                        <li>
+                            <a href="list_clutch.html">clutch</a>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="contents_galleria.html">Galleria</a>
+                </li>
+                <li>
+                    <a href="list_pradasphere.html">PRADASPHERE</a>
+                </li>
+                <li>
+                    <a href="contents_fashion_show.html">2022 fashion show</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- fnb -->
+
+
+    <!-- header -->
+
+    <header>
+        <div>
+            <h1>
+                <a href="index.html" class="active">
+                    <img src="images/PRADA_LOGO.jpg" alt="prada">
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <input type="button" data-popup="searchContainer" value="searchContainer">
+                    </li>
+                    <li>
+                        <a href="login.html">user</a>
+                    </li>
+                    <li>
+                        <input type="button" data-container="wishNcart" value="wishContainer">
+                    </li>
+                    <li>
+                        <input type="button" data-container="wishNcart" value="cartContainer">
+                    </li>
+                    <li>
+                        <button class="material-symbols-outlined" data-container="fnbContainer" id="fnbButton">menu</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- header -->
+    
+    <div id="acd_popup">
+        <h2><span>Member information has been changed.</span></h2>
+        <a href="index_after.html">Confirm</a>
+    </div>
+    <div class="accountContainer">
+        <h2>Account details</h2>
+        <p>Register now and enjoy the benefits of My Account
+            <small>* Required</small>
+        </p>
+        <form>
+            <fieldset>
+                <input type="text" placeholder="First name (excluding last name) *" title="user_First_name" required>
+                <input type="text" placeholder="Castle *" title="user_Last_Name" required>
+                <input type="text" value="KOREA" readonly>
+                <input type="email" placeholder="e-mail *" title="userEmail" required>
+                <input type="email" placeholder="Confirm your email address *" title="confirm_userEmail" required>
+                <input type="password" placeholder="password *" title="userpassword" required>
+                <input type="password" placeholder="verify password *" title="userpassword" required>
+                <small>The password must be 8 to 16 characters long.</small>
+            </fieldset>
+            <fieldset>
+                <legend>Global customer service</legend>
+                <input type="radio" name="sustomer_service_selete" id="rdcheckTerms_1">
+                <label for="rdcheckTerms_1">I agree</label>
+                <input type="radio" name="sustomer_service_selete" id="rdcheckTerms_2">
+                <label for="rdcheckTerms_2">I do not agree</label>
+            </fieldset>
+            <fieldset>
+                <legend>Marketing</legend>
+                <input type="radio" name="marketing_selete" id="rdcheckTerms_3">
+                <label for="rdcheckTerms_3">I agree</label>
+                <input type="radio" name="marketing_selete" id="rdcheckTerms_4">
+                <label for="rdcheckTerms_4">I do not agree</label>
+            </fieldset>
+            <fieldset>
+                <legend>profiling</legend>
+                <input type="radio" name="profiling_selete" id="rdcheckTerms_5">
+                <label for="rdcheckTerms_5">I agree</label>
+                <input type="radio" name="profiling_selete" id="rdcheckTerms_6">
+                <label for="rdcheckTerms_6">I do not agree</label>
+            </fieldset>
+            <ul>
+                <li>
+                    <input type="checkbox" id="checkTerms_4">
+                    <label for="checkTerms_4">Consent to overseas transfer of personal information (optional)</label>
+                    <p>
+                        Personal information collected as described above <u>during the above period of personal information collected,</u> 
+                        <u>used the same purpose as above immediately collected Prada SpA (Italy material, contact: privacy@prada.com) . </u> 
+                        is sent overseas via online. You have the right to  object to the international transfer of your personal data. 
+                        However, if you decline, you may not be provided with  inpomation or services provided by 
+                        Prada SpA.
+                    </p>
+                </li>
+                <li>
+                    <input type="checkbox" id="checkTerms_4_1">
+                    <label for="checkTerms_4_1">Consent to receipt of commercial adveisement information and use of
+                          personal information for marketing purposes (optional)</label>
+                    <p>
+                        The above personal information collected by the company and provided to Prada SpA may be transmitted to you by <u>phone,</u> <br>
+                        <u>SMS, MMS, mail, e-mail or social media/chat applications regarding Prada events, promotions, products and services</u>during <br>
+                        the period of possession and use of Prada SpA.  It can be <u>used</u> to <u>receive via.</u>You may not agree to this, but if you do not, <br>
+                        you may not receive the above information provided by Prada SpA.
+                    </p>
+                </li>
+            </ul>
+            <fieldset>
+            <input type="checkbox" id="checkTerms_5">
+            <label for="checkTerms_5">Marketing activities through phone·SMS·MMS</label>
+            <input type="checkbox" id="checkTerms_6">
+            <label for="checkTerms_6">Marketing activities through mail</label>  
+            <input type="checkbox" id="checkTerms_7">
+            <label for="checkTerms_7">Marketing activities via email</label>
+            <input type="checkbox" id="checkTerms_8">
+            <label for="checkTerms_8">Marketing activities through SNS/chat applications</label>
+            <input type="button" class="btn_confirm" data-popup="acd_popup" value="CHANGE MEMBER INFORMATION">
+            </fieldset>
+        </form>
+    </div>
+    
+    <!-- footer -->
+    <footer>
+        <div>
+            <h2>
+                <img src="images/prada_footer_logo.jpg" alt="prada">
+            </h2>
+            <ul>
+                <li><a href="about_us.html">ABOUT US</a></li>
+                <li><a href="contacts.html">CONTACTS</a></li>
+                <li><a href="store.html">STORE</a></li>
+            </ul>
+            <ol>
+                <li><a href="https://www.instagram.com/prada/" target="_blank" class="snsin">instagram</a></li>
+                <li><a href="https://twitter.com/PRADA" target="_blank" class="snstw">twitter</a></li>
+                <li><a href="https://www.facebook.com/Prada/" target="_blank" class="snsfa">facebook</a></li>
+                <li><a href="https://www.youtube.com/PRADA" target="_blank" class="snsyou">youtube</a></li>
+            </ol>        
+        </div>
+        <div>
+            <p>©PRADA 2007 - 2021 | VAT213-86-18599</p>
+            <span>
+                <a href="Terms_of_Use.html">Terms of Use</a> 
+                <a href="Terms_of_Sale.html">Terms of Sale</a> 
+                <a href="privacy_policy.html">privacy policy</a> 
+            </span>
+        </div>  
+    </footer>
+</body>
+</html>

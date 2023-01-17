@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRADA</title>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+    <!-- Search -->
+    <div class="scContainer" id="searchContainer">
+        <form>
+            <input type="search" placeholder="Search on prada.com" title="insert ur searchKeyword">
+            <input type="submit" value="search">
+        </form>
+    </div>
+    <!-- Search -->
+
+    <!-- WISHLIST & SHOPPING BAG -->
+    <div class="wishNcart">
+        <input type="button" value="close" class="btn_close">
+        <ul>
+            <li data-container="wishContainer" class="btnActive">
+                WISH LIST
+            </li>
+
+            <li data-container="cartContainer" class="btnActive">
+                SHOPPING BAG
+            </li>
+        </ul>
+        <div id="wishContainer">
+            <ol class="wishBox active">
+                <li>
+                    <figure>
+                        <img src="images/wish_img.jpg" alt="wish_img">
+                        <figcaption>
+                            <dl>
+                                <dt>Prada Margit Leather Small Hobo Bag</dt>
+                                <dd class="colorCg">Clay gray</dd>
+                                <dd>2,810,000 WON</dd>
+                            </dl>
+                            <input type="button" value="spicon">
+                            <input type="button" value="delete">
+                        </figcaption>
+                    </figure>
+                    <a href="index_after.html" class="btn blackWhite">CONTINUE SHOPPING</a>
+                </li>
+            </ol> 
+            <div class="emptyBox">
+                Wishlist is empty
+                <a href="index_after.html" class="btn blackWhite">CONTINUE SHOPPING</a>
+            </div>
+        </div>
+        
+        <div id="cartContainer" class="active">
+            <div class="cartBox active">
+                <ol>
+                    <li>
+                        <figure>
+                            <img src="images/cart_img.jpg" alt="shopping_img">
+                            <figcaption>
+                                <dl>
+                                    <dt>Prada saffiano leather <br> mini bag</dt>
+                                    <dd class="colorAB">Astral Blue</dd>
+                                    <dd>3,040,000 WON</dd>
+                                    <dd>
+                                        Quantity: <span>1</span> <br>
+                                        <input type="button" id="countPlus" value="countUp">
+                                        <input type="button" id="countMinus" value="countDown">
+                                    </dd>
+                                </dl>
+                                <input type="button" value="whicon">
+                                <input type="button" value="delete">
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ol> 
+                <div>
+                    <label for="subtotal">SUB TOTAL</label>
+                    <input type="text" id="subtotal" value="3,040,000"> 
+                    <span>WON</span>
+                </div>
+                <a class="btn blackWhite" href="contents_Payment.html">Check-out in progress</a>
+                <div>
+                    <h3>Need help?</h3>
+                    <p><a href="faq.html" class="btn_underline">FAQ</a>You can find information at</p>
+                    <h3>Contact us</h3>
+                    <p>Monday through Sunday 9:30 AM - 6:30 PM</p>
+                    <p><a href="contacts.html" class="btn_underline">online inquiry</a>Or call us</p>
+                    <p>Customer Service Center : 001 800 7723 2000</p>
+                    <p>If you need support or have any questions, <br>we're here to help.</p>
+                </div>
+            </div>
+            <div class="emptyBox">
+                cartlist is empty
+                <a href="index_after.html" class="btn blackWhite">CONTINUE SHOPPING</a>
+            </div>  
+        </div>
+    </div>
+    <!-- WISHLIST & SHOPPING BAG -->
+    
+    <div id="fnbContainer">
+        <div>
+            <ul>
+                <li>
+                    bag
+                    <ol>
+                        <li>
+                            <a href="list_All_handbags.html">All handbags</a>
+                        </li>
+                        <li>
+                            <a href="list_shoulder_bag.html">shoulder bag</a>
+                        </li>
+                        <li>
+                            <a href="list_top_handle.html">top handle</a>
+                        </li>
+                        <li>
+                            <a href="list_mini_bag.html">mini bag</a>
+                        </li>
+                        <li>
+                            <a href="list_hobo_bag.html">hobo bag</a>
+                        </li>
+                        <li>
+                            <a href="list_tote_bag.html">tote bag</a>
+                        </li>
+                        <li>
+                            <a href="list_clutch.html">clutch</a>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="contents_galleria.html">Galleria</a>
+                </li>
+                <li>
+                    <a href="list_pradasphere.html">PRADASPHERE</a>
+                </li>
+                <li>
+                    <a href="contents_fashion_show.html">2022 fashion show</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- fnb -->
+
+    
+        <!-- header -->
+    
+        <header>
+            <div>
+                <h1>
+                    <a href="index.html" class="active">
+                        <img src="images/PRADA_LOGO.jpg" alt="prada">
+                    </a>
+                </h1>
+                <nav>
+                    <ul>
+                        <li>
+                            <input type="button" data-popup="searchContainer" value="searchContainer">
+                        </li>
+                        <li>
+                            <a href="login.html">user</a>
+                        </li>
+                        <li>
+                            <input type="button" data-container="wishNcart" value="wishContainer">
+                        </li>
+                        <li>
+                            <input type="button" data-container="wishNcart" value="cartContainer">
+                        </li>
+                        <li>
+                            <button class="material-symbols-outlined" data-container="fnbContainer" id="fnbButton">
+                                menu
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- header -->
+        
+    <!-- page -->
+    <section class="aboutasContainer">
+        <h2>
+            Driver’s of Change
+            <img src="images/about_as_2_prada_logo.png" alt="Prada Group">
+        </h2>
+        <div class="atextall">
+            <p>Pioneer of a philosophy that transcends fashion,</p>
+            <p>
+                the Prada Group observes contemporary society and its interactions with the most 
+                diverse cultures and disciplines.um
+            </p>
+            <p>
+                This is a fluid perspective suggesting our way of doing business, placing essential values
+                 – such as freedom of creative expression, 
+            </p>
+            <p>
+                preservation of know-how and valuing people’s work – at the core of our principles.
+            </p>
+        </div>
+        <ul>
+            <li class="atextLeft"> 
+                <P>
+                    “Thorough observation and curiosity for the world around us have always been 
+                    at the heart of the creativity and modernity of the Prada Group.
+                </P>
+                <P>
+                    In society, and thus in fashion, which is somehow a reflection of it, the only 
+                    constant is change.
+                </P>
+                <P>
+                    The transformation and innovation of references, at the core of any evolution, 
+                    lead us to interact with different cultural disciplines, at times apparently far from our 
+                    own, allowing us to capture and anticipate the spirit of the times.
+                </P>
+                <P>
+                    Today this is no longer enough: we must be the Drivers of Change, 
+                </P>
+                <P>
+                    with the flexibility required to translate the demands of the market and society into 
+                    tangible actions that inform our way of doing business.”
+                </P>
+                <strong>Miuccia Prada & Patrizio Bertelli</strong>
+                <img src="../images/about-us_3left.jpg" alt="about_us_Miuccia Prada_Patrizio Bertelli">
+            </li>
+            <li class="atextRight">
+                <img src="../images/About-us_2right.jpg" alt="The Prada Group scenarios.">
+                <p>
+                    The Prada Group is a contemporary interpreter of changing scenarios.
+                </p>
+                <p>
+                    In a three-dimensional temporal dialogue, that combines the identity and heritage 
+                    of the past with demands and dynamics of the present and future, creativity 
+                    moulds ideas that transcend the boundaries of the ordinary and creates an 
+                    innovative vision of tomorrow.
+                </p>
+            </li>
+        </ul>
+        <div class="atext_ceo">
+            <p>
+                Discover our CEOs vision on culture and workspaces designed for the well-being of our employees
+            </p>
+        </div>
+        <ul>
+            <li class="ceo_Miuccia">
+                <div>
+                    <p>
+                        ”You have to understand deeply what does it mean 
+                        not being sustainable. Culture is the only way.”
+                    </p>
+                    <strong>Miuccia Prada</strong>
+                </div>
+                <div class="fitvidsElement">
+                    <video src="video/cq5dam.video.pradagroup-large.1920.1080_1.mp4" controls poster="../images/About-us_poster_1.jpg"></video>
+                </div>
+            </li>
+            <li class="ceo_Patrizio">
+                <div class="fitvidsElement">
+                    <video src="video/cq5dam.video.pradagroup-large.1920.1080_2.mp4" controls poster="../images/About-us_poster_2.jpg"></video>
+                </div>
+                <div>
+                    <p>
+                        ”The main strategy was to integrate the architectural  
+                        structure with the territory. Quality can only come from the 
+                        quality of the work environment.”
+                    </p>
+                    <strong>Patrizio Prada</strong>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div>
+            <h2>
+                <img src="images/prada_footer_logo.jpg" alt="prada">
+            </h2>
+            <ul>
+                <li><a href="about_us.html">ABOUT US</a></li>
+                <li><a href="contacts.html">CONTACTS</a></li>
+                <li><a href="store.html">STORE</a></li>
+            </ul>
+            <ol>
+                <li><a href="https://www.instagram.com/prada/" target="_blank" class="snsin">instagram</a></li>
+                <li><a href="https://twitter.com/PRADA" target="_blank" class="snstw">twitter</a></li>
+                <li><a href="https://www.facebook.com/Prada/" target="_blank" class="snsfa">facebook</a></li>
+                <li><a href="https://www.youtube.com/PRADA" target="_blank" class="snsyou">youtube</a></li>
+            </ol>        
+        </div>
+        <div>
+            <p>©PRADA 2007 - 2021 | VAT213-86-18599</p>
+            <span>
+                <a href="Terms_of_Use.html">Terms of Use</a> 
+                <a href="Terms_of_Sale.html">Terms of Sale</a> 
+                <a href="privacy_policy.html">privacy policy</a> 
+            </span>
+        </div>  
+    </footer>
+</body>
+
+</html>

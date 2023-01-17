@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRADA</title>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+
+    <!-- Search -->
+    <div class="scContainer" id="searchContainer">
+        <form>
+            <input type="search" placeholder="Search on prada.com" title="insert ur searchKeyword">
+            <input type="submit" value="search">
+        </form>
+    </div>
+    <!-- Search -->
+
+    <!-- WISHLIST & SHOPPING BAG -->
+    <div class="wishNcart">
+        <input type="button" value="close" class="btn_close">
+        <ul>
+            <li data-container="wishContainer" class="btnActive" >
+                WISH LIST
+            </li>
+
+            <li data-container="cartContainer" class="btnActive">
+                SHOPPING BAG
+            </li>
+        </ul>
+        <div id="wishContainer">
+            <ol class="wishBox active">
+                <li>
+                    <figure>
+                        <img src="images/wish_img.jpg" alt="wish_img">
+                        <figcaption>
+                            <dl>
+                                <dt>Prada Margit Leather Small Hobo Bag</dt>
+                                <dd class="colorCg">Clay gray</dd>
+                                <dd>2,810,000 WON</dd>
+                            </dl>
+                            <input type="button" value="spicon">
+                            <input type="button" value="delete">
+                        </figcaption>
+                    </figure>
+                    <a href="index_after.html" class="btn blackWhite">CONTINUE SHOPPING</a>
+                </li>
+            </ol> 
+            <div class="emptyBox">
+                Wishlist is empty
+                <a href="index_after.html" class="btn blackWhite">CONTINUE SHOPPING</a>
+            </div>
+        </div>
+        
+        <div id="cartContainer" class="active">
+            <div class="cartBox active">
+                <ol>
+                    <li>
+                        <figure>
+                            <img src="images/cart_img.jpg" alt="shopping_img">
+                            <figcaption>
+                                <dl>
+                                    <dt>Prada saffiano leather <br> mini bag</dt>
+                                    <dd class="colorAB">Astral Blue</dd>
+                                    <dd>3,040,000 WON</dd>
+                                    <dd>
+                                        Quantity: <span>1</span> <br>
+                                        <input type="button" id="countPlus" value="countUp">
+                                        <input type="button" id="countMinus" value="countDown">
+                                    </dd>
+                                </dl>
+                                <input type="button" value="whicon">
+                                <input type="button" value="delete">
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ol> 
+                <div>
+                    <label for="subtotal">SUB TOTAL</label>
+                    <input type="text" id="subtotal" value="3,040,000"> 
+                    <span>WON</span>
+                </div>
+                <a class="btn blackWhite" href="contents_Payment.html">Check-out in progress</a>
+                <div>
+                    <h3>Need help?</h3>
+                    <p><a href="faq.html" class="btn_underline">FAQ</a>You can find information at</p>
+                    <h3>Contact us</h3>
+                    <p>Monday through Sunday 9:30 AM - 6:30 PM</p>
+                    <p><a href="contacts.html" class="btn_underline">online inquiry</a>Or call us</p>
+                    <p>Customer Service Center : 001 800 7723 2000</p>
+                    <p>If you need support or have any questions, <br>we're here to help.</p>
+                </div>
+            </div>
+            <div class="emptyBox">
+                cartlist is empty
+                <a href="index_after.html" class="btn blackWhite">CONTINUE SHOPPING</a>
+            </div>  
+        </div>
+    </div>
+    <!-- WISHLIST & SHOPPING BAG -->
+    
+    <div id="fnbContainer">
+        <div>
+            <ul>
+                <li>
+                    bag
+                    <ol>
+                        <li>
+                            <a href="list_All_handbags.html">All handbags</a>
+                        </li>
+                        <li>
+                            <a href="list_shoulder_bag.html">shoulder bag</a>
+                        </li>
+                        <li>
+                            <a href="list_top_handle.html">top handle</a>
+                        </li>
+                        <li>
+                            <a href="list_mini_bag.html">mini bag</a>
+                        </li>
+                        <li>
+                            <a href="list_hobo_bag.html">hobo bag</a>
+                        </li>
+                        <li>
+                            <a href="list_tote_bag.html">tote bag</a>
+                        </li>
+                        <li>
+                            <a href="list_clutch.html">clutch</a>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="contents_galleria.html">Galleria</a>
+                </li>
+                <li>
+                    <a href="list_pradasphere.html">PRADASPHERE</a>
+                </li>
+                <li>
+                    <a href="contents_fashion_show.html">2022 fashion show</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- fnb -->
+
+    <!-- header -->
+
+    <header>
+        <div>
+            <h1>
+                <a href="index.html" class="active">
+                    <img src="images/PRADA_LOGO.jpg" alt="prada">
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <input type="button" data-popup="searchContainer" value="searchContainer">
+                    </li>
+                    <li>
+                        <a href="user.html">user</a>
+                    </li>
+                    <li>
+                        <input type="button" data-container="wishNcart" value="wishContainer">
+                    </li>
+                    <li>
+                        <input type="button" data-container="wishNcart" value="cartContainer">
+                    </li>
+                    <li>
+                        <button class="material-symbols-outlined" data-container="fnbContainer" id="fnbButton">menu</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- header -->
+    <section class="ppmenu">
+        <h2>Terms of Use</h2>
+        <div>
+            <ul>
+                <li>
+                    <h3 data-tabName="tuName1" class="active">Terms of Use</h3>
+                    <div id="tuName1" class="active">
+                        <p>
+                            Users should read the following terms carefully before referencing or using this website.
+                        </p>
+                        <p>
+                            https://www.prada.com/en/en/Welcome to the website (the " Website ").
+                            Your use of this website is subject to the following terms and conditions (“ Terms of Use ”). By visiting this website, you agree to be bound by and be bound by the following 
+                            terms and conditions, without condition, and if you make an online purchase on this website, you agree to comply with and be bound by the applicable general terms and 
+                            conditions of sale. You will agree. If you do not agree to all of the terms and conditions, please stop using this website immediately.
+                        </p>
+                        <p>
+                            This website is operated by PRADA Korea LLC (with a registry office in Seoul, Korea) and its parent company Prada SpA (Via Antonio Fogazzaro 28, 20135, Milan, 
+                            Italy's main business site and operating holding company of Prada Group) " PRADA ") (Prada SpA (along with its subsidiaries and affiliates) hereinafter referred to as 
+                            " Prada Group ").
+                        </p>
+                        <p>
+                            The products offered on the website are sold directly by the Prada Group. <br>
+                            PRADA reserves the right to amend the terms and conditions of this website at its sole discretion, providing 7 days' notice in case of non-material changes and 30 days' 
+                            notice in case of material changes to any disadvantages to you. Your use of this website after such modification of these terms and conditions shall be deemed to 
+                            indicate your full acceptance of the amended version of the terms and conditions.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <h3 data-tabName="tuName2">Intellectual Property</h3>
+                    <div id="tuName2">
+                        <p>
+                            This website as a whole, as well as all materials on this website including the “Prada” trademark, are registered by the Prada Group.
+                        </p>
+                        <p>
+                            All trademarks and logos, including, but not limited to, the "Prada" trademark, whether registered or posted on the Website, and other associated characteristic marks in 
+                            association with and reproduced on the Website are the exclusive property of the Prada Group. These trademarks and symbols may be used in any way that is likely to 
+                            cause confusion to users in connection with any product or service not originating from the Prada Group, or by the name of the Prada Group, and by or by whoever is relied 
+                            upon by any product bearing the "Prada" trademark and the "Prada" trademark. You may not use this website or any text, information, data, images, icons, photos, 
+                            illustrations, multimedia content (graphics, audio and video), charts, indexes, contained therein, including this website. All content including, but not limited to, descriptions, 
+                            software, HTML code, screens and similar materials contained therein (collectively “ Content ”) is owned or licensed by the Prada Group and is subject to patents, 
+                            copyrights, trade secrets , acknowledge and agree that they are protected by international intellectual property laws, including but not limited to, trade names, trademarks, 
+                            service marks, moral rights, know-how, and other similar rights recognized in countries or jurisdictions worldwide under law or international custom. do. Use of this website 
+                            is permitted only for your personal use and not for commercial reasons. Except as otherwise indicated on the Website, these Terms of Use authorize you to use, download, 
+                            copy, store, manipulate, reconstruct, print or display any Content you obtain Authorized Access for only for your personal and not business purposes. there is. 
+                            Other than that, you may not download, copy, store, manipulate, reconstruct, print, display, publish, transmit, distribute, create derivative works of, resell or otherwise use 
+                            this website or any other content contained herein.No right, title and/or interest in or derived from or relating to the content, materials or software of the Website shall be 
+                            conferred on you or deemed to have been acquired by you as a result of your use of this Website. You acknowledge and agree to comply with all copyright or trademark 
+                            notices and other notices contained on this website and content. All rights reserved in all countries of the world.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <h3 data-tabName="tuName3">Disclaimer</h3>
+                    <div id="tuName3">
+                        <p>
+                            This website and its content are provided "as is" and "as available". Any use of this website is at your own risk. 
+                        </p>
+                        <p>
+                            This website as a whole, as well as all materials on this website including the “Prada” trademark, are registered by the Prada Group. You may have certain rights under 
+                            applicable consumer law. These Terms of Use do not affect those rights. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE PRADA GROUP DISCLAIMS 
+                            ALL WARRANTIES, CONDITIONS AND EXPRESSIONS, EXPRESS OR IMPLIED, WITHOUT WARRANTY OF ANY Malicious Program (such as a virus, worm or Trojan horse) 
+                            or the implied warranties of fitness for a particular purpose. all deny it In no event shall PRADA or any other Prada Group company, even if PRADA will not be liable 
+                            (on any contractual or non-contractual basis) even if PRADA has already been advised of the possibility of such damages.
+                        </p>
+                        <ol>
+                            <li>
+                                (a) your use of the website, including but not limited to, any loss or damage caused by any delay, inaccuracy, error or omission of information  on or accessed through the 
+                                website;
+                            </li>
+                            <li>
+                                (b) this website; any transaction made through or on this website;
+                            </li>
+                            <li>
+                                (d) deletion, modification, damage, loss or failure to store any information related to or transmitted on the Website;
+                            </li>
+                            <li>
+                                (e) use of any product or service on or obtained through the <br>
+                                Website; Unauthorized access to and transmission of the Site or unauthorized changes to data;
+                            </li>
+                            <li>
+                                (g) any representation or conduct of any third party on the Website; or
+                            </li>
+                            <li>
+                                (h) any other matter relating to the Website.
+                            </li>
+                        </ol>
+                        <p>
+                            While PRADA will make every effort to ensure the accuracy and timeliness of the information contained on this website, PRADA fully acknowledges that this information is 
+                            complete, accurate and continuously updated and that this website is free from defects or that such deficiencies will be corrected. cannot be guaranteed.Any reference to 
+                            any product or service that has been or may be offered by the Prada Group or any other company authorized by PRADA for this purpose does not constitute a guarantee 
+                            that such product or service will be available at any time. Changes or improvements to such products or services may be made at any time without notice.
+                            The Prada Group reserves the right to modify or discontinue the website (or any part thereof), temporarily or permane da Group website.IF APPLICABLE  LAW DOES 
+                            NOT ALLOW THE STATUTORY WARRANTIES OR EXCLUSION OF THE ABOVE IMPLIED WARRANTIES, THE ABOVE EXCLUSIONS AND WARRANTIES MAY NOT APPLY 
+                            TO YOU, IN WHOLE OR IN PART.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <h3 data-tabName="tuName4">Submission</h3>
+                    <div id="tuName4">
+                        <p>
+                            You agree that all proposals, designs, concepts, photos, testimonials, or other items or materials (excluding personal information) that you disclose or submit to us through 
+                            this website or through any other channel will not be kept confidential and your I agree that no exclusivity will be granted. 
+                        </p>
+                        <p>
+                            By submitting to PRADA or another company of the Prada Group, you transfer to the Prada Group all right, title and interest, including copyright in your Submission. 
+                            Prada Group is not obligated to: (i) maintain the confidentiality of the Submission; (ii) pay you or anyone any compensation for the Submission or use of the Submission; 
+                            (iii) respond to or confirm receipt of the Submission. You represent and warrant that your Submissions will not infringe any rights of any third party, including, 
+                            but not limited to, copyrights, trademarks, patents, trade secrets, privacy or other personal or proprietary rights. By submitting, you reserve the right to copy, post, 
+                            distribute and use the Submission for any purpose, including, but not limited to, advertising, publicity, product development or other commercial use by the Prada Group 
+                            without payment to you or anyone else; You agree that you are under no obligation to do so. You are solely responsible for the content of your Submissions, 
+                            now and in the future. The provisions of Article 3 shall be applied only to the extent that they do not conflict with the applicable law.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <h3 data-tabName="tuName5">Cookies</h3>
+                    <div id="tuName5">
+                        <p>
+                            Cookies are used to ensure efficient functioning of the website and to improve services, including sending online advertising messages tailored to users' preferences.
+                           </p>
+                           <p>
+                            Cookies are small text files that are sent to the terminal you use to access the Internet (usually your browser) of the website you visit. <br>
+                            Cookies are stored on your computer or device so that they can be recognized when you visit the website later. <br>
+                            Most browsers are initially set to accept cookies. However, you can always reset your browser to reject all cookies or to notify you when a new cookie is sent. <br>
+                            However, if you reject all cookies, you may not be able to use certain features of the website.  Please see our Cookie Policy for the types of cookies we use on this website, 
+                            disabling cookies and/or withdrawing your consent to the use of cookies, or any other detailed information .
+                           </p>
+                    </div>
+                </li>
+                <li>
+                    <h3 data-tabName="tuName6">Privacy The</h3>
+                    <div id="tuName6">
+                        <p>
+                            Prada Group understands that it is important to its users to maintain the confidentiality, integrity and security of its users' personally identifiable information 
+                            (collectively " Personal Data "). 
+                        </p>
+                        <p>
+                            In general, you can access and browse the website without providing any personal data. However, in order to participate in the services, activities and functions of the 
+                            website, you may be asked to provide some personal data on a voluntary basis. You are obligated to read the relevant privacy policy stating that you agree to provide true, 
+                            accurate, current and complete information. Please see our Privacy Policy for more information.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <h3 data-tabName="tuName7">Links to Other Websites The Website</h3>
+                    <div id="tuName7">
+                        <p>
+                            may contain links to websites other than its own. Such websites may or may not have their own terms and conditions of use for such websites, which may or may not apply 
+                            to them.
+                        </p>
+                        <p>
+                            The Prada Group assumes no responsibility for such websites and these links are provided for your convenience only. Such links may be links to advertisers, <br>
+                            content providers, or other companies that may use the PRADA logo and/or style under a co-branding agreement. These websites may send you their own cookies and 
+                            may collect and use information in a manner different from the Terms of Use. Furthermore, the Prada Group has no control over these websites and external sources. <br>
+                            TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE PRADA GROUP SHALL NOT BE LIABLE FOR ANY SUCH WEBSITES OR EXTERNAL SOURCES, 
+                            AND THE CONTENT, ADVERTISING, PRODUCTS, SERVICES AND OTHERWISE AVAILABLE ON SUCH WEBSITES AND EXTERNAL SOURCES OR SITES SPECIFIED 
+                            FROM SUCH SITES We disclaim any responsibility for the material. In addition, PRADA shall not be liable for any damages or losses, whether true or unilateral, arising out of 
+                            the use of or reliance on such information, content, goods and services provided by such websites or external sources.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <h3 data-tabName="tuName8">Security</h3>
+                    <div id="tuName8">
+                        <p>
+                            Data transmission over the Internet cannot be guaranteed to be completely secure. 
+                        </p>
+                        <p>
+                            It is possible that third parties over the Prada Group's control may access or intercept transmissions or personal communications without the Prada Group's permission or 
+                            knowledge, without any genuine or legitimate purpose. PRADA is doing everything possible to protect your privacy. However, we cannot guarantee the complete security of 
+                            any information you transmit to us. Data transfer is at your own risk and neither PRADA nor any other company of the Prada Group will be liable for any breach of security 
+                            that does not result directly from the negligent actions of the Prada Group.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <h3 data-tabName="tuName9">AGREEMENT TO TERMS OF</h3>
+                    <div id="tuName9">
+                        <p>
+                            USE Browsing and Using this Website You represent and warrant that (a) you agree to these Terms of Use and (b) your use of the Website will result in compliance with these 
+                            Terms of Use. 
+                        </p>
+                        <p>
+                            You shall be liable for all damages, expenses, liabilities, lawsuits, judgments, penalties, expenses, obligations, losses, claims, legal actions, costs and expenses 
+                            (attorneys' fees and expenses) arising out of or in connection with your breach of these Terms of Use or your use of the Website. You agree to hold the Prada Group legally 
+                            indemnified from, but not limited to).
+                        </p>
+                        <p>
+                            Last updated: May 6, 2020
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div>
+            <h2>
+                <img src="images/prada_footer_logo.jpg" alt="prada">
+            </h2>
+            <ul>
+                <li><a href="about_us.html">ABOUT US</a></li>
+                <li><a href="contacts.html">CONTACTS</a></li>
+                <li><a href="store.html">STORE</a></li>
+            </ul>
+            <ol>
+                <li><a href="https://www.instagram.com/prada/" target="_blank" class="snsin">instagram</a></li>
+                <li><a href="https://twitter.com/PRADA" target="_blank" class="snstw">twitter</a></li>
+                <li><a href="https://www.facebook.com/Prada/" target="_blank" class="snsfa">facebook</a></li>
+                <li><a href="https://www.youtube.com/PRADA" target="_blank" class="snsyou">youtube</a></li>
+            </ol>        
+        </div>
+        <div>
+            <p>©PRADA 2007 - 2021 | VAT213-86-18599</p>
+            <span>
+                <a href="Terms_of_Use.html">Terms of Use</a> 
+                <a href="Terms_of_Sale.html">Terms of Sale</a> 
+                <a href="privacy_policy.html">privacy policy</a> 
+            </span>
+        </div>  
+    </footer>
+</body>
+</html>

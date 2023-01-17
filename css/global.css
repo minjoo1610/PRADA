@@ -1,0 +1,1913 @@
+body{
+    font-family: 'HelveticaNeue';
+    }
+    .scContainer *{
+    font-family: 'Helvetica 55 Roman';
+    }
+    [class='btn blackWhite']{
+        text-decoration: none;
+    }
+    [class^='context'],
+    .galleriaContainer > h2,
+    .galleiraList > h2,
+    div.lastone ul li figcaption a,
+    div.listParadasphere h2,
+    [class^='psphere'] > h2,
+    [class^='psphere'] .pslastone ul li figure figcaption dl dt,
+    div.userBox > h2,
+    .btn_confirm,
+    [class$='Box'] a.btn_confirm,
+    .accountContainer h2,
+    .emContainer div h2,
+    .emContainer aside h3,
+    [class$='Box'] h2,
+    .accountContainer > form fieldset:last-of-type input[type='button'],
+    a.btn_confirm,
+    input.btn_confirm,
+    div.lastone ul li figcaption .btn_confirm,
+    input[type='submit'],
+    .aboutasContainer h2,
+    .sppayment h2,
+    .detailContainer aside.open .btn.blackWhite,
+    .emContainer .btn_confirm,
+    .emContainer aside div:nth-of-type(2) a.btn_confirm,
+    .findBox .btn_confirm{
+    font-family: 'Optima';
+    }
+    .txtActive{
+        font-weight: 700;
+    }
+
+    /* Color module */
+    [class^='color']{
+        background-color: transparent; font-style: normal;
+    }
+    [class^='color']:not(:first-of-type){
+        margin-left: 15px;
+    }
+    .colorCG{
+        color: #8b7c75;
+    }
+    .colorAB{
+        color: #afc6d8;
+    }
+    .colorBK{
+        color: black;
+    }
+    .colorCB{
+        color: #b89881;
+    }
+    .colorCFB{
+        color: #c5c9d2;
+    }
+    .colorAQ{
+        color: #c8d5c3;
+    }
+    .colorAP{
+        color: #f2dcdf;
+    }
+    .colorCT{
+        color: #afc7e1;
+    }
+    .colorWT{
+        color: #ffffff;
+    }
+    .colorCT{
+        color: #afc7e1;
+    }
+    .colorSC{
+        color: #b41e39;
+    }
+    .colorMG{
+        color: #8e8d8c;
+    }
+    .colorSV{
+        color: #dcdcde;
+    }
+    .colorRDD{
+        color: #af1426;
+    }
+    .colorRRD{
+        color: #7e2527;
+    }
+    .colorPB{
+        color: #eaccc2;
+    }
+    .colorBGC{
+        color: #8a5536;
+    }
+    .colorPWP{
+        color: #d4b8ad;
+    }
+    .colorMGT{
+        color: #ec4678;
+    }
+    .colorFER{
+        color: #bf2638;
+    }
+    .colorPTP{
+        color: #eba9ad;
+    }
+    .colorCWN{
+        color: #e3deda;
+    }
+    .colorDB{
+        color: #dbcfc3;
+    }
+    .colorBG{
+        color: #efd8c8;
+    }
+    .colorSUN{
+        color: #edce62;
+    }
+    .colorTEN{
+        color: #e9e6df;
+    }
+    .colorBE{
+        color: #213e68;
+    }
+    .colorBYG{
+        color: #1e5b4c;
+    }
+    .colorERG{
+        color: #3d5845;
+    }
+    .colorFS{
+        color: #ddd3ca;
+    }
+    .colorSY{
+        color: #ffcf59;
+    }
+    .colorCR{
+        color: #f3606a;
+    }
+    .colorPTN{
+        color: #ebceac;
+    }
+    .colorPTP{
+        color: #ef9ea5;
+    }
+    .colorCFB2{
+        color: #375987;
+    }
+    .colorFR{
+        color: #ae0b0d;
+    }
+    .colorSR{
+        color: #802a37;
+    }
+    .colorCM{
+        color: #c7895a;
+    }
+    .colorPCB{
+        color: #1c959d;
+    }
+    .colorAW{
+        color: #8a6765;
+    }
+    .colorPY{
+        color: #f9df88;
+    }
+    .colorYL{
+        color: #e5b730;
+    }
+    .colorNB{
+        color: #27273f;
+    }
+    .colorLB{
+        color: #0356be;
+    }
+    .colorPC{
+        color: #e1afb2;
+    }
+    .colorCC{
+        color: #a26342;
+    }
+    .colorST{
+        color: #7d7c77;
+    }
+    .colorCW{
+        color: #e2e0d4;
+    }
+    .colorCN{
+        color: #a16042;
+    }
+    .colorBU{
+        color: #272530;
+    }
+    .colorFCS{
+        color: #591934;
+    }
+    .colorBNP{
+        color: #feb1c5;
+    }
+    .colorPWD{
+        color: #cfb2a2;
+    }
+    .colorCD{
+        color: #d4b69c;
+    }
+    .colorBBG{
+        color: #817066;
+    }
+    .colorGD{
+        color: #e1b97b;
+    }
+    .colorPNP{
+        color: #f6bec1;
+    }
+    .colorCUG{
+        color: #989793;
+    }
+    .colorWL{
+        color: #d6bbb4;
+    }
+    .colorNBG{
+        color: #e7bfb3;
+    }
+    .colorSG{
+        color: #787974;
+    }
+    .colorCC{
+        color: #a26342;
+    }
+    .colorBB{
+        color: #4e5a68;
+    }
+    .colorPPY{
+        color: #fb601e;
+    }
+    .colorMNG{
+        color: #059a7a;
+    }
+    .colorCORD{
+        color: #d4b69c;
+    }
+    .colorEG{
+        color: #3d5845;
+    }
+    .colorBYG{
+        color: #1c5c4b;
+    }
+    .colorPTN{
+        color: #c0a685;
+    }
+    .colorTEN{
+        color: #fcd6b2;
+    }
+    .colorRED{
+        color: #ca323e;
+    }
+    .colorBKW{
+        color: #000000;
+    }
+    .colorORG{
+        color: #f9553c;
+    }
+    .colorPLB{
+        color: #cedae6;
+    }
+    .colorPWB{
+        color: #57a7e4;
+    }
+    /* Color module Fin*/
+    
+.btn.blackWhite{
+    background-color: black; color: white;
+}
+.btn.outlined{
+    background-color: white; color: black; border: 1px solid #f2f2f2;
+}
+.btn_confirm{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: normal;
+    box-sizing: border-box;
+    background-color: #000000;
+    padding: 15px 2.8%;
+    color: #ffffff;
+}
+
+.btn_confirmM{
+    font-size: 16px; line-height: 32px; font-weight: 700; color: #fff;
+    text-align: center; background-color: #000;
+    padding: 6px;
+    margin-bottom: 195px;
+}
+/* bxSlider */
+
+.bx-wrapper{
+    border: none; box-shadow: none; background: transparent;
+    margin-bottom: 0px;
+}
+.mainSlider li img{
+    width: 100%;
+}
+
+[class^='psphere'] > .historyBack, 
+section.galleiraList > .galleriaBack{
+    z-index: 10; position: fixed; 
+    width: 100%; top: 120px; line-height: 100px;
+    left: 0; background-color: #ffffff; box-sizing: border-box;
+    border: solid 1px #f2f2f2;
+}
+section.galleiraList > .galleriaBack a,
+[class^='psphere'] > .historyBack a{
+    background: url('../images/left-arrow.png') center / 20% no-repeat;
+    box-sizing: border-box; border: 1px solid #f2f2f2; padding: 0 40px;
+    display: inline-block;
+    text-indent: -9999px; text-decoration: none; 
+}
+
+section.galleiraList > .galleriaBack span,
+[class^='psphere'] > .historyBack span{
+    padding-left: 20px; font-size: 20px; color:#333; font-weight: 100;
+}
+ /* all Use Part */
+ @media screen and (max-width: 767px){
+    [class^='color']:not(:first-of-type){
+        margin-left: 1.1%; 
+    }
+    [class^='color']{
+        font-size: 14px;
+    }
+    .colorWT{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.5);
+    }
+    .colorCB{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.2);
+    }
+    .colorCFB{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.2);
+    }
+    .colorAQ{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.5);
+    }
+    .colorAP{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.5);
+    }
+    .colorSV{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.5);
+    }
+    .colorBE{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.2);
+    }
+    .colorFER{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorCORD{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorCN{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorCG{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorCW{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.5);
+    }
+    .colorBB{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorCT{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorSC{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.5);
+    }
+    .colorMG{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.4);
+    }
+    .colorRDD{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorRRD{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorPB{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorPWD{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorBGC{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.4);
+    }
+    .colorPWP{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorAB{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.2);
+    }
+    .colorMGT{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.4);
+    }
+    .colorPTP{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.4);
+    }
+    .colorCWN{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.4);
+    }
+    .colorDB{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.5);
+    }
+    .colorTEN{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.5);
+    }
+    .colorBYG{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.4);
+    }
+    .colorERG{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.5);
+    }
+    .colorFS{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.5);
+    }
+    .colorSY{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.5);
+    }
+    .colorCR{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorPTN{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorCFB2{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorBG{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorSUN{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorSR{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorFR{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorCM{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorGD{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorRED{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorPC{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorPNP{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorFCS{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorBNP{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorBBG{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorPCB{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorAW{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorPY{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.5);
+    }
+    .colorYL{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorLB{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorSG{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorCC{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorST{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorWL{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorNBG{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorPLB{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.5);
+    }
+    .colorPWB{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorMNG{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorCWT{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.5);
+    }
+    [class^='psphere'] > .historyBack, 
+    section.galleiraList > .galleriaBack{
+        z-index: 10; position: fixed; 
+        width: 100%; top: 65px; line-height: 46px;
+        left: 0; background-color: #ffffff; box-sizing: border-box;
+        border: solid 1px #f2f2f2;
+    }
+    section.galleiraList > .galleriaBack a,
+    [class^='psphere'] > .historyBack a{
+        background: url('../images/left-arrow.png') center / 40% no-repeat;
+        box-sizing: border-box; border: 1px solid #f2f2f2; padding: 0 24px;
+        display: inline-block;
+        text-indent: -9999px; text-decoration: none; 
+    }
+    
+    section.galleiraList > .galleriaBack span,
+    [class^='psphere'] > .historyBack span{
+        padding-left: 5px; font-size: 14px; color:#333; font-weight: 100;
+    }    
+
+    header > div,
+    #fnbContainer > div,
+    .detailContainer,
+    .galleriaContainer,
+    .galleiraList:not(.galleriaBack),
+    div.listParadasphere,
+    [class$='Box'],
+    .emContainer > div,
+    .emContainer > aside,
+    .storecontainer,
+    [class$='Container'],
+    .ppmenu,
+    .aboutasContainer,
+    .sociallg:not(:nth-of-type(2)),
+    .faq_Area,
+    section.sppayment,
+    footer{
+        padding: 0px 3.5%; box-sizing: border-box;
+    }
+    
+    .scContainer,
+    .wishNcart,
+    #fnbContainer,
+    .wishNcart [id$='Container'],
+    .wishNcart [id$='Container'] > *[class$='Box']{
+        display: none; height: 100%; overflow-y: scroll;
+    }
+    .active{
+        display: block !important;
+    }
+    .wishNcart [class^='color']{
+        font-size:14px; line-height: 14px; font-weight: 700;
+        padding-bottom: 30px;
+    }
+    /* color Module */
+    
+    .btn{
+        display: block; font-weight: 100; text-align: center; box-sizing: border-box; 
+    }
+    .btn_half{
+        font-size: 12px; font-style: italic;
+        text-decoration: none; position: relative; line-height: 32px;
+        display: block; text-align: center; 
+    }
+    .btn_half:hover{
+        width: 100%;
+    }
+    /* button Module */
+
+    #gotoSignIn{
+        position: fixed; top: 29%; left: 3.5%;
+        width: 100%;
+        max-width: 92.8% ;
+        background-color: #ffffff;
+        padding: 55px 3% 30px;
+        text-align: center;
+        box-sizing: border-box;
+        border: 1px solid #000;
+        z-index: 10; display: none;
+
+    }
+    #gotoSignIn.active{
+        display: block;
+    }
+    #gotoSignIn h2{
+        font-size: 13px;
+        line-height: 25px;
+        font-weight: 500;
+        margin-bottom: 38px;
+    }
+    #gotoSignIn .btn_confirm{
+        box-sizing: border-box;
+        border: 1px solid #000;
+        background-color: #000;
+        font-size: 14px;
+        color: #ffffff;
+        font-weight: 100;
+        padding: 10px 15px;
+        text-decoration: none;
+    }
+    /* Sign up popup */
+
+    .scContainer{
+        background-color: rgb(255, 255, 255); 
+        position: fixed; width: 100%; opacity: 0.9; left:0; top: 60px; padding: 90px 0;
+        text-align: center; z-index: 10;
+    }
+    .scContainer > form input[type='search']{
+        width: 92.8%; line-height: 60px; font-size: 16px; color: #666666; 
+        font-weight: 300;
+        border: 1px solid #f2f2f2; padding: 0 10px; margin: 0px 3.5%; box-sizing: border-box;
+        
+    }
+    .scContainer > form input[type='submit']{
+        background: url('../images/Search_icon.jpg') ; 
+        text-indent: -9999px; width: 20px; height: 20px; border: none;
+        color: #666666; top: 0px; 
+        margin: -80px 0px 0px 215px; background-color: transparent;
+    }
+
+    .wishNcart{
+        width: 280px; height: 100%; position: fixed; z-index: 1000; top:0; right: 0px;
+        background-color: white;
+    }
+    .wishNcart input.btn_close{
+        background: url('../images/close_black_24dp.svg') center / 20px no-repeat;
+        position: absolute; top: 35px;
+        box-sizing: border-box; right: 20px;
+        border: none; text-indent: -9999px;
+    }
+    
+    .wishNcart > ul{
+        list-style: none;
+        border-width: 2px 0px; border-style: solid; border-color: #f2f2f2;
+        box-sizing: border-box; padding: 35px 0; 
+    }
+    .wishNcart > ul > li{
+        box-sizing: border-box; padding: 0px 20px; 
+        display: inline-block !important; font-size: 14px; font-weight: 100;
+    }
+    .wishNcart > ul > li:last-child{
+       border-left: 1px solid #000;
+    }
+    .wishNcart > ul > li.btnActive{
+        font-weight: 100;
+    }
+    .wishNcart > ul > li.btnActive.active{
+    font-size: 14px; color: #000; font-weight: bold;
+    }
+   
+    .wishNcart [id$='Container'] ol{
+        list-style: none;
+    }
+    .wishNcart [id$='Container'] ol li{
+        padding: 0px 1.3%; box-sizing: border-box;
+    }
+    .wishNcart [id$='Container'] ol li .btn.blackWhite{
+        width: 100%; letter-spacing: 1px; 
+        padding: 20px; font-size: 14px; font-weight: 700;
+    }
+    .wishNcart [id$='Container'] ol li .btn.blackWhite:hover{
+        font-weight: 700; letter-spacing: 1px;
+    }
+    .wishNcart [id$='Container'] ol li figure{
+        position: relative; padding: 20px 7.1% 30px;
+    }
+    .wishNcart [id$='Container'] ol li figure:after{
+        content: ''; display: block; clear: both;
+    }
+    .wishNcart [id$='Container'] ol li figure img{
+        width: 100%; margin-bottom: 30px;
+    }
+    .wishNcart [id$='Container'] ol li figure figcaption{
+        background-color: rgb(255, 255, 255); width: 100%;
+        line-height: 20px; box-sizing: border-box;
+    }
+    .wishNcart [id$='Container'] ol li figure dl{
+        margin-bottom: 0px;
+    }
+    .wishNcart [id$='Container'] ol li figure dl dt{
+        font-weight: 200; font-size: 16px; line-height: 22px; margin-bottom: 30px;
+    }
+    .wishNcart [id$='Container'] ol li figure dl dd[class^='color']{
+        margin-bottom: 0px;
+    }
+    .wishNcart [id$='Container'] ol li figure dl dd:last-of-type{
+        font-size: 12px; color: black; text-align: right; font-weight: 700;
+    }
+    .wishNcart [id$='Container'] ol li figure figcaption input[value$='icon']{
+        background-position: center; background-size: contain; background-repeat: no-repeat;
+        background-color: transparent;
+        text-indent: -9999px; border-style: none; width: 20px; height: 26px;
+        position: absolute; top: 25px; left: 82%;
+    }
+    .wishNcart [id$='Container'] ol li figure figcaption input[value='delete']{
+        background-color: transparent; border-style: none; padding: 0;
+        border-bottom: 1px solid #000000; font-size: 12px; font-weight: 100;
+        padding-top: 15px;
+    }
+    
+    .wishNcart [id$='Container'] ol.wishBox li figure figcaption input[value='spicon']{
+       background-image: url('../images/shoppingWhite.png');
+    }
+    .wishNcart [id$='Container'] ol.wishBox li figure figcaption input[value='spicon'].active{
+       background-image: url('../images/full_shopping_bag.jpg');
+    }
+    .wishNcart [id$='Container'] .cartBox ol li figure figcaption input[value='whicon']{
+       background-image: url('../images/solid_heart.jpg');
+    }
+    .wishNcart [id$='Container'] .cartBox ol li figure figcaption input[value='whicon'].active{
+        background-image: url('../images/full_heart.jpg');
+     }
+    .wishNcart [id$='Container'] .cartBox ol li figure figcaption dl:after{
+        content: ''; display: block; clear: both;
+    }
+    
+    .wishNcart [id$='Container'] .cartBox ol li figure figcaption dl dd:nth-of-type(2){
+        font-size: 12px; font-weight: 700;
+    }
+    .wishNcart [id$='Container'] .cartBox ol li figure figcaption dl dd:not(:first-of-type){
+        width: 50%; float: left;
+    }
+    .wishNcart [id$='Container'] .cartBox ol li figure figcaption dl dd input[type='button']{
+        width: 12px; height: 12px; background-repeat: no-repeat; border: none;
+        background-position: center; background-size: 12px; text-indent: -9999px;
+    }
+    .wishNcart [id$='Container'] .cartBox ol li figure figcaption dl dd input#countPlus{
+        background-image: url('../images/plus.jpg');
+    }
+    .wishNcart [id$='Container'] .cartBox ol li figure figcaption dl dd input#countMinus{
+        background-image: url('../images/minus.jpg');
+    }
+    
+    .wishNcart [id$='Container'] .emptyBox{
+        width: 100%; font-size: 14px; font-weight: 700; text-align: center;
+        padding-top: 145px;  
+    }
+
+    .wishNcart [id$='Container'] .emptyBox .btn.blackWhite{
+        width: 100%; text-align: center; margin-top: 145px;
+        padding: 33px; font-weight: 700;
+    }
+    
+    .wishNcart[id$='Container'] .emptyBox .btn.outlined{
+        width: 50%; float: right; margin-top: -85px;
+        padding: 33px;
+    }
+    
+    .wishNcart [id$='Container'] .cartBox div:first-of-type{
+        width: 100%; box-sizing: border-box; background-color: #f2f2f2;
+        padding: 34px 7.1% 20px; text-align: center; 
+    }
+    .wishNcart [id$='Container'] .cartBox div:first-of-type > label[for='subtotal']{
+        text-align: center; font-size: 14px; font-weight: 100;
+        letter-spacing: 1.6px;
+    }
+    .wishNcart [id$='Container'] .cartBox div:first-of-type > #subtotal{
+        border-style: none; background-color: #f2f2f2; 
+        font-size: 12px; font-weight: 900; color: #000000; letter-spacing: 1px; 
+        width: 75px;
+    }
+    .wishNcart [id$='Container'] .cartBox div:first-of-type > span{
+        font-size: 12px; font-weight: 700; color: #000000; letter-spacing: 1px;
+    }
+    .wishNcart #cartContainer .cartBox .btn.blackWhite{
+        max-width: 195px; padding: 24px 5%; margin: 20px 16%;
+        font-size: 14px; font-weight: 700;   
+    }
+    
+    .wishNcart [id$='Container'] .cartBox div:last-of-type{
+        max-width: 260px; background-color: #f2f2f2; box-sizing: border-box;
+        padding: 15px 3.8%; margin: 0 20px 3.5%; text-align: center;
+        color: #000000; font-weight: 700; line-height: 32px; 
+    }
+    .wishNcart [id$='Container'] .cartBox div:last-of-type h3{
+        font-size: 20px; padding-bottom: 20px;
+    }
+    .wishNcart [id$='Container'] .cartBox div:last-of-type h3:last-of-type{
+        font-size: 16px; padding-bottom: 20px;
+    }
+    .wishNcart [id$='Container'] .cartBox div:last-of-type p{
+        font-size: 14px; font-weight: 100; line-height: 22px; 
+        padding-bottom: 30px;
+    }
+    .wishNcart [id$='Container'] .cartBox div:last-of-type p:nth-of-type(4){
+        text-align: right; padding: 0px 14% 35px; line-height: 32px;
+    }
+    .wishNcart [id$='Container'] .cartBox div:last-of-type p a{
+        padding: 0px 5px; font-size: 14px; color: #000; font-weight: 700;
+    }
+
+    header{
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.3); position: fixed; left: 0; top: 0; width: 100%;
+        background-color: white; z-index: 100; 
+    }
+   
+    header > div{
+        position: relative; padding: 25px 0%; box-sizing: border-box;
+        margin: 0px 3.8%;
+    }
+    header > div h1{
+        max-width: 76px; 
+    }
+    header > div h1 a{
+        display: block;
+    }
+    header > div h1 a img{
+        width: 100%;
+    }
+    header > div nav{
+        position: absolute; right: 0%; top: 25px;
+        width: calc(100% - 76px); text-align: right;
+    }
+    header > div nav.fnbOpen{
+        display: none;
+    }
+    header > div nav ul > li{
+        display: inline-block; width: 5.3%; min-width: 15px;
+        vertical-align: middle;
+    }
+    header > div nav ul li:not(:first-child){
+        margin-left: 3.5%;
+    }
+    header > div nav ul li *{
+        background-color: transparent; border: none;
+        background-repeat: no-repeat; background-size: contain; background-position: center;
+        text-align: left; display: block !important; line-height: 16px;
+    }
+    header > div nav ul li:not(:last-child){
+        vertical-align: middle;
+    }
+    header > div nav ul li *:not(button){
+        text-indent: -9999px; 
+    }
+    header > div nav ul li input[value="searchContainer"]{
+        background-image: url('../images/search-solid.svg');
+    }
+    header > div nav ul li a.notSignin{
+        background-image: url('../images/user_login_icon.jpg'); display: inline-block; 
+    }
+    header > div nav ul li a{
+        background-image: url('../images/user.jpg'); display: inline-block; 
+    }
+    header > div nav ul li input[value="wishContainer"]{
+        background-image: url('../images/solid_heart.jpg');
+    }
+    header > div nav ul li input[value="wishContainer"].active{
+        background-image: url('../images/full_heart.jpg');
+    }
+    header > div nav ul li input[value="cartContainer"]{
+        background-image: url('../images/shopping_bag.jpg');
+    }
+    header > div nav ul li input[value="cartContainer"].active{
+        background-image: url('../images/full_shopping_bag.jpg');
+    }
+    header > div nav ul li button[data-container="fnbContainer"]{
+        font-size: 18px; padding: 0;
+    }
+    #fnbContainer{
+        z-index: 100; position: fixed; left: 0; top: 65px; background-color: white; width: 100%;
+        height: 100%;
+    }
+    #fnbContainer > div{
+        position: relative;
+    }
+    #fnbContainer > div > ul:after{
+        display: block; content: none; clear: both;
+    }
+    #fnbContainer > div > ul *{
+        color: #333333;
+    }
+    #fnbContainer > div > ul,
+    #fnbContainer > div > ul >li > ol > li{
+        list-style: none; 
+    }
+    #fnbContainer > div > ul >li > ol > li{
+        display: block;
+    }
+    #fnbContainer > div > ul >li:first-child{
+        padding: 30px 0px 20px; 
+        background: url('../images/arrow_row_icon.jpg') right top 37px / 15px no-repeat;
+    }
+    #fnbContainer > div > ul >li:first-child.active{
+        background: url('../images/arrow_top_icon.jpg') right top 37px / 15px no-repeat;
+    }
+    #fnbContainer > div > ul >li:first-child ol{
+        display: none;
+    }
+    #fnbContainer > div > ul >li:first-child.active ol{
+        display: block;
+    }
+    #fnbContainer > div > ul > li,
+    #fnbContainer > div > ul > li > a{
+        font-size: 20px; font-weight: 500; text-decoration: none;
+    }
+
+    #fnbContainer > div > ul >li:not(:first-child){
+        padding-bottom: 30px;
+    }
+    #fnbContainer > div > ul >li:last-child{
+        padding-bottom: 40px;
+    }
+    #fnbContainer > div > ul >li > ol{
+        display: block;
+    }
+    #fnbContainer > div > ul >li > ol > li{
+        margin-bottom: 30px; text-align: left;
+    }
+    #fnbContainer > div > ul >li > ol > li:first-of-type{
+        margin-top: 38px;
+    }
+    #fnbContainer > div > ul >li > ol > li:last-of-type{
+        padding-bottom: 40px; border-bottom: 1px solid #999;
+        margin: 0 auto;
+    }
+    #fnbContainer > div > ul >li > ol > li > a{
+        font-size: 16px; font-weight: 300; color: #999;
+        text-decoration: none; text-align: left;
+    }
+   
+    footer{
+        background-color: #f0f0f0; position: relative;
+    }
+    footer > div:first-child{
+        padding-top: 55px; 
+    }
+    footer > div:first-child h2{
+        position: absolute; max-width: 76px;
+    }
+    footer > div:first-child h2 img{
+        width: 100%; margin-top: 17px;
+    }
+    footer > div:first-child ul{
+        text-align: right; 
+    }
+    footer > div:first-child ul li{
+        display: inline-block; margin-top: 80px; 
+    }
+    footer > div:first-child ul li:not(:first-child){
+        margin-left: 15px;
+    }
+    footer > div:first-child ul li a{
+        font-size: 12px; font-weight: 300; color: #333333; text-decoration: none;
+        line-height: 32px; top: 0px;  
+    }
+    footer > div:first-child ol{
+        margin: -100px 3.5%; float: right; font-size: 20px; vertical-align: top;
+    }
+    footer > div:first-child ol li{
+        display: inline-block; list-style: none; 
+        width: 20px; height: 20px; 
+    }
+    footer > div:first-child ol li{
+        margin-left: 15px; 
+    } 
+    footer > div:first-child ol li a{
+        display: inline-block; 
+        background-position: right; background-size: contain; 
+        width: 25px; height: 25px; text-indent: -9999px; 
+    }
+    footer > div:first-child ol li a.snsin{
+        background-image: url('../images/sns-fininstagram.png');
+    }
+    footer > div:first-child ol li a.snstw{
+        background-image: url('../images/sns-finTWITTER.png');
+    }
+    footer > div:first-child ol li a.snsfa{
+        background-image: url('../images/sns-finfacebook.png');
+    }
+    footer > div:first-child ol li a.snsyou{
+        background-image: url('../images/sns-finyoutube.png');
+    }
+    
+    footer > div:last-child p{
+        padding-bottom:50px; font-size: 12px; font-style: italic; color: #333333;
+        margin-top: 120px;
+    }
+    footer > div:last-child span{
+        position: absolute; top: 210px;
+    }
+    footer > div:last-child span a{
+        text-decoration: none; font-size: 10px; color: #333333;
+        font-style: italic;
+    }
+    footer > div:last-child span a:not(:first-of-type){
+        margin-left: 34px;
+    }
+    
+}
+/* Mobile Fin*/
+
+ @media screen and (min-width: 768px) and (max-width: 1279px){
+
+    header > div,
+    #fnbContainer > div,
+    .detailContainer,
+    .galleriaContainer,
+    .galleiraList:not(.galleriaBack),
+    div.listParadasphere,
+    [class$='Box'],
+    .emContainer > div,
+    .emContainer > aside,
+    .storecontainer,
+    [class$='Container'],
+    .ppmenu,
+    .aboutasContainer,
+    .sociallg:not(:nth-of-type(2)),
+    .faq_Area,
+    section.sppayment,
+    footer > div{
+        padding: 0 2.6%; box-sizing: border-box;
+    }
+    
+    .scContainer,
+    .wishNcart,
+    #fnbContainer,
+    .wishNcart [id$='Container'],
+    .wishNcart [id$='Container'] > *[class$='Box']{
+        display: none;
+    }
+    .active{
+        display: block !important;
+    }
+    .wishNcart [class^='color']{
+        font-size:14px; line-height: 14px; font-weight: 700;
+        padding-bottom: 30px;
+    }
+    /* color Module */
+    
+    .btn{
+        display: block; font-weight: 100; text-align: center; box-sizing: border-box; 
+    }
+    .btn_half{
+        font-size: 14px; font-style: italic;
+        text-decoration: none; position: relative; line-height: 36px;
+        display: block; white-space: nowrap; width: 25px; transition: width 0.5s ease-in; 
+        padding: 0 10px; text-align: center; 
+    }
+    .btn_half:hover{
+        width: 100%;
+    }
+    /* button Module */
+
+    #gotoSignIn{
+        display: none;
+        position: fixed;
+        width: 37%;
+        min-width: 700px;
+        box-sizing: border-box;
+        border: 1px solid #000;
+        background-color: #fff;
+        left: 4.5%;
+        top: 35%;
+        text-align: center;
+        padding: 100px 0px;
+        z-index: 10; 
+    }
+    #gotoSignIn.active{
+        display: block;
+    }
+    #gotoSignIn h2{
+        font-weight: 500;
+        padding-bottom: 100px;
+        font-size: 18px;
+        color: #000;
+    }
+    #gotoSignIn .btn_confirm{
+        box-sizing: border-box;
+        border: 1px solid #000;
+        background-color: #000;
+        font-size: 18px;
+        color: #ffffff;
+        font-weight: 100;
+        padding: 15px 20px;
+        font-family: 'HelveticaNeue';
+        text-decoration: none;
+        text-transform: none;
+        cursor: pointer;
+    }
+    /* Sign up popup */
+
+    .scContainer{
+        background-color: rgb(255, 255, 255); 
+        position: fixed; width: 100%; opacity: 0.9; left:0; top: 124px; padding: 90px 0;
+        text-align: center; z-index: 10;
+    }
+    .scContainer > form input[type='search']{
+        width: 51.8%; line-height: 60px; font-size: 16px; color: #666666;
+        border: 1px solid #f2f2f2; padding: 0 30px; box-sizing: border-box;
+        
+    }
+    .scContainer > form input[type='submit']{
+        background: url('../images/Search_icon.jpg'); 
+        text-indent: -9999px; width: 20px; height: 20px; border: none;
+        color: #666666; top: 0px; 
+        margin-left: -50px; background-color: transparent;
+    }
+
+    .wishNcart{
+        width: 515px; height: 100%; position: fixed; z-index: 1000; top:0; right: 0px;
+        background-color: white;
+    }
+    .wishNcart input.btn_close{
+        background: url('../images/close_black_24dp.svg') center / 20px no-repeat;
+        position: absolute; top: 35px;
+        box-sizing: border-box; right: 20px;
+        border: none; text-indent: -9999px;
+    }
+    
+    .wishNcart > ul{
+        list-style: none;
+        border-width: 2px 0px; border-style: solid; border-color: #f2f2f2;
+        box-sizing: border-box; padding: 52px 0; 
+    }
+    .wishNcart > ul > li{
+        box-sizing: border-box; padding: 0px 20px; 
+        display: inline-block !important; font-size: 18px; font-weight: 100;
+    }
+    .wishNcart > ul > li:last-child{
+       border-left: 1px solid #000;
+    }
+    .wishNcart > ul > li.btnActive{
+        font-weight: 100;
+    }
+    .wishNcart > ul > li.btnActive.active{
+    font-size: 18px; color: #000; font-weight: bold;
+    }
+   
+    .wishNcart [id$='Container'] ol{
+        list-style: none;
+    }
+    .wishNcart [id$='Container'] ol li{
+        padding: 20px 0px; box-sizing: border-box;
+    }
+    .wishNcart [id$='Container'] ol li .btn.blackWhite{
+        width: 100%; letter-spacing: 1px; margin-top: 20px;
+        padding: 35px 6.7%; font-size: 14px; font-weight: 700;
+    }
+    .wishNcart [id$='Container'] ol li .btn.blackWhite:hover{
+        font-weight: 700; letter-spacing: 1px;
+    }
+    .wishNcart [id$='Container'] ol li figure{
+        position: relative;
+    }
+    .wishNcart [id$='Container'] ol li figure:after{
+        content: ''; display: block; clear: both;
+    }
+    .wishNcart [id$='Container'] ol li figure img{
+        width: 200px; float: left; padding: 0px 3.8%;
+    }
+    .wishNcart [id$='Container'] ol li figure figcaption{
+        float: left; background-color: rgb(255, 255, 255); width: 100%;
+        line-height: 20px; max-width: 200px;
+        box-sizing: border-box;
+    }
+    .wishNcart [id$='Container'] ol li figure dl{
+        margin-bottom: 0px;
+    }
+    .wishNcart [id$='Container'] ol li figure dl dt{
+        font-weight: 100; font-size: 16px; line-height: 22px; margin-bottom: 30px;
+    }
+    .wishNcart [id$='Container'] ol li figure dl dd[class^='color']{
+        margin-bottom: 0px;
+    }
+    .wishNcart [id$='Container'] ol li figure dl dd:last-of-type{
+        font-size: 12px; color: black; text-align: right; font-weight: 700;
+    }
+    .wishNcart [id$='Container'] ol li figure figcaption input[value$='icon']{
+        background-position: center; background-size: contain; background-repeat: no-repeat;
+        background-color: transparent;
+        text-indent: -9999px; border-style: none; width: 20px; height: 26px;
+        position: absolute; top: 10px; left: 37%;
+    }
+    .wishNcart [id$='Container'] ol li figure figcaption input[value='delete']{
+        background-color: transparent; border-style: none; padding: 0;
+        border-bottom: 1px solid #000000; font-size: 12px; font-weight: 100;
+        padding-top: 45px;
+    }
+    
+    .wishNcart [id$='Container'] ol.wishBox li figure figcaption input[value='spicon']{
+       background-image: url('../images/shoppingWhite.png');
+    }
+    .wishNcart [id$='Container'] ol.wishBox li figure figcaption input[value='spicon'].active{
+       background-image: url('../images/full_shopping_bag.jpg');
+    }
+    .wishNcart [id$='Container'] .cartBox ol li figure figcaption input[value='whicon']{
+       background-image: url('../images/solid_heart.jpg');
+    }
+    .wishNcart [id$='Container'] .cartBox ol li figure figcaption input[value='whicon'].active{
+        background-image: url('../images/full_heart.jpg');
+     }
+    .wishNcart [id$='Container'] .cartBox ol li figure figcaption dl:after{
+        content: ''; display: block; clear: both;
+    }
+    
+    .wishNcart [id$='Container'] .cartBox ol li figure figcaption dl dd:nth-of-type(2){
+        font-size: 12px; font-weight: 700;
+    }
+    .wishNcart [id$='Container'] .cartBox ol li figure figcaption dl dd:not(:first-of-type){
+        width: 50%; float: left;
+    }
+    .wishNcart [id$='Container'] .cartBox ol li figure figcaption dl dd input[type='button']{
+        width: 12px; height: 12px; background-repeat: no-repeat; border: none;
+        background-position: center; background-size: 12px; text-indent: -9999px;
+    }
+    .wishNcart [id$='Container'] .cartBox ol li figure figcaption dl dd input#countPlus{
+        background-image: url('../images/plus.jpg');
+    }
+    .wishNcart [id$='Container'] .cartBox ol li figure figcaption dl dd input#countMinus{
+        background-image: url('../images/minus.jpg');
+    }
+    
+    .wishNcart [id$='Container'] .emptyBox{
+        width: 100%; font-size: 14px; font-weight: 700; text-align: center;
+        padding-top: 145px;  
+    }
+
+    .wishNcart [id$='Container'] .emptyBox .btn.blackWhite{
+        width: 100%; text-align: center; margin-top: 145px;
+        padding: 33px; font-weight: 700;
+    }
+    
+    .wishNcart[id$='Container'] .emptyBox .btn.outlined{
+        width: 50%; float: right; margin-top: -85px;
+        padding: 33px;
+    }
+    
+    .wishNcart [id$='Container'] .cartBox div:first-of-type{
+        width: 100%; box-sizing: border-box; background-color: #f2f2f2;
+        padding: 34px 6.6%; text-align: center; 
+    }
+    .wishNcart [id$='Container'] .cartBox div:first-of-type > label[for='subtotal']{
+        text-align: center; font-size: 14px; font-weight: 100;
+        letter-spacing: 1.6px;
+    }
+    .wishNcart [id$='Container'] .cartBox div:first-of-type > #subtotal{
+        border-style: none; background-color: #f2f2f2; 
+        font-size: 12px; font-weight: 900; color: #000000; letter-spacing: 1px; 
+        width: 75px;
+    }
+    .wishNcart [id$='Container'] .cartBox div:first-of-type > span{
+        font-size: 12px; font-weight: 700; color: #000000; letter-spacing: 1px;
+    }
+    .wishNcart #cartContainer .cartBox .btn.blackWhite{
+        max-width: 195px; padding: 24px 4%; margin: 20px 160px;
+        font-size: 14px; font-weight: 700;   
+    }
+    
+    .wishNcart [id$='Container'] .cartBox div:last-of-type{
+        max-width: 395px; background-color: #f2f2f2; box-sizing: border-box;
+        padding: 15px 5%; margin: 0 60px 20px; text-align: center;
+        color: #000000; font-weight: 700;  line-height: 32px; 
+    }
+    .wishNcart [id$='Container'] .cartBox div:last-of-type h3{
+        font-size: 20px; padding-bottom: 5px;
+    }
+    .wishNcart [id$='Container'] .cartBox div:last-of-type p{
+        font-size: 14px; font-weight: 100;
+    }
+    .wishNcart [id$='Container'] .cartBox div:last-of-type p a{
+        padding: 0px 5px; font-size: 14px; color: #000; font-weight: 700;
+    }
+
+    header{
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.3); position: fixed; left: 0; top: 0; width: 100%;
+        background-color: white; z-index: 100;
+    }
+   
+    header > div{
+        position: relative; padding: 50px 2.6%;
+    }
+    header > div h1{
+        max-width: 132px; 
+    }
+    header > div h1 a{
+        display: block;
+    }
+    header > div h1 a img{
+        width: 100%;
+    }
+    header > div nav{
+        position: absolute; right: 4%; top: 50px; width: calc(100% - 240px);
+        text-align: right;
+    }
+    header > div nav.fnbOpen{
+        display: none;
+    }
+    header > div nav ul li{
+        display: inline-block;
+    }
+    header > div nav ul li:not(:first-child){
+        margin-left: 2.6%;
+    }
+    header > div nav ul li *{
+        background-color: transparent; border: none;
+        background-repeat: no-repeat; background-size: contain; background-position: center;
+        width: 20px; height: 20px; text-align: left;
+    }
+    header > div nav ul li:not(:last-child){
+        vertical-align: top;
+    }
+    header > div nav ul li:last-child{
+        margin-left: 3%; vertical-align: top;
+    }
+
+    header > div nav ul li *:not(button){
+        text-indent: -9999px; 
+    }
+    header > div nav ul li input[value="searchContainer"]{
+        background-image: url('../images/search-solid.svg');
+    }
+    header > div nav ul li a.notSignin{
+        background-image: url('../images/user_login_icon.jpg'); display: inline-block; 
+    }
+    header > div nav ul li a{
+        background-image: url('../images/user.jpg'); display: inline-block; 
+    }
+    header > div nav ul li input[value="wishContainer"]{
+        background-image: url('../images/solid_heart.jpg');
+    }
+    header > div nav ul li input[value="wishContainer"].active{
+        background-image: url('../images/full_heart.jpg');
+    }
+    header > div nav ul li input[value="cartContainer"]{
+        background-image: url('../images/shopping_bag.jpg');
+    }
+    header > div nav ul li input[value="cartContainer"].active{
+        background-image: url('../images/full_shopping_bag.jpg');
+    }
+    header > div nav ul li button[data-container="fnbContainer"]{
+        font-size: 25px; padding: 0;
+    }
+   
+    #fnbContainer{
+        z-index: 100; position: fixed; left: 0; top: 124px; background-color: white; width: 100%;
+        height: calc(100% - 124px);
+    }
+    #fnbContainer > div{
+        position: relative;
+    }
+    #fnbContainer > div > ul:after{
+        display: block; content: none; clear: both;
+    }
+    #fnbContainer > div > ul *{
+        color: #000000;
+    }
+    #fnbContainer > div > ul,
+    #fnbContainer > div > ul >li > ol > li{
+        list-style: none; 
+    }
+    #fnbContainer > div > ul >li:first-child{
+        padding-top: 30px;
+    }
+    #fnbContainer > div > ul > li,
+    #fnbContainer > div > ul > li > a{
+        font-size: 55px; font-weight: 100; text-decoration: none;
+    }
+
+    #fnbContainer > div > ul >li{
+        padding-bottom: 150px;
+    }
+    
+    #fnbContainer > div > ul >li > ol{
+        float: right; display: block;
+    }
+    #fnbContainer > div > ul >li > ol > li{
+        margin-bottom: 60px; text-align: end;
+    }
+    #fnbContainer > div > ul >li > ol > li > a{
+        font-size: 50px; font-weight: lighter; color: #000000;
+        text-decoration: none; text-align: right;
+    }
+   
+    footer{
+        background-color: #f0f0f0; position: relative;
+    }
+    footer > div:first-child{
+        padding-top: 50px; 
+    }
+    footer > div:first-child h2{
+        position: absolute;
+    }
+    footer > div:first-child h2 img{
+        width: 100%; 
+    }
+    footer > div:first-child ul{
+        text-align: center; 
+    }
+    footer > div:first-child ul li{
+        display: inline-block; margin-top: 65px;
+    }
+    footer > div:first-child ul li:not(:first-child){
+        margin-left: 2.6%;
+    }
+    footer > div:first-child ul li a{
+        font-size: 16px; font-weight: 300; color: #333333; text-decoration: none;
+        line-height: 32px; top: 0px;   
+    }
+    footer > div:first-child ol{
+        margin: -100px 0; float: right; font-size: 20px; vertical-align: top;
+    }
+    footer > div:first-child ol li{
+        display: inline-block; list-style: none; 
+        width: 25px; height: 25px; 
+    }
+    footer > div:first-child ol li{
+        margin-left: 20px; 
+    } 
+    footer > div:first-child ol li a{
+        display: inline-block;
+        background-position: right; background-size: contain; 
+        width: 25px; height: 25px; text-indent: -9999px; 
+    }
+    footer > div:first-child ol li a.snsin{
+        background-image: url('../images/sns-fininstagram.png');
+    }
+    footer > div:first-child ol li a.snstw{
+        background-image: url('../images/sns-finTWITTER.png');
+    }
+    footer > div:first-child ol li a.snsfa{
+        background-image: url('../images/sns-finfacebook.png');
+    }
+    footer > div:first-child ol li a.snsyou{
+        background-image: url('../images/sns-finyoutube.png');
+    }
+    
+    footer > div:last-child p{
+        padding-bottom:80px; font-size: 16px; font-style: italic; color: #333333;
+        margin-top: 155px;
+    }
+    footer > div:last-child span{
+        position: absolute; top: 210px; left: 200px;
+    }
+    footer > div:last-child span a{
+        margin-left: 20px; text-decoration: none; font-size: 16px; color: #333333;
+        font-style: italic;
+    }
+}
+/* Tablet Fin*/
+
+
+@media screen and (min-width: 1280px){
+    header > div,
+    .wishNcart,
+    #fnbContainer > div,
+    .detailContainer,
+    .galleriaContainer,
+    .galleiraList:not(.galleriaBack),
+    .listParadasphere,
+    [class^='psphere'] > *:not(.customPager,.historyBack),
+    .accountContainer,
+    .storecontainer,
+    .ppmenu,
+    .aboutasContainer,
+    .subscribeContainer,
+    footer > div{
+        max-width: 1600px; margin: 0 auto;
+    }
+    
+    .scContainer,
+    .wishNcart,
+    #fnbContainer,
+    .wishNcart [id$='Container'],
+    .wishNcart [id$='Container'] > *[class$='Box']{
+        display: none;
+    }
+    .active{
+        display: block !important;
+    }
+    .wishNcart [class^='color']{
+        font-size:14px; line-height: 14px; font-weight: 700;
+        padding-bottom: 35px;
+    }
+    /* color Module */
+    
+    .btn{
+        display: block; font-weight: 100; text-align: center; box-sizing: border-box; 
+    }
+    .btn_half{
+        font-size: 14px; font-style: italic;
+        text-decoration: none; position: relative; line-height: 36px;
+        display: block; white-space: nowrap; width: 25px; transition: width 0.5s ease-in; 
+        padding: 0 10px; text-align: center; 
+    }
+    .btn_half:hover{
+        width: 100%;
+    }
+    /* button Module */
+    #gotoSignIn{
+        position: absolute; top: 29%; left: 28%;
+        width: 43.75%;
+        background-color: #ffffff;
+        padding: 120px 65px;
+        text-align: center;
+        box-sizing: border-box;
+        border: 1px solid #000;
+        z-index: 10; display: none;
+    }
+    #gotoSignIn.active{
+        display: block;
+    }
+    #gotoSignIn h2{
+        font-weight: 500;
+        padding-bottom: 100px;
+        font-size: 18px;
+        color: #000;
+    }
+    #gotoSignIn .btn_confirm{
+        box-sizing: border-box;
+        border: 1px solid #000;
+        background-color: #000;
+        font-size: 18px;
+        color: #ffffff;
+        font-weight: 100;
+        padding: 15px 20px;
+        font-family: 'HelveticaNeue';
+        text-decoration: none;
+        text-transform: none;
+        cursor: pointer;
+    }
+
+    /* Sign up popup */
+
+
+
+    .scContainer{
+        background-color: rgb(255, 255, 255); 
+        position: fixed; width: 100%; opacity: 0.9; left:0; top: 124px; padding: 90px 0;
+        text-align: center; z-index: 10;
+    }
+    .scContainer > form input[type='search']{
+        width: 41.66%; line-height: 60px; font-size: 16px; color: #666666;
+        border: 1px solid #f2f2f2; padding: 0 30px; box-sizing: border-box;
+    }
+    
+    .scContainer > form input[type='submit']{
+        background: url('../images/Search_icon.jpg') ; 
+        text-indent: -9999px; width: 20px; height: 20px; border: none;
+        color: #666666; top: 0px; 
+        margin-left: -50px; background-color: transparent;
+    }
+    .wishNcart{
+        width: 515px; height: 100%; position: fixed; z-index: 1000; top:0; right: 0px;
+        background-color: white;
+    }
+    .wishNcart input.btn_close{
+        background: url('../images/close_black_24dp.svg') center / 20px no-repeat;
+        position: absolute; right: 0; top: 35px;
+        box-sizing: border-box;
+        right: 20px;
+        border: none; text-indent: -9999px;
+       
+    }
+    
+    .wishNcart > ul{
+        list-style: none;
+        border-width: 2px 0px; border-style: solid; border-color: #f2f2f2;
+        box-sizing: border-box; padding: 52px 0; 
+    }
+    .wishNcart > ul > li{
+        box-sizing: border-box; padding: 0px 20px; 
+        display: inline-block !important; font-size: 18px; font-weight: 100;
+    }
+    .wishNcart > ul > li:last-child{
+       border-left: 1px solid #000;
+    }
+    .wishNcart > ul > li.btnActive{
+        font-weight: 100;
+    }
+    .wishNcart > ul > li.btnActive.active{
+    font-size: 18px; color: #000; font-weight: bold;
+    }
+   
+    .wishNcart [id$='Container'] ol{
+        list-style: none;
+    }
+    .wishNcart [id$='Container'] ol li{
+        padding: 20px 0px; box-sizing: border-box;
+    }
+    .wishNcart [id$='Container'] ol li .btn.blackWhite{
+        width: 100%; letter-spacing: 1.6px; margin-top: 20px;
+        padding: 35px 5.7%; font-size: 14px; font-weight: 100;
+    }
+    .wishNcart [id$='Container'] ol li .btn.blackWhite:hover{
+        font-weight: 700; letter-spacing: 1px;
+    }
+    .wishNcart [id$='Container'] ol li figure{
+        position: relative;
+    }
+    .wishNcart [id$='Container'] ol li figure:after{
+        content: ''; display: block; clear: both;
+    }
+    .wishNcart [id$='Container'] ol li figure img{
+        width: 200px; float: left; padding: 0px 3.8%;
+    }
+    .wishNcart [id$='Container'] ol li figure figcaption{
+        float: left; background-color: rgb(255, 255, 255); width: 100%;
+        line-height: 20px; max-width: 200px;
+        box-sizing: border-box;
+    }
+    .wishNcart [id$='Container'] ol li figure dl{
+        margin-bottom: 0px;
+    }
+    .wishNcart [id$='Container'] ol li figure dl dt{
+        font-weight: 100; font-size: 16px; line-height: 22px; margin-bottom: 30px;
+    }
+    .wishNcart [id$='Container'] ol li figure dl dd[class^='color']{
+        margin-bottom: 0px;
+    }
+    .wishNcart [id$='Container'] ol li figure dl dd:last-of-type{
+        font-size: 12px; color: black; text-align: right; font-weight: 700;
+    }
+    .wishNcart [id$='Container'] ol li figure figcaption input[value$='icon']{
+        background-position: center; background-size: contain; background-repeat: no-repeat;
+        background-color: transparent;
+        text-indent: -9999px; border-style: none; width: 20px; height: 26px;
+        position: absolute; top: 10px; left: 37%;
+    }
+    .wishNcart [id$='Container'] ol li figure figcaption input[value='delete']{
+        background-color: transparent; border-style: none; padding: 0;
+        border-bottom: 1px solid #000000; font-size: 12px; font-weight: 100;
+        padding-top: 45px;
+    }
+    
+    .wishNcart [id$='Container'] ol.wishBox li figure figcaption input[value='spicon']{
+       background-image: url('../images/shoppingWhite.png');
+    }
+    .wishNcart [id$='Container'] ol.wishBox li figure figcaption input[value='spicon'].active{
+       background-image: url('../images/full_shopping_bag.jpg');
+    }
+    .wishNcart [id$='Container'] .cartBox ol li figure figcaption input[value='whicon']{
+       background-image: url('../images/solid_heart.jpg');
+    }
+    .wishNcart [id$='Container'] .cartBox ol li figure figcaption input[value='whicon'].active{
+        background-image: url('../images/full_heart.jpg');
+     }
+    .wishNcart [id$='Container'] .cartBox ol li figure figcaption dl:after{
+        content: ''; display: block; clear: both;
+    }
+    
+    .wishNcart [id$='Container'] .cartBox ol li figure figcaption dl dd:nth-of-type(2){
+        font-size: 12px; font-weight: 700;
+    }
+    .wishNcart [id$='Container'] .cartBox ol li figure figcaption dl dd:not(:first-of-type){
+        width: 50%; float: left;
+    }
+    .wishNcart [id$='Container'] .cartBox ol li figure figcaption dl dd input[type='button']{
+        width: 12px; height: 12px; background-repeat: no-repeat; border: none;
+        background-position: center; background-size: 12px; text-indent: -9999px;
+    }
+    .wishNcart #cartContainer .cartBox ol li figure figcaption dl dd input#countPlus{
+        background-image: url('../images/plus.jpg');
+    }
+    .wishNcart #cartContainer .cartBox ol li figure figcaption dl dd input#countMinus{
+        background-image: url('../images/minus.jpg');
+    }
+    
+    .wishNcart [id$='Container'] .emptyBox{
+        width: 100%; font-size: 14px; font-weight: 700; text-align: center;
+        padding-top: 145px;  
+    }
+    .wishNcart [id$='Container'] .emptyBox .btn.blackWhite{
+        width: 100%; text-align: center; margin-top: 145px;
+        padding: 33px;
+    }
+
+    .wishNcart [id$='Container'] > .emptyBox .btn.blackWhite:hover{
+        font-weight: 700;
+    }
+    
+    .wishNcart [id$='Container'] .emptyBox .btn.outlined{
+        width: 50%; float: right; margin-top: -85px;
+        padding: 33px;
+    }
+
+    .wishNcart [id$='Container'] .emptyBox .btn.outlined:hover{
+        font-weight: 700;
+    }
+
+    .wishNcart [id$='Container'] .cartBox div:first-of-type{
+        width: 100%; box-sizing: border-box; background-color: #f2f2f2;
+        padding: 34px 6.6%; text-align: center; 
+    }
+
+    .wishNcart [id$='Container'] .cartBox div:first-of-type > label[for='subtotal']{
+        text-align: center; font-size: 14px; font-weight: 100;
+        letter-spacing: 1.6px;
+    }
+
+    .wishNcart [id$='Container'] .cartBox div:first-of-type > #subtotal{
+        border-style: none; background-color: #f2f2f2; 
+        font-size: 12px; font-weight: 900; color: #000000; letter-spacing: 1px; 
+        width: 75px;
+    }
+
+    .wishNcart [id$='Container'] .cartBox div:first-of-type > span{
+        font-size: 12px; font-weight: 700; color: #000000; letter-spacing: 1px;
+    }
+    .wishNcart [id$='Container'] .cartBox .btn.blackWhite{
+        max-width: 195px; padding: 24px 10px; margin: 20px 160px;
+        font-size: 14px; font-weight: 100;    
+    }
+    .wishNcart [id$='Container'] .cartBox .btn.blackWhite:hover{
+        font-size: 14px; font-weight: 700; 
+    }
+    .wishNcart [id$='Container'] .cartBox div:last-of-type{
+        max-width: 395px; background-color: #f2f2f2; box-sizing: border-box;
+        padding: 15px 5%; margin: 0 60px 20px; text-align: center;
+        color: #000000; font-weight: 700; line-height: 32px; 
+    }
+    
+    .wishNcart [id$='Container'] .cartBox div:last-of-type h3{
+        font-size: 20px; padding-bottom: 5px;
+    }
+    .wishNcart [id$='Container'] .cartBox div:last-of-type p{
+        font-size: 14px;  font-weight: 100;
+    }
+    .wishNcart [id$='Container'] .cartBox div:last-of-type a{
+        padding: 0px 5px; font-size: 14px; color: #000; font-weight: 700;
+    }
+
+    header{
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.3); position: fixed; left: 0; top: 0; width: 100%;
+        background-color: white; z-index: 100;
+    }
+   
+    header > div{
+        position: relative; padding: 50px 0; left: 0; 
+    }
+    header > div h1{
+        max-width: 132px; 
+    }
+    header > div h1 a{
+        display: block;
+    }
+    header > div h1 a img{
+        width: 100%;
+    }
+    header > div nav{
+        position: absolute; left: 132px; top: 50px; width: calc(100% - 138px);
+        text-align: right;
+    }
+    header > div nav.fnbOpen{
+        display: none;
+    }
+    header > div nav ul li{
+        display: inline-block; vertical-align: top;
+    }
+    header > div nav ul li:not(:first-child){
+        margin-left:1%; vertical-align: top;
+    }
+    header > div nav ul li *{
+        background-color: transparent; border: none;
+        background-repeat: no-repeat; background-size: contain; background-position: center;
+        width: 20px; height: 20px; text-align: left;
+    }
+    header > div nav ul li:last-child{
+        margin-left: 1%; vertical-align: middle;
+    }
+
+    header > div nav ul li *:not(button){
+        text-indent: -9999px; 
+    }
+    header > div nav ul li input[value="searchContainer"]{
+        background-image: url('../images/search-solid.svg');
+    }
+    header > div nav ul li a.notSignin{
+        background-image: url('../images/user_login_icon.jpg'); display: inline-block; 
+    }
+    header > div nav ul li a{
+        background-image: url('../images/user.jpg'); display: inline-block; 
+    }
+    header > div nav ul li input[value="wishContainer"]{
+        background-image: url('../images/solid_heart.jpg');
+    }
+    header > div nav ul li input[value="wishContainer"].active{
+        background-image: url('../images/full_heart.jpg');
+    }
+    header > div nav ul li input[value="cartContainer"]{
+        background-image: url('../images/shopping_bag.jpg');
+    }
+    header > div nav ul li input[value="cartContainer"].active{
+        background-image: url('../images/full_shopping_bag.jpg');
+    }
+    header > div nav ul li button[data-container="fnbContainer"]{
+        font-size: 25px; padding: 0;
+    }
+    
+    #fnbContainer{
+        z-index: 100; position: fixed; left: 0; top: 124px; background-color: white; width: 100%;
+        height: calc(100% - 124px);
+    }
+    #fnbContainer > div{
+        position: relative;
+    }
+    #fnbContainer > div > ul:after{
+        display: block; content: none; clear: both;
+    }
+    #fnbContainer > div > ul *{
+        color: #000000;
+    }
+    #fnbContainer > div > ul,
+    #fnbContainer > div > ul >li > ol > li{
+        list-style: none;
+    }
+    #fnbContainer > div > ul >li,
+    #fnbContainer > div > ul > li > a{
+        font-size: 100px; font-weight: 100; text-decoration: none;
+    }
+
+    #fnbContainer > div > ul >li{
+        padding-bottom: 80px; 
+    }
+    
+    #fnbContainer > div > ul >li > ol{
+        float: right; display: none;
+    }
+    #fnbContainer > div > ul >li:hover > ol{
+        display: block; transition-duration: 3s; 
+    }
+    #fnbContainer > div > ul >li > ol > li{
+        text-align: end;
+    }
+    #fnbContainer > div > ul >li > ol > li > a{
+        font-size: 60px; font-weight: lighter; color: #000000;
+        text-decoration: none; 
+    }
+    #fnbContainer > div > ul >li:hover{
+        transition-duration: 2s; display: block;
+    }
+   
+    footer{
+        background-color: #f0f0f0; position: relative;
+    }
+    footer > div:first-child{
+        padding-top: 129px; 
+    }
+    footer > div:first-child h2{
+        position: absolute;
+    }
+    footer > div:first-child h2 img{
+        width: 100%; 
+    }
+    footer > div:first-child ul{
+        text-align: center; margin-bottom: 120px; 
+    }
+    footer > div:first-child ul li{
+        display: inline-block; 
+       
+    }
+    footer > div:first-child ul li:not(:first-child){
+        margin-left: 1.8%;
+    }
+    footer > div:first-child ul li a{
+        font-size: 16px; font-weight: 300; color: #333333; text-decoration: none;
+        line-height: 32px; top: 0px;        
+    }
+    footer > div:first-child ol{
+        margin: -150px 0; top: 0; float: right; font-size: 20px; vertical-align: top;
+    }
+    footer > div:first-child ol li{
+        display: inline-block; list-style: none; 
+        width: 40px; height: 40px; 
+    }
+    footer > div:first-child ol li{
+        margin-left: 20px;
+    }
+    footer > div:first-child ol li a{
+        display: inline-block;
+        background-position: center; background-size: contain; 
+        width: 40px; height: 40px; text-indent: -9999px; 
+    }
+    footer > div:first-child ol li a.snsin{
+        background-image: url('../images/sns-fininstagram.png');
+    }
+    footer > div:first-child ol li a.snstw{
+        background-image: url('../images/sns-finTWITTER.png');
+    }
+    footer > div:first-child ol li a.snsfa{
+        background-image: url('../images/sns-finfacebook.png');
+    }
+    footer > div:first-child ol li a.snsyou{
+        background-image: url('../images/sns-finyoutube.png');
+    }
+    footer > div:last-child p{
+        padding-bottom:52px; font-size: 16px; font-style: italic; color: #333333;
+        margin-top: 175px;
+    }
+    footer > div:last-child span{
+        margin: -70px 0px 52px 0px; float:right;
+    }
+    footer > div:last-child span a{
+        margin-left: 20px; text-decoration: none; font-size: 16px; color: #333333;
+        font-style: italic;
+    }
+}
+/* desktop Fin*/
