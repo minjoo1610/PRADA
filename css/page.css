@@ -2,7 +2,7 @@
 
     div.mainContent{
         display: block; margin: 0 3.5%;
-        padding-top: 50px;
+        padding-top: 65px;
     }
     div.mainContent .bx-wrapper .bx-pager{
         bottom: 16px;
@@ -6455,7 +6455,7 @@
     }
     
     div.mainContent ul li[class^='context']:nth-of-type(2){
-        background: url('../images/contents2.jpg') right top / 67.5% 80vh no-repeat #000000; 
+        background: url('../images/contents2.jpg') right top / 67.5% 73vh no-repeat #000000; 
     }
     div.mainContent ul li[class^='context']:nth-of-type(even) div{
         margin-right: auto; width: 32.31%; box-sizing: border-box;
@@ -6499,7 +6499,7 @@
         max-width: 100px; background-color: black; color: #ffcbac; margin: 0 auto; 
     }
     div.mainContent ul li[class^='context']:nth-of-type(4){
-        background: url('../images/contents3.jpg') right top / 67.5% 110vh no-repeat #000000; 
+        background: url('../images/contents3.jpg') right top / 67.5% 91vh no-repeat #000000; 
     }
 
     div.mainContent ul li[class^='context']:nth-of-type(4) div{
@@ -6714,7 +6714,7 @@
     content: url('../images/row.png'); display: block; float: right;
    }
    .detailContainer aside details[open] summary:after{
-    content: url('../images/_arrow_top_white_18dp.png');
+    content: url('../images/_arrow_top_white_18dp.png'); display: block; float: right;
    }
    .detailContainer aside details[open] summary{
     background-color: black; color: white; font-weight: 500;
