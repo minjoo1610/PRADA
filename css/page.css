@@ -6394,7 +6394,7 @@
 
     div.mainContent{
         display: block; max-width: 1600px; margin: 0 auto;
-        padding-top: 60px;
+        padding-top: 125px;
     }
     div.mainContent .bx-wrapper .bx-pager{
         bottom: 30px;
