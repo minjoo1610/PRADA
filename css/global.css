@@ -32,7 +32,7 @@ body{
     .emContainer .btn_confirm,
     .emContainer aside div:nth-of-type(2) a.btn_confirm,
     .findBox .btn_confirm{
-    font-family: 'Optima';
+        font-family: 'Optima';
     }
     .txtActive{
         font-weight: 700;
@@ -513,6 +513,9 @@ section.galleiraList > .galleriaBack span,
     }
     .colorCWT{
         text-shadow: 2px 1px 3px rgba(0,0,0,0.5);
+    }
+    .colorNB{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
     }
     [class^='psphere'] > .historyBack, 
     section.galleiraList > .galleriaBack{
@@ -1005,8 +1008,9 @@ section.galleiraList > .galleriaBack span,
 }
 /* Mobile Fin*/
 
+    
  @media screen and (min-width: 768px) and (max-width: 1279px){
-
+    
     header > div,
     #fnbContainer > div,
     .detailContainer,
@@ -1065,7 +1069,7 @@ section.galleiraList > .galleriaBack span,
         box-sizing: border-box;
         border: 1px solid #000;
         background-color: #fff;
-        left: 4.5%;
+        left: 13.5%;
         top: 35%;
         text-align: center;
         padding: 100px 0px;
@@ -1075,10 +1079,11 @@ section.galleiraList > .galleriaBack span,
         display: block;
     }
     #gotoSignIn h2{
-        font-weight: 500;
+        font-weight: 700;
         padding-bottom: 100px;
         font-size: 18px;
         color: #000;
+        font-family: 'HelveticaNeue';
     }
     #gotoSignIn .btn_confirm{
         box-sizing: border-box;
@@ -1316,7 +1321,7 @@ section.galleiraList > .galleriaBack span,
         vertical-align: top;
     }
     header > div nav ul li:last-child{
-        margin-left: 3%; vertical-align: top;
+        vertical-align: top;
     }
 
     header > div nav ul li *:not(button){
