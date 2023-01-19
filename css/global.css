@@ -517,6 +517,15 @@ section.galleiraList > .galleriaBack span,
     .colorNB{
         text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
     }
+    .colorSR{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorCUG{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+    }
+    .colorBU{
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.5);
+    }
     [class^='psphere'] > .historyBack, 
     section.galleiraList > .galleriaBack{
         z-index: 10; position: fixed; 
