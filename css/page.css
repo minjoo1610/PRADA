@@ -3172,7 +3172,7 @@
     .subscribeContainer > .subscribeapply form fieldset:nth-of-type(2) ul li:last-child input[type='checkbox']:checked+label{
         margin: 0px 0px 0px 0px;
     }
-    .btn_confirm:not(.accountContainer, .sppayment .btn_confirm){
+    .btn_confirm:not(.accountContainer, .sppayment, .btn_confirm, .loginBox){
         width: 50%; padding: 10px 3.8%;
         text-transform: uppercase; font-size: 16px; font-weight: 500;
         font-family: 'HelveticaNeue';
