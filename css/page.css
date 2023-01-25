@@ -117,7 +117,8 @@
     div.mainContent ul li[class^='context']:nth-of-type(4) div input[type="email"]{
         background-color: transparent; border-style: none; 
         font-size: 12px; line-height: 32px; 
-        border-bottom: solid 1px #ffcbac; width: 83%; margin: 0px 5.8% 0px 4.8%;
+        border-bottom: solid 1px #ffcbac; width: 83%; 
+        margin: 0px 5.8% 0px 4.8%; font-family: 'HelveticaNeue';
     }
    
     div.mainContent ul li[class^='context']:nth-of-type(4) div a.btn_half{
@@ -1208,10 +1209,9 @@
         margin-bottom: 10px;
     }
     .emContainer > div form fieldset:first-of-type ul li input{
-        width: 100%;
-        box-sizing: border-box;
-        border: 1px solid #f2f2f2;
-        padding: 15px 5.7%;
+        width: 100%; box-sizing: border-box;
+        border: 1px solid #f2f2f2; padding: 15px 5.7%;
+        font-family: 'HelveticaNeue';
     }
     
     .emContainer > div form fieldset:first-of-type ul li input[value='KOREA']{
@@ -1443,19 +1443,19 @@
     }
     [class$='Box'] form input{
         width: 100%; display: block;
-        box-sizing: border-box;
+        box-sizing: border-box; font-family: 'HelveticaNeue';
     }
     [class$='Box'] form input[type='email'],
     [class$='Box'] form input[type='password']{
         border: 1px solid #f2f2f2; padding: 20px 5.8%;
         font-size: 14px; font-weight: 400; color: #000; 
-        box-sizing: border-box; margin-bottom: 20px; 
+        box-sizing: border-box; margin-bottom: 20px; font-family: 'HelveticaNeue';
     }
     [class$='Box'] a.btn_confirm{
         width: 100%;
         display: block; box-sizing: border-box;
         padding: 18px 6.9%; text-decoration: none; text-align: center;
-        font-size: 20px;
+        font-size: 20px; 
         color: #ffffff; margin-bottom: 20px;
     }
     .findBox > .btn_confirm{
@@ -2245,7 +2245,7 @@
         font-size: 14px; font-weight: 400; color: #000;
         border-bottom: 1px solid #f2f2f2;
         border-top: none; border-left: none; border-right: none;
-        margin-bottom: 20px;
+        margin-bottom: 20px; font-family: 'HelveticaNeue';
     }
     .contactsContainer form fieldset ul li input::placeholder{
         color: #000;
@@ -2449,6 +2449,7 @@
     .accountContainer > form fieldset:first-of-type input{
         width: 100%; box-sizing: border-box; border: 1px solid #f2f2f2;
         padding: 15px; font-size: 14px; font-weight: 200; color: #000;
+        font-family: 'HelveticaNeue';
     }
     .accountContainer > form fieldset:first-of-type input:not(:last-of-type){
         margin-bottom: 20px;
@@ -3174,7 +3175,7 @@
     }
     .btn_confirm:not(.findBox > .btn_confirm , .loginBox > form > a.btn_confirm,
     .sppayment .btn_confirm):first-of-type{
-        width: 100%; 
+        width: 100%; margin-bottom: 40px;
     }
     .subscribeContainer div.last_text{
         max-width: 1140px; margin: 0 auto;
@@ -3316,7 +3317,8 @@
     div.mainContent ul li[class^='context']:nth-of-type(4) div input[type="email"]{
         background-color: transparent; border-style: none; 
         font-size: 16px; line-height: 32px; 
-        border-bottom: solid 1px #ffcbac; width: 83%; margin: 0px 4.8% 0px 4.8%;
+        border-bottom: solid 1px #ffcbac; width: 83%; 
+        margin: 0px 4.8% 0px 4.8%; font-family: 'HelveticaNeue';
     }
    
     div.mainContent ul li[class^='context']:nth-of-type(4) div a.btn_half{
@@ -4295,12 +4297,10 @@
     [class^='user'] form input[type='tel']{
         display: block; width: 100%; 
         border: solid 1px #f2f2f2;
-        padding: 20px 15px;
-        font-size: 14px; 
-        line-height: 32px;
-        font-weight: 200;
-        color: #999999;
-        text-transform: uppercase;
+        padding: 20px 15px; font-size: 14px; 
+        line-height: 32px; font-weight: 200;
+        color: #999999; text-transform: uppercase;
+        font-family: 'HelveticaNeue';
     }
 
     [class^='user'] form input:nth-of-type(2){
@@ -4400,10 +4400,9 @@
         margin-bottom: 20px;
     }
     .emContainer > div form fieldset:first-of-type ul li input{
-        width: 100%;
-        box-sizing: border-box;
-        border: 1px solid #f2f2f2;
-        padding: 15px 4.3%;
+        width: 100%; box-sizing: border-box;
+        border: 1px solid #f2f2f2; padding: 15px 4.3%;
+        font-family: 'HelveticaNeue';
     }
     .emContainer > div form fieldset:first-of-type ul li:nth-child(2),
     .emContainer > div form fieldset:first-of-type ul li:nth-child(5),
@@ -4659,17 +4658,14 @@
         border: 1px solid #f2f2f2; padding: 20px 2.6%;
         font-size: 14px; font-weight: 300;
         color: #666666; box-sizing: border-box; 
-        margin-bottom: 20px; 
+        margin-bottom: 20px; font-family: 'HelveticaNeue';
     }
     [class$='Box'] a.btn_confirm{
-        display: block;
-        box-sizing: border-box;
-        padding: 18px 2.4%;
-        text-decoration: none;
-        text-align: center;
-        font-size: 20px;
-        color: #ffffff;
-        margin-bottom: 50px;
+        display: block; box-sizing: border-box;
+        padding: 18px 2.4%; text-decoration: none;
+        text-align: center; font-size: 20px;
+        color: #ffffff; margin-bottom: 50px;
+        font-family: 'HelveticaNeue';
     }
     
     [class$='Box'] div{
@@ -5464,7 +5460,7 @@
         font-size: 14px; font-weight: 200; color: #000;
         border-bottom: 1px solid #f2f2f2;
         border-top: none; border-left: none; border-right: none;
-        margin-bottom: 20px;
+        margin-bottom: 20px; font-family: 'HelveticaNeue';
     }
     .contactsContainer form fieldset ul li input::placeholder{
         color: #000;
@@ -5563,7 +5559,7 @@
         box-sizing: border-box;
         border-left: none; border-right: none; border-top: none;
         border-bottom: 1px solid #f2f2f2;
-        padding: 22px;
+        padding: 22px; font-family: 'HelveticaNeue';
     }
     .contacts_Area .ordertk_smaill_Box > form > fieldset  > input[type="email"]{
         margin-bottom: 50px;
@@ -5666,8 +5662,8 @@
     }
     .accountContainer > form fieldset:first-of-type input{
         width: 48%; box-sizing: border-box; border: 1px solid #f2f2f2;
-        float: left;
-        padding: 15px; font-size: 14px; font-weight: 200; color: #000;
+        float: left; padding: 15px; font-size: 14px; font-weight: 200; 
+        color: #000; font-family: 'HelveticaNeue';
     }
     .accountContainer > form fieldset:first-of-type input:not(:last-of-type){
         margin-bottom: 20px;
@@ -6515,7 +6511,8 @@
     div.mainContent ul li[class^='context']:nth-of-type(4) div input[type="email"]{
         background-color: transparent; border-style: none; 
         font-size: 16px; line-height: 32px; 
-        border-bottom: solid 1px #ffcbac; width: 90%; margin: 0px 4.8% 0px 4.8%;
+        border-bottom: solid 1px #ffcbac; width: 90%; 
+        margin: 0px 4.8% 0px 4.8%; font-family: 'HelveticaNeue';
     }
    
     div.mainContent ul li[class^='context']:nth-of-type(4) div a.btn_half{
@@ -7495,12 +7492,10 @@
     [class^='user'] form input[type='tel']{
         display: block; width: 100%; 
         border: solid 1px #f2f2f2; margin: 0px 0px 20px;
-        padding: 20px 15px;
-        font-size: 14px; 
-        line-height: 32px;
-        font-weight: 200;
-        color: #999999;
-        text-transform: uppercase;
+        padding: 20px 15px; font-size: 14px; 
+        line-height: 32px; font-weight: 200;
+        color: #999999; text-transform: uppercase;
+        font-family: 'HelveticaNeue';
     }
 
     [class^='user'] form input:nth-of-type(2){
@@ -7603,10 +7598,9 @@
         
     }
     .emContainer > div form fieldset:first-of-type ul li input{
-        width: 100%;
-        box-sizing: border-box;
-        border: 1px solid #f2f2f2;
-        padding: 15px 5.6%;
+        width: 100%; box-sizing: border-box;
+        border: 1px solid #f2f2f2; padding: 15px 5.6%;
+        font-family: 'HelveticaNeue';
     }
     .emContainer > div form fieldset:first-of-type ul li:nth-child(2),
     .emContainer > div form fieldset:first-of-type ul li:nth-child(5),
@@ -7848,7 +7842,7 @@
         border: 1px solid #f2f2f2; padding: 20px 3.1%;
         font-size: 14px; font-weight: 300; 
         color: #666666; box-sizing: border-box; 
-        margin-bottom: 20px; 
+        margin-bottom: 20px; font-family: 'HelveticaNeue';
     }
     [class$='Box'] a.btn_confirm{
         display: block; box-sizing: border-box;
@@ -8588,7 +8582,7 @@
         font-size: 14px; font-weight: 200; color: #000;
         border-bottom: 1px solid #f2f2f2;
         border-top: none; border-left: none; border-right: none;
-        margin-bottom: 20px;
+        margin-bottom: 20px;font-family: 'HelveticaNeue';
     }
     .contactsContainer form fieldset ul li input::placeholder{
         color: #000;
@@ -8691,7 +8685,7 @@
         box-sizing: border-box;
         border-left: none; border-right: none; border-top: none;
         border-bottom: 1px solid #f2f2f2;
-        padding: 22px;
+        padding: 22px; font-family: 'HelveticaNeue';
     }
     .contacts_Area .ordertk_smaill_Box > form > fieldset  > input[type="email"]{
         margin-bottom: 50px;
@@ -8795,8 +8789,8 @@
     }
     .accountContainer > form fieldset:first-of-type input{
         width: 48%; box-sizing: border-box; border: 1px solid #f2f2f2;
-        float: left;
-        padding: 15px; font-size: 14px; font-weight: 200; color: #000;
+        float: left;padding: 15px; font-size: 14px; font-weight: 200; 
+        color: #000; font-family: 'HelveticaNeue';
     }
     .accountContainer > form fieldset:first-of-type input:not(:last-of-type){
         margin-bottom: 20px;
@@ -8879,7 +8873,7 @@
     }
     .accountContainer > form ul li input[type='checkbox']+label:after{
         content: 'View Details'; width: 130px; padding-right: 30px; box-sizing: border-box;
-        text-align: right; font-weight: 700;
+        text-align: right; font-weight: bold;
         background: url('../images/arrow_row_icon.jpg') right center / 15px no-repeat; display: block;
         position: absolute; right: 0; top: 18px;
     }

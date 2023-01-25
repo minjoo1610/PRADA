@@ -24,7 +24,8 @@ body{
     .detailContainer aside.open .btn.blackWhite,
     .emContainer .btn_confirm,
     .emContainer aside div:nth-of-type(2) a.btn_confirm,
-    .findBox .btn_confirm{
+    .findBox .btn_confirm,
+    [class^='context']{
         font-family: 'Optima';
     }
     .galleriaContainer > h2,
@@ -36,7 +37,7 @@ body{
     div.lastone ul li figcaption .btn_confirm{
         font-family: 'Optima Bold';
     }
-    [class^='context'],
+    
     div.userBox a.btn_confirm,
     [class^='user'] h2,
     [class$='Box'] a.btn_confirm{
