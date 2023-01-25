@@ -291,7 +291,7 @@
    } 
    .detailContainer aside.open div mark{
     align-self: center; 
-    display:inline-block
+    display:inline-block;
    }
    .detailContainer aside.open div span{
     text-align: right; margin-top: 20px;
@@ -423,7 +423,7 @@
    div.lastone ul li figcaption .btn_confirm{
     background-color: #000000; font-size: 25px; line-height: 32px;
     color: #ffffff; text-decoration: none; font-weight: bold;
-    box-sizing: border-box; padding: 5px 7%; 
+    box-sizing: border-box; padding: 5px 3%; display: block;
     text-transform: none; letter-spacing: 1px;
    }
    div.lastone ul li figcaption dl{
@@ -569,24 +569,24 @@
     padding: 120px 0px 0px;
     }
    .psphereContainer5 > h2{
-    background: url('../images/PRADASPHERE/pradasphere5bg.jpg') center / 45vh no-repeat;
+    background: url('../images/PRADASPHERE/pradasphere5bg.jpg') center / cover no-repeat;
     padding: 120px 0px 5px;
-}
+    }
    .psphereContainer6 > h2{
-    background: url('../images/PRADASPHERE/pradasphere6bg.jpg')  center / 45vh no-repeat;
+    background: url('../images/PRADASPHERE/pradasphere6bg.jpg')  center / cover no-repeat;
     padding: 125px 0px 0px;
-}
+    }
    .psphereContainer7 > h2{
-    background: url('../images/PRADASPHERE/pradasphere7bg.jpg') center / 70vh no-repeat;
+    background: url('../images/PRADASPHERE/pradasphere7bg.jpg') center / cover no-repeat;
     padding: 130px 0px 30px;
-}
+    }
    .psphereContainer8 > h2{
     background: url('../images/PRADASPHERE/pradasphere8bg.jpg') center / cover no-repeat;
     padding: 180px 0px 25px; 
-}
+    }
     .psphereContainer1 ul li.pstextRight{
     background: url('../images/PRADASPHERE/pradasphere_1_1.jpg') left top / 100% no-repeat; 
-}
+    }
         
     [class^='psphere'] ul li.pstextRight div,
     [class^='psphere'] ul li.pstextLeft div{
@@ -1251,8 +1251,8 @@
     .emContainer > div form fieldset:nth-of-type(2) ul li input[type='checkbox']+label,
     .emContainer > div form fieldset:nth-of-type(5) ul li input[type='checkbox']+label{
         box-sizing: border-box; display: block; width: 100%; 
-        border-bottom: 1px solid #f2f2f2; font-size: 14px; line-height: 20px; color: #000000; font-weight: 300;
-        position: relative;
+        border-bottom: 1px solid #f2f2f2; font-size: 14px; line-height: 20px; color: #000000; 
+        font-weight: 300; position: relative;
     }
     .emContainer > div form fieldset:nth-of-type(2) ul li input[type='checkbox']:checked+label,
     .emContainer > div form fieldset:nth-of-type(5) ul li input[type='checkbox']:checked+label{
@@ -1598,8 +1598,9 @@
         background-color: #fff;
         position: fixed;
         right: 0;
-        max-width: 260px;
-        margin: -155px 3.8%; 
+        bottom: 10px;
+        left: 3.5%;
+        width: 93%;
         padding: 30px 0% 0px;
         z-index: 10;
 
@@ -2319,7 +2320,7 @@
         width: 100%; margin-bottom: 35px;
     }
     .contacts_Area{
-        max-width: 260px; margin: 0 auto; display: block;
+        width: 93%; margin: 0 auto; display: block;
     }
     
     .contacts_Area [class$='smaill_Box']{
@@ -2562,7 +2563,7 @@
         background: url('../images/About-us_main.jpg') top / 475% no-repeat;
         text-align: left; line-height: 25px; font-weight: 700;
         font-size: 20px; color: #ffffff; text-shadow: 2px 15px 10px rgba(0,0,0,0.8);
-        padding: 36% 18% 239px;  position: relative;
+        padding: 95px 22% 239px;  position: relative;
     }
     .aboutasContainer > h2 > img{
         max-width: 120px; position: absolute;
@@ -2887,7 +2888,7 @@
     .sppayment .btn_confirm:first-of-type{
         background-color: #fff; border: 1px solid #f2f2f2;
         font-size: 18px; color: #000; font-weight: 500; margin: 0px;
-        padding: 19px 3.8%; 
+        padding: 16px 3.8%; 
     }
     .sppayment > aside{
         width: 100%; 
@@ -3171,12 +3172,13 @@
     .subscribeContainer > .subscribeapply form fieldset:nth-of-type(2) ul li:last-child input[type='checkbox']:checked+label{
         margin: 0px 0px 0px 0px;
     }
-    .btn_confirm:not(.accountContainer){
+    .btn_confirm:not(.accountContainer, .sppayment .btn_confirm){
         width: 50%; padding: 10px 3.8%;
         text-transform: uppercase; font-size: 16px; font-weight: 500;
         font-family: 'HelveticaNeue';
     }
-    .btn_confirm:not(.findBox > .btn_confirm , .loginBox > form > a.btn_confirm):first-of-type{
+    .btn_confirm:not(.findBox > .btn_confirm , .loginBox > form > a.btn_confirm,
+    .sppayment .btn_confirm):first-of-type{
         width: 100%; 
     }
     .subscribeContainer div.last_text{
@@ -3625,8 +3627,8 @@
    div.lastone ul li figcaption .btn_confirm{
     background-color: #000000; font-size: 55px; line-height: 32px;
     color: #ffffff; text-decoration: none; font-weight: bold;
-    box-sizing: border-box; padding: 5px 14%; 
-    text-transform: none; letter-spacing: 3px;
+    box-sizing: border-box; padding: 25px 3.5%; 
+    text-transform: none; letter-spacing: 3px; display: block;
    }
    div.lastone ul li figcaption dl{
     background-color: #ffffff; font-size: 20px; line-height: 32px; color: #333333;
@@ -4325,9 +4327,8 @@
     /* user Fin */
 
     #Enrollmentpopup{
-        position: fixed; top: 29%; left: 3.5%;
-        width: 100%;
-        max-width: 700px;
+        position: fixed; top: 270px; left: 1.9%;
+        width: 95.9%;
         background-color: #ffffff;
         padding: 120px 65px;
         text-align: center;
@@ -4604,14 +4605,16 @@
     /* Enrollment fin */
     #pwfindpopup{
         display: none;
-        position: fixed;
-        width: 37%;
+        text-align: center;
+        width: 95.9%;
         min-width: 700px;
+        text-align: center;
         box-sizing: border-box;
         border: 1px solid #000;
         background-color: #fff;
-        left: 4.5%;
-        top: 35%;
+        position: fixed;
+        top: 270px;
+        left: 1.9%;
         text-align: center;
         padding: 100px 0px;
         z-index: 10; 
@@ -4815,12 +4818,13 @@
         display: none;
         box-sizing: border-box;
         background-color: #fff;
-        position: absolute;
+        position: fixed;
         right: 0;
         max-width: 700px;
-        margin: -355px 70px; 
+        margin: 0px 19.2%; 
         padding: 30px 1.7%;
         z-index: 10;
+        top: 270px;
     }
     #vsdetaile_popup h3{
         box-sizing: border-box;
@@ -5368,14 +5372,16 @@
     }
     #contactsand_popup{
         display: none;
-        width: 37%;
+        text-align: center;
+        width: 95.9%;
         min-width: 700px;
+        text-align: center;
         box-sizing: border-box;
         border: 1px solid #000;
         background-color: #fff;
-        position: absolute;
-        left: 31.5%;
-        top: 40%;
+        position: fixed;
+        top: 270px;
+        left: 1.9%;
         text-align: center;
         padding: 100px 0px;
         z-index: 10; 
@@ -5610,18 +5616,19 @@
     }
     #acd_popup{
         display: none;
-        width: 37%;
+        text-align: center;
+        width: 95.9%;
         min-width: 700px;
+        text-align: center;
         box-sizing: border-box;
         border: 1px solid #000;
         background-color: #fff;
         position: fixed;
-        left: 3%;
-        top: 40%;
+        top: 270px;
+        left: 1.9%;
         text-align: center;
         padding: 100px 0px;
-        z-index: 10;   
-
+        z-index: 10; 
     }
     #acd_popup h2{
         font-size: 18px;
@@ -5789,7 +5796,7 @@
         background: url('../images/About-us_main.jpg') center top /cover no-repeat;
         text-align: left; line-height: 32px; font-weight: 700;
         font-size: 53px; color: #ffffff; text-shadow: 2px 15px 10px rgba(0,0,0,0.8);
-        padding: 20% 7.1% 270px;  position: relative;
+        padding: 145px 13% 270px;  position: relative;
     }
     .aboutasContainer > h2 > img{
         max-width: 220px; position: absolute;
@@ -5872,7 +5879,7 @@
         font-weight: 500; 
     }
     .aboutasContainer ul li[class^='ceo'] > div{
-        width: 50%; display: block; float: left;
+        width: 100%; display: block; float: left;
         box-sizing: border-box; border: 1px solid #f2f2f2;
         
     }
@@ -5902,18 +5909,19 @@
     }
     #cancel_popup{
         display: none;
-        width: 37%;
+        text-align: center;
+        width: 95.9%;
         min-width: 700px;
+        text-align: center;
         box-sizing: border-box;
         border: 1px solid #000;
         background-color: #fff;
-        position: absolute;
-        left: 31.5%;
-        top: 40%;
+        position: fixed;
+        top: 270px;
+        left: 1.9%;
         text-align: center;
         padding: 100px 0px;
         z-index: 10; 
-
     }
     #cancel_popup h2{
         font-size: 18px;
@@ -5940,18 +5948,19 @@
     }
     #confirm_popup{
         display: none;
-        width: 37%;
+        text-align: center;
+        width: 95.9%;
         min-width: 700px;
+        text-align: center;
         box-sizing: border-box;
         border: 1px solid #000;
         background-color: #fff;
-        position: absolute;
-        left: 31.5%;
-        top: 40%;
+        position: fixed;
+        top: 270px;
+        left: 1.9%;
         text-align: center;
         padding: 100px 0px;
         z-index: 10; 
-
     }
     #confirm_popup h2{
         font-size: 18px;
@@ -6042,13 +6051,13 @@
     }
     .sppayment > div form fieldset > div:nth-of-type(2) ul li input[type='submit'],
     .sppayment > div form fieldset > div:nth-of-type(2) ul li input[type='button']{
-        top: 267px; font-size: 18px; color: #cccccc; font-weight: 500;
+        top: 253px; font-size: 18px; color: #cccccc; font-weight: 500;
         font-family: 'HelveticaNeue'; letter-spacing: 1px;
 
     }
     .sppayment > div form fieldset > div:nth-of-type(2) ul li input[type='button']{
-        top: 402px; text-indent: -9999px; 
-        background: url(../images/visa_icon.png) center/ 44px no-repeat;
+        top: 388px; text-indent: -9999px; 
+        background: url('../images/visa_icon.png') center/ 44px no-repeat;
     }
     .sppayment ul{
         list-style: none; 
@@ -6245,15 +6254,20 @@
     }
     #subscribe_popup,
     #subscribecc_popup{
-        position: fixed; top: 29%; left: 3.5%;
-        width: 100%;
-        max-width: 700px;
-        background-color: #ffffff;
-        padding: 120px 65px;
+        display: none;
+        text-align: center;
+        width: 95.9%;
+        min-width: 700px;
         text-align: center;
         box-sizing: border-box;
         border: 1px solid #000;
-        z-index: 10; display: none;
+        background-color: #fff;
+        position: fixed;
+        top: 270px;
+        left: 1.9%;
+        text-align: center;
+        padding: 100px 0px;
+        z-index: 10; 
     }
     #subscribe_popup h2,
     #subscribecc_popup h2{
@@ -6367,14 +6381,13 @@
     .subscribeContainer > .subscribeapply form fieldset:nth-of-type(2) ul li:last-child input[type='checkbox']:checked+label{
         margin: 0px 0px 0px 0px;
     }
-    .btn_confirm:not(.accountContainer, .btn_confirm:first-of-type, .sppayment .btn_confirm:last-of-type){
+    .subscribeContainer .btn_confirm:not(.accountContainer, .sppayment .btn_confirm:last-of-type){
         width: 100%; padding: 15px;
         text-transform: uppercase; font-size: 22px; font-weight: 500;
         cursor: pointer; font-family: 'HelveticaNeue';
-    }
-    .btn_confirm:first-of-type{
         margin-bottom: 77px;
     }
+    
     .subscribeContainer div.last_text{
         max-width: 1140px; margin: 0 auto;
     }
@@ -6823,15 +6836,16 @@
    }
    div.lastone ul li figure img{
     padding-bottom: 100px;
-    max-width: 57.5%;
+    max-width: 100%;
    }
 
    div.lastone ul li figcaption .btn_confirm{
     background-color: #000000; font-size: 55px; line-height: 32px;
     color: #ffffff; text-decoration: none; font-weight: bold;
-    box-sizing: border-box; padding: 12px 5%; 
-    text-transform: none; letter-spacing: 3px;
+    box-sizing: border-box; padding: 25px 3.5%; 
+    text-transform: none; letter-spacing: 3px;  display: block;
    }
+
    div.lastone ul li figcaption dl{
     background-color: #ffffff; font-size: 20px; line-height: 32px; color: #333333;
     font-weight: 100; 
@@ -9505,11 +9519,12 @@
     .subscribeContainer > .subscribeapply form fieldset:nth-of-type(2) ul li:last-child input[type='checkbox']:checked+label{
         margin: 0px 0px 0px 0px;
     }
-    .subscribeContainer > .btn_confirm:not(.accountContainer){
+    .subscribeContainer .btn_confirm:not(.accountContainer){
         width: 100%; 
         text-transform: uppercase; font-size: 20px; font-weight: normal;
         line-height: 32px; margin-top: 35px; cursor: pointer;
         font-family: 'HelveticaNeue'; padding: 15px 2.65%;
+        margin-bottom: 77px;
     }
    
     .subscribeContainer > .btn_confirm:first-of-type{
