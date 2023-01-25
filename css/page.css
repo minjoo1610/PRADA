@@ -40,7 +40,7 @@
     }
     div.mainContent ul li[class^='context'] div h2{
         text-align: center; font-size: 20px; line-height: 32px;
-        font-weight: 500; padding-top: 38px; 
+        padding-top: 38px; 
     }
 
     div.mainContent ul li[class^='context']:nth-of-type(1) div *:not(a){
@@ -360,7 +360,7 @@
     background: url('../images/galleria/Galleria_main.jpg') center top / 115vw no-repeat;
     padding: 42.5% 0px 55px; 
     text-align: center;
-    font-size: 15px;  line-height: 20px; font-weight: 700;
+    font-size: 15px;  line-height: 20px;
     color: #ffffff; text-shadow: 2px 3px 10px rgba(0,0,0,5);
    }
    section.galleriaContainer ul{
@@ -422,7 +422,7 @@
    }
    div.lastone ul li figcaption .btn_confirm{
     background-color: #000000; font-size: 25px; line-height: 32px;
-    color: #ffffff; text-decoration: none; font-weight: bold;
+    color: #ffffff; text-decoration: none; 
     box-sizing: border-box; padding: 5px 3%; display: block;
     text-transform: none; letter-spacing: 1px;
    }
@@ -455,7 +455,7 @@
     background: url('../images/galleria/l_Galleria_main.jpg') center/ 100vw no-repeat;
     padding: 81.5% 0px 140px; 
     text-align: center;
-    font-size: 15px;  line-height: 20px; font-weight: 700;
+    font-size: 15px;  line-height: 20px;
     color: #ffffff; text-shadow: 2px 3px 10px rgba(0,0,0,5);
    }
    section.galleiraList ul{
@@ -470,7 +470,7 @@
    }
    div.listParadasphere h2{
     font-size: 22px; color: #333333;
-    font-weight: normal; text-align: center;
+    text-align: center;
     
    }
    div.listParadasphere ul{
@@ -533,7 +533,7 @@
    
    [class^='psphere'] > h2{
     text-align: center;
-    font-size: 15px;  line-height: 20px; font-weight: 700;
+    font-size: 15px;  line-height: 20px; 
     color: #ffffff; text-shadow: 2px 2px 10px rgba(0,0,0,1);
     box-sizing: border-box; padding: 50% 0px 0px;
    }
@@ -716,7 +716,6 @@
         font-size: 15px;
         line-height: 20px;
         text-align: center;
-        font-weight: 700;
         color: #333333;
     }
     .psphereContainer2 .pslastone ul li figure figcaption dl dt{
@@ -725,7 +724,6 @@
     [class^='psphere'] .pslastone ul li figure figcaption dl dd{
         font-size: 14px;
         line-height: 25px;
-        font-weight: 300;
         color: #333333;
         text-align: center;
         padding: 0px 4%;
@@ -1093,7 +1091,7 @@
     }
     [class^='user'] h2{
         font-size: 40px; text-align: left; line-height: 32px;
-        color: #333333; font-weight: 300; margin-bottom: 45px;
+        color: #333333; margin-bottom: 45px;
     }
     [class^='user'] strong{
         font-size: 20px; line-height: 32px;
@@ -1122,8 +1120,7 @@
 
     div.userBox a.btn_confirm{
         display: block;
-        font-size: 13px;
-        font-weight: 400; 
+        font-size: 13px; 
         color: #fff;
         text-decoration: none;
         text-align: center;
@@ -1177,7 +1174,6 @@
         font-size: 32px;
         line-height: 32px;
         color: #333333;
-        font-weight: normal;
         margin-bottom: 40px;
     }
     .emContainer > div > p{
@@ -1341,7 +1337,7 @@
     }
 
     .emContainer .btn_confirm{
-        width: 100%; text-transform: uppercase; font-size: 20px; font-weight: normal;
+        width: 100%; text-transform: uppercase; font-size: 20px; 
         line-height: 32px; 
     }
 
@@ -1349,7 +1345,7 @@
         width: 100%; 
     }
     .emContainer aside h3{
-        font-size: 20px; font-weight: normal; line-height: 30px; color: #333333;
+        font-size: 20px; line-height: 30px; color: #333333;
         margin-bottom: 30px; text-align: center;
     }
     .emContainer aside h3:last-of-type{
@@ -1439,7 +1435,7 @@
     }
     [class$='Box'] h2{
         font-size: 32px; line-height: 32px; color: #333333;
-        font-weight: normal; margin-bottom: 40px;
+        margin-bottom: 40px;
     }
     [class$='Box'] p{
         font-size: 16px; color: #666666; font-weight: 300;
@@ -1459,8 +1455,8 @@
         width: 100%;
         display: block; box-sizing: border-box;
         padding: 18px 6.9%; text-decoration: none; text-align: center;
-        font-size: 20px; font-weight: 400; color: #ffffff;
-        cursor: pointer; margin-bottom: 20px;
+        font-size: 20px;
+        color: #ffffff; margin-bottom: 20px;
     }
     .findBox > .btn_confirm{
         max-width: 260px;
@@ -2433,7 +2429,6 @@
     
     .accountContainer h2{
         font-size: 32px; 
-        font-weight: normal;
         margin-bottom: 40px;
     }
     .accountContainer p{
@@ -2552,7 +2547,7 @@
     }
     .accountContainer > form fieldset:last-of-type input[type='button']{
         width: 100%; padding: 10px 5.7%;
-        font-size: 14px; font-weight: normal; margin-bottom: 20px;
+        font-size: 14px; margin-bottom: 20px;
     }
     /* account detail Fin */
 
@@ -2561,7 +2556,7 @@
     }
     .aboutasContainer > h2{
         background: url('../images/About-us_main.jpg') top / 475% no-repeat;
-        text-align: left; line-height: 25px; font-weight: 700;
+        text-align: left; line-height: 25px; 
         font-size: 20px; color: #ffffff; text-shadow: 2px 15px 10px rgba(0,0,0,0.8);
         padding: 95px 22% 239px;  position: relative;
     }
@@ -2768,7 +2763,7 @@
     }
     .sppayment h2{
         width: 100%;
-        font-size: 32px; font-weight: normal;
+        font-size: 32px; 
         color: #000; margin: 100px 0px 60px;
     }
     
@@ -3244,7 +3239,7 @@
     }
     div.mainContent ul li[class^='context'] div h2{
         text-align: center; font-size: 36px; line-height: 32px;
-        font-weight: 400; padding-top: 60px; 
+        padding-top: 60px; 
     }
 
     div.mainContent ul li[class^='context']:nth-of-type(1) div *:not(a){
@@ -3626,7 +3621,7 @@
    }
    div.lastone ul li figcaption .btn_confirm{
     background-color: #000000; font-size: 55px; line-height: 32px;
-    color: #ffffff; text-decoration: none; font-weight: bold;
+    color: #ffffff; text-decoration: none; 
     box-sizing: border-box; padding: 25px 3.5%; 
     text-transform: none; letter-spacing: 3px; display: block;
    }
@@ -3659,7 +3654,7 @@
     background: url('../images/galleria/l_Galleria_main.jpg') bottom / 100% no-repeat;
     padding: 77.5% 0px 75px; 
     text-align: center;
-    font-size: 55px;  line-height: 32px; font-weight: 700;
+    font-size: 55px;  line-height: 32px; 
     color: #ffffff; text-shadow: 2px 3px 10px rgba(0,0,0,5);
    }
    section.galleiraList ul{
@@ -3674,7 +3669,7 @@
    }
    div.listParadasphere h2{
     font-size: 60px; color: #333333;
-    font-weight: 100; text-align: center;
+    text-align: center;
     
    }
    div.listParadasphere ul{
@@ -3740,7 +3735,7 @@
    
    [class^='psphere'] > h2{
     text-align: center;
-    font-size: 30px;  line-height: 32px; font-weight: 700;
+    font-size: 30px;  line-height: 32px; 
     color: #ffffff; text-shadow: 2px 2px 10px rgba(0,0,0,1);
     box-sizing: border-box; padding: 50% 0px 0px;
    }
@@ -3926,7 +3921,6 @@
         font-size: 35px;
         line-height: 50px;
         text-align: center;
-        font-weight: 700;
         color: #333333;
     }
     .psphereContainer2 .pslastone ul li figure figcaption dl dt{
@@ -3935,7 +3929,6 @@
     [class^='psphere'] .pslastone ul li figure figcaption dl dd{
         font-size: 20px;
         line-height: 32px;
-        font-weight: 100;
         color: #333333;
         text-align: center;
         padding: 0px 5.5%;
@@ -4284,7 +4277,6 @@
         text-align: left;
         line-height: 32px;
         color: #333333;
-        font-weight: 300;
         margin-bottom: 45px;
     }
     [class^='user'] strong{
@@ -4375,7 +4367,6 @@
         font-size: 40px;
         line-height: 32px;
         color: #333333;
-        font-weight: normal;
         margin-bottom: 73px;
     }
     .emContainer > div > p{
@@ -4543,8 +4534,8 @@
     }
 
     .emContainer .btn_confirm{
-        width: 100%; text-transform: uppercase; font-size: 20px; font-weight: normal;
-        line-height: 32px; font-family: optima;
+        width: 100%; text-transform: uppercase; font-size: 20px;
+        line-height: 32px; 
     }
 
     .emContainer aside{
@@ -4552,7 +4543,6 @@
     }
     .emContainer aside h3{
         font-size: 30px;
-        font-weight: normal;
         color: #333333;
         margin-bottom: 50px;
     }
@@ -4651,7 +4641,6 @@
         font-size: 40px;
         line-height: 32px;
         color: #333333;
-        font-weight: normal;
         margin-bottom: 40px;
     }
     [class$='Box'] p{
@@ -4679,9 +4668,7 @@
         text-decoration: none;
         text-align: center;
         font-size: 20px;
-        font-weight: 400;
         color: #ffffff;
-        cursor: pointer;
         margin-bottom: 50px;
     }
     
@@ -5658,7 +5645,6 @@
     }
     .accountContainer h2{
         font-size: 40px; 
-        font-weight: normal;
         margin-bottom: 73px;
     }
     .accountContainer p{
@@ -5784,8 +5770,8 @@
         margin-bottom: 65px;
     }
     .accountContainer > form fieldset:last-of-type input[type='button']{
-        width: 100%; cursor: pointer; padding: 10px;
-        font-size: 20px; font-weight: normal; margin-bottom: 60px;
+        width: 100%; padding: 10px;
+        font-size: 20px; margin-bottom: 60px;
     }
     /* account detail Fin */
 
@@ -5794,7 +5780,7 @@
     }
     .aboutasContainer > h2{
         background: url('../images/About-us_main.jpg') center top /cover no-repeat;
-        text-align: left; line-height: 32px; font-weight: 700;
+        text-align: left; line-height: 32px; 
         font-size: 53px; color: #ffffff; text-shadow: 2px 15px 10px rgba(0,0,0,0.8);
         padding: 145px 13% 270px;  position: relative;
     }
@@ -5992,7 +5978,7 @@
     }
     .sppayment h2{
         width: 100%;
-        font-size: 40px; font-weight: normal;
+        font-size: 40px;
         color: #000; margin: 219px 0px 98px;
     }
     .sppayment > *{
@@ -6453,7 +6439,6 @@
     }
     div.mainContent ul li[class^='context'] div h2{
         text-align: center; font-size: 36px; line-height: 32px;
-        font-weight: 400; 
     }
 
     div.mainContent ul li[class^='context']:nth-of-type(1) div *:not(a){
@@ -6771,7 +6756,7 @@
     background: url('../images/galleria/Galleria_main.jpg') center top;
     padding: 36% 0px 180px; 
     text-align: center;
-    font-size: 55px;  line-height: 32px; font-weight: 700;
+    font-size: 55px;  line-height: 32px;
     color: #ffffff; text-shadow: 2px 3px 10px rgba(0,0,0,5);
    }
    section.galleriaContainer ul{
@@ -6841,7 +6826,7 @@
 
    div.lastone ul li figcaption .btn_confirm{
     background-color: #000000; font-size: 55px; line-height: 32px;
-    color: #ffffff; text-decoration: none; font-weight: bold;
+    color: #ffffff; text-decoration: none; 
     box-sizing: border-box; padding: 25px 3.5%; 
     text-transform: none; letter-spacing: 3px;  display: block;
    }
@@ -6876,7 +6861,7 @@
     background: url('../images/galleria/l_Galleria_main.jpg') left top / 100% no-repeat;
     padding: 570px 0px 186px; 
     text-align: center;
-    font-size: 55px;  line-height: 32px; font-weight: 700;
+    font-size: 55px;  line-height: 32px; 
     color: #ffffff; text-shadow: 2px 3px 10px rgba(0,0,0,5);
    }
    section.galleiraList ul{
@@ -6891,8 +6876,7 @@
    }
    div.listParadasphere h2{
     font-size: 60px; color: #333333;
-    font-weight: 100; text-align: center;
-    
+    text-align: center;
    }
    div.listParadasphere ul{
     list-style: none; margin: 90px 0px 0px;
@@ -6954,7 +6938,7 @@
    
    [class^='psphere'] > h2{
     text-align: center;
-    font-size: 55px;  line-height: 32px; font-weight: 700;
+    font-size: 55px;  line-height: 32px; 
     color: #ffffff; text-shadow: 2px 2px 10px rgba(0,0,0,1);
     box-sizing: border-box; padding: 300px 0px; margin-bottom: 100px;
    }
@@ -7129,13 +7113,11 @@
         margin:110px 0px 90px;
         font-size: 55px;
         text-align: center;
-        font-weight: 700;
         color: #333333;
     }
     [class^='psphere'] .pslastone ul li figure figcaption dl dd{
         font-size: 20px;
         line-height: 32px;
-        font-weight: 100;
         color: #333333;
         text-align: center;
     }
@@ -7495,7 +7477,6 @@
         font-size: 40px;
         line-height: 32px;
         color: #333333;
-        font-weight: 300;
         margin-bottom: 45px;
     }
     [class^='user'] strong{
@@ -7588,7 +7569,6 @@
         font-size: 40px;
         line-height: 32px;
         color: #333333;
-        font-weight: normal;
         margin-bottom: 73px;
     }
     .emContainer > div > p{
@@ -7755,7 +7735,6 @@
     }
     .emContainer aside h3{
         font-size: 30px;
-        font-weight: normal;
         color: #333333;
         margin-bottom: 50px;
     }
@@ -7851,7 +7830,6 @@
         font-size: 40px;
         line-height: 32px;
         color: #333333;
-        font-weight: normal;
         margin-bottom: 40px;
     }
     [class$='Box'] p{
@@ -7868,7 +7846,7 @@
     [class$='Box'] form input[type='email'],
     [class$='Box'] form input[type='password']{
         border: 1px solid #f2f2f2; padding: 20px 3.1%;
-        font-size: 14px; font-weight: 300;
+        font-size: 14px; font-weight: 300; 
         color: #666666; box-sizing: border-box; 
         margin-bottom: 20px; 
     }
@@ -7876,7 +7854,7 @@
         display: block; box-sizing: border-box;
         padding: 18px 3.7%; text-decoration: none;
         text-align: center; font-size: 20px;
-        font-weight: 400; color: #ffffff;
+        color: #ffffff;
         cursor: pointer; margin-bottom: 50px;
     }
     
@@ -8796,7 +8774,6 @@
     }
     .accountContainer h2{
         font-size: 40px; 
-        font-weight: normal;
         margin-bottom: 73px;
     }
     .accountContainer p{
@@ -8926,7 +8903,7 @@
     }
     .accountContainer > form fieldset:last-of-type input[type='button']{
         width: 100%; cursor: pointer;
-        font-size: 20px; font-weight: normal;
+        font-size: 20px; 
     }
 
     /* account detail Fin */
@@ -8936,7 +8913,7 @@
     }
     .aboutasContainer > h2{
         background: url('../images/About-us_main.jpg') center top;
-        text-align: left; line-height: 32px; font-weight: 700;
+        text-align: left; line-height: 32px; 
         font-size: 53px; color: #ffffff; text-shadow: 2px 15px 10px rgba(0,0,0,0.8);
         padding: 13% 7.1% 360px;  position: relative;
     }
@@ -9131,7 +9108,7 @@
     }
     .sppayment h2{
         width: 51.8%;
-        font-size: 40px; font-weight: normal;
+        font-size: 40px;
         color: #000; margin-bottom: 103px;
     }
     .sppayment > *{
