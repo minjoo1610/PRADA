@@ -8,7 +8,6 @@ body{
         text-decoration: none;
     }
     [class^='context'],
-    .galleriaContainer > h2,
     .galleiraList > h2,
     div.lastone ul li figcaption a,
     div.listParadasphere h2,
@@ -33,6 +32,9 @@ body{
     .emContainer aside div:nth-of-type(2) a.btn_confirm,
     .findBox .btn_confirm{
         font-family: 'Optima';
+    }
+    .galleriaContainer > h2{
+        font-family: 'Optima Bold';
     }
     .txtActive{
         font-weight: 700;
