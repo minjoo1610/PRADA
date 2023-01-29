@@ -2820,11 +2820,13 @@
         border: 1px solid #f2f2f2; padding: 39px 30px; position: absolute;
 
     }
-    .sppayment > div form fieldset > div:nth-of-type(2) ul li input[type='submit'],
-    .sppayment > div form fieldset > div:nth-of-type(2) ul li input[type='button']{
+    .sppayment > div form fieldset > div:nth-of-type(2) ul li input[type='button']{   
+        padding: 42px 26.9% 42px 3.8%; 
+    }
+    .sppayment > div form fieldset > div:nth-of-type(2) ul li input[type='submit']{
         top: 270px; font-size: 18px; color: #cccccc; font-weight: 500;
         font-family: 'HelveticaNeue'; letter-spacing: 1px;
-        padding: 38px 26.9% 38px 3.8%;
+        padding: 38px 25% 38px 6%; text-align: center;
     }
     .sppayment > div form fieldset > div:nth-of-type(2) ul li input[type='button']{
         top: 404px; text-indent: -9999px; 
@@ -4665,7 +4667,6 @@
         padding: 18px 2.4%; text-decoration: none;
         text-align: center; font-size: 20px;
         color: #ffffff; margin-bottom: 50px;
-        font-family: 'HelveticaNeue';
     }
     
     [class$='Box'] div{
