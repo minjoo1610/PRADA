@@ -5,7 +5,7 @@ $(document).ready(function(){
     toggleFunc(".wishNcart [id$='Container'] ol.wishBox li figure figcaption input[value='spicon']");
     toggleFunc(".wishNcart [id$='Container'] .cartBox ol li figure figcaption input[value='whicon']");
     toggleFunc("input[value='hticon']");
-    toggleFunc(".detailContainer aside h2 > input[value='button'].active");
+    toggleFunc(".detailContainer aside h2 > input[value='button']");
     toggleFunc(".storecontainer div fieldset:nth-of-type(2) input[type='button']");
     toggleFunc(".faq_Area .faq_Detail ul li");
     if (window.matchMedia("(max-width: 767px)").matches) {
