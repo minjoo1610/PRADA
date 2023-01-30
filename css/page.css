@@ -6075,7 +6075,7 @@
     }
     .sppayment .btn_confirm{
         width: 50%; float: left; font-family: 'HelveticaNeue';
-        margin-top: 0px; padding: 40px 3.4%;
+        margin-top: 0px; padding: 40px 3.4%; border:none;
     }
     .sppayment .btn_confirm:first-of-type{
         background-color: #fff; border: 1px solid #f2f2f2;

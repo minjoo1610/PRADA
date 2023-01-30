@@ -4,7 +4,7 @@ $(document).ready(function(){
     customBxSlider(".pscarousel",1,1,0,0,true,".customPager");
     toggleFunc(".wishNcart [id$='Container'] ol.wishBox li figure figcaption input[value='spicon']");
     toggleFunc(".wishNcart [id$='Container'] .cartBox ol li figure figcaption input[value='whicon']");
-    toggleFunc("[class$='List'] ul li figure figcaption input[type='button']");
+    toggleFunc("input[value='hticon']");
     toggleFunc(".detailContainer aside h2 a");
     toggleFunc(".storecontainer div fieldset:nth-of-type(2) input[type='button']");
     toggleFunc(".faq_Area .faq_Detail ul li");
