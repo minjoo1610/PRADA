@@ -6010,7 +6010,7 @@
     }
     .sppayment > div form fieldset > div:nth-of-type(2) ul li{
         box-sizing: border-box; border: 1px solid #f2f2f2;
-        padding: 25px 3.4%; margin-bottom: 35px;
+        padding: 25px 3.4%; margin-bottom: 35px; position: relative;
     }
     .sppayment > div form fieldset > div:nth-of-type(2) ul li label{
         font-size: 14px; color: #000; font-weight: 100;
@@ -6019,27 +6019,17 @@
         display: block; box-sizing: border-box; width: 94.6%; padding: 0;
         border: none; font-size: 18px; line-height: 32px; 
     }
-    
     .sppayment > div form fieldset > div:nth-of-type(2) ul li input[type='submit'],
     .sppayment > div form fieldset > div:nth-of-type(2) ul li input[type='button']{
-        display: none;
-    }
-    .sppayment > div form fieldset > div:nth-of-type(2) ul li input[type='submit'],
-    .sppayment > div form fieldset > div:nth-of-type(2) ul li input[type='button']{
-        width: 20.4%; right: 0; 
+        width: 20.4%; right: 0; top: -1px; line-height: 98px; position: absolute;
         display: block; background-color: #ffffff; box-sizing: border-box;
-        border: 1px solid #f2f2f2; padding: 39px 30px; position: absolute;
-
-    }
-    .sppayment > div form fieldset > div:nth-of-type(2) ul li input[type='submit'],
-    .sppayment > div form fieldset > div:nth-of-type(2) ul li input[type='button']{
-        top: 253px; font-size: 18px; color: #cccccc; font-weight: 500;
+        border: 1px solid #f2f2f2; padding: 0 30px;
+        font-size: 18px; color: #cccccc; font-weight: 500;
         font-family: 'HelveticaNeue'; letter-spacing: 1px;
 
     }
     .sppayment > div form fieldset > div:nth-of-type(2) ul li input[type='button']{
-        top: 388px; text-indent: -9999px; 
-        background: url('../images/visa_icon.png') center/ 44px no-repeat;
+        text-indent: -9999px; background: url('../images/visa_icon.png') center/ 44px no-repeat;
     }
     .sppayment ul{
         list-style: none; 
