@@ -265,12 +265,12 @@
     margin-bottom: 0px; padding: 25px 0px 20px;
    }
 
-   .detailContainer aside.open h2 a{
-    position: absolute; right: 0; top: 0px;
+   .detailContainer aside.open h2 > input[type='button']{
+    position: absolute; right: 0; top: 0px; border: none;
     text-indent: -9999px; width: 15px; height: 17px;
     background: url('../images/d_heart-regular.svg') center / contain no-repeat;
    }
-   .detailContainer aside.open h2 a.active{
+   .detailContainer aside.open h2 > input[type='button'].active{
     background: url('../images/d_heart-solid.svg') center / contain no-repeat;
    }
    .detailContainer aside.open p,
@@ -3469,12 +3469,12 @@
     box-sizing: border-box; line-height: 50px;
     margin-bottom: 0px; padding: 45px 0px 50px;
    }
-   .detailContainer aside.open h2 a{
-    position: absolute; right: 0; top: 35px;
+   .detailContainer aside.open h2 > input[type='button']{
+    position: absolute; right: 0; top: 35px; border: none;
     text-indent: -9999px; width: 30px; height: 26px;
     background: url('../images/d_heart-regular.svg') center / contain no-repeat;
    }
-   .detailContainer aside.open h2 a.active{
+   .detailContainer aside.open h2 > input[type='button'].active{
     background: url('../images/d_heart-solid.svg') center / contain no-repeat;
    }
    .detailContainer aside.open p,
@@ -6650,12 +6650,12 @@
     box-sizing: border-box; line-height: 50px;
     margin-bottom: 100px;
    }
-   [class^='detailContainer'] ul li figure figcaption input[type='button']{
-    position: absolute; right: 0; top: 5px;
+   .detailContainer aside h2 > input[type='button']{
+    position: absolute; right: 0; top: 5px; border: none;
     text-indent: -9999px; width: 30px; height: 26px;
     background: url('../images/d_heart-regular.svg') center / contain no-repeat;
    }
-   .detailContainer aside h2 a.active{
+   .detailContainer aside h2 > input[type='button'].active{
     background: url('../images/d_heart-solid.svg') center / contain no-repeat;
    }
    .detailContainer aside p,
