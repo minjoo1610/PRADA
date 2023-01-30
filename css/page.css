@@ -6650,7 +6650,7 @@
     box-sizing: border-box; line-height: 50px;
     margin-bottom: 100px;
    }
-   .detailContainer aside h2 a{
+   [class^='detailContainer'] ul li figure figcaption input[type='button']{
     position: absolute; right: 0; top: 5px;
     text-indent: -9999px; width: 30px; height: 26px;
     background: url('../images/d_heart-regular.svg') center / contain no-repeat;
