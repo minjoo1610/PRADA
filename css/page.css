@@ -2488,14 +2488,14 @@
     }
     
     .accountContainer > form ul li:not(:last-of-type) input[type='checkbox']+label{
-        background: url('../images/check_box_icon.jpg') left / 14px no-repeat;
+        background: url('../images/check_box_icon.png') left / 14px no-repeat;
         box-sizing: border-box; display: block;  padding: 30px 11.5%;
         clear: left; border-bottom: 1px solid #f2f2f2;
         font-size: 14px; line-height: 20px; color: #000000; font-weight: 300;
         position: relative;
     }
     .accountContainer > form fieldset:last-of-type input[type='checkbox']+label{
-        background: url('../images/check_box_icon.jpg') left / 14px no-repeat;
+        background: url('../images/check_box_icon.png') left / 14px no-repeat;
         box-sizing: border-box; display: block;  padding: 0px 30px;
         margin-bottom: 10px;
         font-size: 14px; line-height: 23px; color: #000000; font-weight: 300;
@@ -5704,14 +5704,14 @@
     }
     
     .accountContainer > form ul li:not(:last-of-type) input[type='checkbox']+label{
-        background: url('../images/check_box_icon.jpg') left / 14px no-repeat;
+        background: url('../images/check_box_icon.png') left / 14px no-repeat;
         box-sizing: border-box; display: block;  padding: 10px 30px;
         clear: left; border-bottom: 1px solid #f2f2f2;
         font-size: 14px; line-height: 32px; color: #000000; font-weight: 300;
         position: relative;
     }
     .accountContainer > form fieldset:last-of-type input[type='checkbox']+label{
-        background: url('../images/check_box_icon.jpg') left / 14px no-repeat;
+        background: url('../images/check_box_icon.png') left / 14px no-repeat;
         box-sizing: border-box; display: block;  padding: 0px 30px;
         margin-bottom: 10px;
         font-size: 14px; line-height: 32px; color: #000000; font-weight: 300;
@@ -8825,14 +8825,14 @@
     }
     
     .accountContainer > form ul li:not(:last-of-type) input[type='checkbox']+label{
-        background: url('../images/check_box_icon.jpg') left / 14px no-repeat;
+        background: url('../images/check_box_icon.png') left / 14px no-repeat;
         box-sizing: border-box; display: block;  padding: 15px 30px;
         clear: left; border-bottom: 1px solid #f2f2f2;
         font-size: 14px; line-height: 32px; color: #000000; font-weight: 300;
         position: relative;
     }
     .accountContainer > form fieldset:last-of-type input[type='checkbox']+label{
-        background: url('../images/check_box_icon.jpg') left / 14px no-repeat;
+        background: url('../images/check_box_icon.png') left / 14px no-repeat;
         box-sizing: border-box; display: block;  padding: 15px 30px;
         font-size: 14px; line-height: 32px; color: #000000; font-weight: 300;
         position: relative; width: 100%;
