@@ -6723,7 +6723,7 @@
    }
   
    .detailContainer aside details p{
-    padding: 40px 3.3% 0px 3.3%; border-bottom: 0px; 
+    padding: 40px 3.3% 40px 3.3%; border-bottom: 0px; 
    }
    .detailContainer aside details p:last-of-type{
     border-top: 0px; padding: 40px 3.3%; 
