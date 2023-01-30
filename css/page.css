@@ -1120,13 +1120,11 @@
     }
 
     div.userBox a.btn_confirm{
-        display: block;
-        font-size: 13px; 
-        color: #fff;
-        text-decoration: none;
+        display: block; font-size: 13px; 
+        color: #fff; text-decoration: none;
         text-align: center;
         padding: 20px 7.6%;
-        box-sizing: border-box;
+        box-sizing: border-box; border: none;
         margin: 0 auto;
     }
     /* user Fin */
@@ -1338,7 +1336,7 @@
 
     .emContainer .btn_confirm{
         width: 100%; text-transform: uppercase; font-size: 20px; 
-        line-height: 32px; 
+        line-height: 32px; border: none;
     }
 
     .emContainer aside{
@@ -1392,7 +1390,7 @@
     .emContainer aside div:nth-of-type(2) a.btn_confirm{
         width: 100%; display: block; box-sizing: border-box; padding: 15px 5.7%;
         font-size: 20px; text-align: center; text-decoration: none;
-        margin-bottom: 20px;    
+        margin-bottom: 20px; border: none;  
     }
     /* Enrollment fin */
 
@@ -1556,7 +1554,7 @@
         background-image: url('../images/sns-finTWITTER.png');
     }
     .findBox .btn_confirm{
-        width: 100%; margin-bottom: 25px; text-transform: uppercase;
+        width: 100%; margin-bottom: 25px; text-transform: uppercase; border: none;
 
     }
     .findBox .btn_half1{
@@ -3172,11 +3170,11 @@
     .btn_confirm:not(.accountContainer, .sppayment, .btn_confirm, .loginBox){
         width: 50%; padding: 10px 3.8%;
         text-transform: uppercase; font-size: 16px; font-weight: 500;
-        font-family: 'HelveticaNeue';
+        font-family: 'HelveticaNeue'; border: none;
     }
     .btn_confirm:not(.findBox > .btn_confirm , .loginBox > form > a.btn_confirm,
     .sppayment .btn_confirm):first-of-type{
-        width: 100%; margin-bottom: 40px;
+        width: 100%; margin-bottom: 40px; border: none;
     }
     .subscribeContainer div.last_text{
         max-width: 1140px; margin: 0 auto;
@@ -4535,7 +4533,7 @@
 
     .emContainer .btn_confirm{
         width: 100%; text-transform: uppercase; font-size: 20px;
-        line-height: 32px; margin-bottom: 70px;
+        line-height: 32px; margin-bottom: 70px; border: none;
     }
 
     .emContainer aside{
@@ -4582,14 +4580,11 @@
         background-image: url('../images/sns-finTWITTER.png');
     }
     .emContainer aside div:nth-of-type(2) a.btn_confirm{
-        display: block;
-        box-sizing: border-box;
-        padding: 15px;
-        font-size: 20px;
-        max-width: 250px;
-        text-align: center;
-        text-decoration: none;
-        margin: 50px 0px 0px 33%;      
+        display: block; 
+        box-sizing: border-box; border: none;
+        padding: 15px; font-size: 20px;
+        max-width: 250px; text-align: center;
+        text-decoration: none; margin: 50px 0px 0px 33%;      
     }
 
     /* Enrollment fin */
@@ -4664,7 +4659,7 @@
     [class$='Box'] a.btn_confirm{
         display: block; box-sizing: border-box;
         padding: 18px 2.4%; text-decoration: none;
-        text-align: center; font-size: 20px;
+        text-align: center; font-size: 20px; border: none;
         color: #ffffff; margin-bottom: 50px;
     }
     
@@ -4767,6 +4762,7 @@
     }
     .findBox .btn_confirm{
         width: 100%; margin-bottom: 52px; text-transform: uppercase;
+        border: none;
     }
     .findBox .btn_half1{
         max-width: 190px; 
@@ -6812,8 +6808,8 @@
    }
 
    div.lastone ul li figcaption .btn_confirm{
-    background-color: #000000; font-size: 55px; line-height: 32px;
-    color: #ffffff; text-decoration: none; 
+    background-color: #000000; max-width: 700px; font-size: 55px; line-height: 32px;
+    color: #ffffff; text-decoration: none; margin: 0 auto;
     box-sizing: border-box; padding: 25px 3.5%; 
     text-transform: none; letter-spacing: 3px;  display: block;
    }
@@ -7712,6 +7708,7 @@
     }
     .emContainer .btn_confirm{
         width: 100%; font-size: 20px; line-height: 32px; text-transform: uppercase;
+        border: none;
     }
 
     .emContainer aside{
@@ -7759,7 +7756,7 @@
     }
     .emContainer aside div:nth-of-type(2) a.btn_confirm{
         display: block;
-        box-sizing: border-box;
+        box-sizing: border-box; border: none;
         padding: 15px 6%;
         font-size: 20px;
         max-width: 250px;
@@ -7838,7 +7835,7 @@
         display: block; box-sizing: border-box;
         padding: 18px 3.7%; text-decoration: none;
         text-align: center; font-size: 20px;
-        color: #ffffff;
+        color: #ffffff; border: none;
         cursor: pointer; margin-bottom: 50px;
     }
     
@@ -7953,7 +7950,7 @@
         background-image: url('../images/sns-finTWITTER.png');
     }
     .findBox .btn_confirm{
-        width: 100%; margin-bottom: 52px; text-transform: uppercase;
+        width: 100%; margin-bottom: 52px; text-transform: uppercase; border: none;
     }
     .findBox .btn_half1{
         max-width: 190px; 
@@ -7986,7 +7983,7 @@
     #vsdetaile_popup{
         display: none; box-sizing: border-box;
         background-color: #fff; position: absolute;
-        right: 0; width: 43.7%;
+        right: 0; width: 46%;
         margin: 370px 10% 0px; padding: 30px 1%;
 
     }
