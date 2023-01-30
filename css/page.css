@@ -345,7 +345,7 @@
     overflow-y: auto;
    }
    .detailContainer aside.open details p:last-of-type{
-    border-top: 0px; padding: 0px 3.3% 10px; 
+    border-top: 0px; padding: 10px 3.3%; 
    }
    .detailContainer aside.open details span{
     display: block; padding: 39px 7.6%;
@@ -3549,7 +3549,7 @@
     padding: 40px 3.3% 0px 3.3%; border-bottom: 0px; 
    }
    .detailContainer aside.open details p:last-of-type{
-    border-top: 0px; padding: 0px 3.3% 40px; 
+    border-top: 0px; padding: 40px 3.3%; 
    }
    .detailContainer aside.open details span{
     display: block; padding: 39px 3%;
@@ -6726,7 +6726,7 @@
     padding: 40px 3.3% 0px 3.3%; border-bottom: 0px; 
    }
    .detailContainer aside details p:last-of-type{
-    border-top: 0px; padding: 0px 3.3% 40px; 
+    border-top: 0px; padding: 40px 3.3%; 
    }
    .detailContainer aside details span{
     display: block;
