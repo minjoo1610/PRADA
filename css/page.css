@@ -6659,7 +6659,7 @@
    }
    .detailContainer aside p,
    .detailContainer aside div span small{
-    font-size: 15px; font-weight: 300; 
+    font-size: 15px; font-weight: 300; color: #666;
    }
    .detailContainer aside p{
     margin-bottom: 80px;
