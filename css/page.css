@@ -6008,11 +6008,12 @@
         box-sizing: border-box; border: 1px solid #f2f2f2;
         padding: 25px 3.4%; margin-bottom: 35px; position: relative;
     }
+  
     .sppayment > div form fieldset > div:nth-of-type(2) ul li label{
         font-size: 14px; color: #000; font-weight: 100;
     }
     .sppayment > div form fieldset > div:nth-of-type(2) ul li input:not(input[type='submit'], input[type='button'] ){
-        display: block; box-sizing: border-box; width: 94.6%; padding: 0;
+        display: block; box-sizing: border-box; width: 100%; padding: 0;
         border: none; font-size: 18px; line-height: 32px; 
     }
     .sppayment > div form fieldset > div:nth-of-type(2) ul li input[type='submit'],
@@ -6043,6 +6044,7 @@
     .sppayment ul > li:first-of-type *:not(span:last-of-type){
         float: left; display: block;
     }
+   
     .sppayment ul > li:first-of-type > strong{
         font-size: 14px; padding-right: 2%;
         font-weight: 500; text-transform: uppercase; color: #000;
