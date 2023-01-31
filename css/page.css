@@ -6647,7 +6647,7 @@
     font-size: 34px; font-weight: 100;
     position: relative; padding-right: 28.57%;
     box-sizing: border-box; line-height: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 100px; color: #333333;
    }
    .detailContainer aside h2 > input[type='button']{
     position: absolute; right: 0; top: 5px; border: none;
