@@ -854,16 +854,19 @@ section.galleiraList > .galleriaBack span,
         display: none;
     }
     header > div nav ul > li{
-        display: inline-block; width: 5.3%; min-width: 15px;
+        display: inline-block; width: 22px;
         vertical-align: middle;
     }
     header > div nav ul li:not(:first-child){
-        margin-left: 3.5%;
+        margin-left: 3%;
+    }
+    header > div nav ul li:last-child{
+        margin-right: 0px;
     }
     header > div nav ul li *{
         background-color: transparent; border: none;
         background-repeat: no-repeat; background-size: contain; background-position: center;
-        text-align: left; display: block !important; line-height: 16px;
+        text-align: left; display: block !important; line-height: 15px;
     }
     header > div nav ul li:not(:last-child){
         vertical-align: middle;
@@ -893,7 +896,7 @@ section.galleiraList > .galleriaBack span,
         background-image: url('../images/full_shopping_bag.jpg');
     }
     header > div nav ul li button[data-container="fnbContainer"]{
-        font-size: 18px; padding: 0;
+        font-size: 22px; padding: 0;
     }
     #fnbContainer{
         z-index: 100; position: fixed; left: 0; top: 65px; background-color: white; width: 100%;
