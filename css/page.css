@@ -1237,10 +1237,10 @@
         display: none;
     }
     .emContainer > div form fieldset:nth-of-type(2) ul li input[type='checkbox']+label{
-        background: url('../images/check_box_icon.jpg') 0px center / 14px no-repeat;
+        background: url('../images/check_box_icon.png') 0px center / 14px no-repeat;
     }
     .emContainer > div form fieldset:nth-of-type(5) ul li input[type='checkbox']+label{
-        background: url('../images/check_box_icon.jpg') 0px center / 14px no-repeat;
+        background: url('../images/check_box_icon.png') 0px center / 14px no-repeat;
     }
     .emContainer > div form fieldset:nth-of-type(2) ul li input[type='checkbox']+label,
     .emContainer > div form fieldset:nth-of-type(5) ul li input[type='checkbox']+label{
@@ -1323,7 +1323,7 @@
     .emContainer > div form fieldset:nth-of-type(6) input[type='checkbox']+label{
         box-sizing: border-box; display: block; width: 100%; 
         font-size: 15px; line-height: 23px; color: #333333; font-weight: 300;
-        background: url('../images/check_box_icon.jpg') 0px center / 14px no-repeat;
+        background: url('../images/check_box_icon.png') 0px center / 14px no-repeat;
         padding-left: 9.6%; 
         margin-bottom: 25px;
     }
@@ -2258,7 +2258,7 @@
    
     .contactsContainer form fieldset ul li input[type='checkbox']+label{
         box-sizing: border-box; display: block; width: 100%; padding-left: 5%;
-        position: relative; background: url('../images/check_box_icon.jpg') left center / 14px no-repeat;
+        position: relative; background: url('../images/check_box_icon.png') left center / 14px no-repeat;
         padding: 30px 2% 30px 9.6%; border-bottom: 1px solid #f2f2f2; margin-bottom: 25px;
         
     }
@@ -2268,7 +2268,7 @@
     }
     .contactsContainer form fieldset ul li input[id='checkTerms_2']+label{
         box-sizing: border-box; display: block; width: 100%; padding-left: 5%;
-        position: relative; background: url('../images/check_box_icon.jpg') left center / 14px no-repeat;
+        position: relative; background: url('../images/check_box_icon.png') left center / 14px no-repeat;
         padding: 30px 13.4% 30px 9.6%; border-bottom: 1px solid #f2f2f2; margin-bottom: 35px;
     }
     .contactsContainer form fieldset ul li input[type='checkbox']:checked+label,
@@ -3125,7 +3125,7 @@
     .subscribeContainer > .subscribeapply form fieldset ul li input[type='checkbox']+label{
         box-sizing: border-box; display: block; width: 100%;  padding-left: 5%; position: relative;
         font-size: 12px; line-height: 20px; color: #000000; font-weight: 200;
-        background: url('../images/check_box_icon.jpg') left center / 14px no-repeat;
+        background: url('../images/check_box_icon.png') left center / 14px no-repeat;
         padding: 30px 13.4% 30px 9.6%; border-bottom: 1px solid #f2f2f2;
         margin-bottom: 25px;
     }
@@ -4433,10 +4433,10 @@
         display: none;
     }
     .emContainer > div form fieldset:nth-of-type(2) ul li input[type='checkbox']+label{
-        background: url('../images/check_box_icon.jpg') 0px center / 14px no-repeat;
+        background: url('../images/check_box_icon.png') 0px center / 14px no-repeat;
     }
     .emContainer > div form fieldset:nth-of-type(5) ul li input[type='checkbox']+label{
-        background: url('../images/check_box_icon.jpg') 0px center / 14px no-repeat;
+        background: url('../images/check_box_icon.png') 0px center / 14px no-repeat;
     }
     .emContainer > div form fieldset:nth-of-type(2) ul li input[type='checkbox']+label,
     .emContainer > div form fieldset:nth-of-type(5) ul li input[type='checkbox']+label{
@@ -4446,7 +4446,7 @@
     }
     .emContainer > div form fieldset:nth-of-type(2) ul li input[type='checkbox']:checked+label,
     .emContainer > div form fieldset:nth-of-type(5) ul li input[type='checkbox']:checked+label{
-        background-image: url('../images/checked_box_icon.jpg');
+        background-image: url('../images/check_box_icon.png');
     }
     .emContainer > div form fieldset:nth-of-type(5) ul li:nth-child(2) input[type='checkbox']+label{
         background: none;
@@ -4521,7 +4521,7 @@
     .emContainer > div form fieldset:nth-of-type(6) input[type='checkbox']+label{
         box-sizing: border-box; display: block; width: 100%; 
         font-size: 16px; line-height: 20px; color: #000000; font-weight: 300;
-        background: url('../images/check_box_icon.jpg') 0px center / 14px no-repeat;
+        background: url('../images/check_box_icon.png') 0px center / 14px no-repeat;
         padding-left: 3.4%; margin-bottom: 25px;
     }
     .emContainer > div form fieldset:nth-of-type(6) input[type='checkbox']:last-of-type+label{
@@ -5472,13 +5472,13 @@
    
     .contactsContainer form fieldset ul li input[type='checkbox']+label,
     .contactsContainer form fieldset ul li input[id='checkTerms_2']+label{
-        background: url("../images/check_box_icon.jpg") 15px center/ 14px no-repeat;
+        background: url('../images/check_box_icon.png') 15px center/ 14px no-repeat;
         box-sizing: border-box; display: block; width: 100%; 
         padding: 15px 2.4% 15px 7.3%; position: relative;
     }
     .contactsContainer form fieldset ul li input[type='checkbox']:checked+label,
     .contactsContainer form fieldset ul li input[id='checkTerms_2']:checked+label{
-        background: url("../images/checked_box_icon.jpg") 15px center/ 14px no-repeat;
+        background: url('../images/checked_box_icon.jpg') 15px center/ 14px no-repeat;
     }
     .contactsContainer form fieldset ul li input[id='checkTerms_2']+label+p{
         display: none;
@@ -6311,7 +6311,7 @@
     .subscribeContainer > .subscribeapply form fieldset ul li input[type='checkbox']+label{
         box-sizing: border-box; display: block; width: 100%;  padding-left: 5%; position: relative;
         font-size: 12px; line-height: 20px; color: #000000; font-weight: 200;
-        background: url('../images/check_box_icon.jpg') left center / 14px no-repeat;
+        background: url('../images/check_box_icon.png') left center / 14px no-repeat;
         padding: 15px 0px 15px 3.3%;
     }
  
@@ -6341,7 +6341,7 @@
         box-sizing: border-box;
         width: 100%;
         border: 1px solid #f2f2f2;
-        padding: 15px;   
+        padding: 15px; margin-bottom: 30px;
     }
     .subscribeContainer > .subscribeapply form fieldset:nth-of-type(2) ul li:last-child input[type='checkbox']+label{
         margin-bottom: 240px;
@@ -7621,7 +7621,7 @@
     .emContainer > div form fieldset:nth-of-type(5) ul li input[type='checkbox']+label{
         box-sizing: border-box; display: block; width: 100%; 
         border-bottom: 1px solid #f2f2f2; font-size: 14px; line-height: 20px; color: #000000; font-weight: 300;
-        background: url('../images/check_box_icon.jpg') 15px center / 14px no-repeat; position: relative;
+        background: url('../images/check_box_icon.png') 15px center / 14px no-repeat; position: relative;
     }
     .emContainer > div form fieldset:nth-of-type(2) ul li input[type='checkbox']:checked+label,
     .emContainer > div form fieldset:nth-of-type(5) ul li input[type='checkbox']:checked+label{
@@ -7697,7 +7697,7 @@
     .emContainer > div form fieldset:nth-of-type(6) input[type='checkbox']+label{
         box-sizing: border-box; display: block; width: 100%; 
         font-size: 16px; line-height: 20px; color: #000000; font-weight: 300;
-        background: url('../images/check_box_icon.jpg') 0px center / 14px no-repeat;
+        background: url('../images/check_box_icon.png') 0px center / 14px no-repeat;
         padding-left: 4.4%; margin-bottom: 25px; 
     }
     .emContainer > div form fieldset:nth-of-type(6) input[type='checkbox']:last-of-type+label{
@@ -8585,14 +8585,14 @@
    
     .contactsContainer form fieldset ul li input[id='checkTerms_1']+label,
     .contactsContainer form fieldset ul li input[id='checkTerms_2']+label{
-        background: url("../images/check_box_icon.jpg") 15px center/ 14px no-repeat;
+        background: url('../images/check_box_icon.png') 15px center/ 14px no-repeat;
         box-sizing: border-box; display: block; width: 100%; 
         padding: 15px 2% 15px 7.3%; position: relative;
     }
    
     .contactsContainer form fieldset ul li input[id='checkTerms_1']:checked+label,
     .contactsContainer form fieldset ul li input[id='checkTerms_2']:checked+label{
-        background: url("../images/checked_box_icon.jpg") 15px center/ 14px no-repeat;
+        background: url('../images/checked_box_icon.jpg') 15px center/ 14px no-repeat;
     }
 
     .contactsContainer form fieldset ul li input[id='checkTerms_2']+label+p{
@@ -9439,12 +9439,12 @@
     .subscribeContainer > .subscribeapply form fieldset ul li input[type='checkbox']+label{
         box-sizing: border-box; display: block; width: 100%;  padding-left: 5%; position: relative;
         font-size: 12px; line-height: 20px; color: #000000; font-weight: 200;
-        background: url('../images/check_box_icon.jpg') left center / 14px no-repeat;
-        padding: 15px 0px 15px 4.4%; margin-bottom: 40px; 
+        background: url('../images/check_box_icon.png') left center / 14px no-repeat;
+        padding: 15px 0px 15px 4.4%; 
     }
-    .subscribeContainer > .subscribeapply form fieldset ul li input[type='checkbox']+label
+    
     .subscribeContainer > .subscribeapply form fieldset ul li input[type='checkbox']:checked+label{
-        background-image: url('../images/checked_box_icon.jpg');
+        background: url('../images/checked_box_icon.jpg')left center / 14px no-repeat;
         margin-bottom: 0px;
     }
     
@@ -9470,9 +9470,6 @@
         width: 100%;
         border: 1px solid #f2f2f2;
         padding: 15px;   
-    }
-    .subscribeContainer > .subscribeapply form fieldset:nth-of-type(2) ul li:last-child input[type='checkbox']+label{
-        margin-bottom: 240px;
     }
     .subscribeContainer > .subscribeapply form fieldset:nth-of-type(2) ul li:last-child input[type='checkbox']:checked+label{
         margin: 0px 0px 0px 0px;
