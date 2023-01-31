@@ -40,7 +40,7 @@
     }
     div.mainContent ul li[class^='context'] div h2{
         text-align: center; font-size: 20px; line-height: 32px;
-        padding-top: 38px; 
+        padding-top: 38px; font-weight: normal;
     }
 
     div.mainContent ul li[class^='context']:nth-of-type(1) div *:not(a){
@@ -3240,7 +3240,7 @@
     }
     div.mainContent ul li[class^='context'] div h2{
         text-align: center; font-size: 36px; line-height: 32px;
-        padding-top: 60px; 
+        padding-top: 60px; font-weight: normal;
     }
 
     div.mainContent ul li[class^='context']:nth-of-type(1) div *:not(a){
@@ -6424,6 +6424,7 @@
     }
     div.mainContent ul li[class^='context'] div h2{
         text-align: center; font-size: 36px; line-height: 32px;
+        font-weight: normal;
     }
 
     div.mainContent ul li[class^='context']:nth-of-type(1) div *:not(a){
