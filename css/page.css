@@ -118,7 +118,7 @@
         background-color: transparent; border-style: none; 
         font-size: 12px; line-height: 32px; 
         border-bottom: solid 1px #ffcbac; width: 83%; 
-        margin: 0px 5.8% 0px 4.8%; font-family: 'HelveticaNeue';
+        margin: 0px 5.8% 0px 4.8%; font-family: 'Optima';
     }
    
     div.mainContent ul li[class^='context']:nth-of-type(4) div a.btn_half{
@@ -3318,7 +3318,7 @@
         background-color: transparent; border-style: none; 
         font-size: 16px; line-height: 32px; 
         border-bottom: solid 1px #ffcbac; width: 83%; 
-        margin: 0px 4.8% 0px 4.8%; font-family: 'HelveticaNeue';
+        margin: 0px 4.8% 0px 4.8%; font-family: 'Optima';
     }
    
     div.mainContent ul li[class^='context']:nth-of-type(4) div a.btn_half{
@@ -6502,7 +6502,7 @@
         background-color: transparent; border-style: none; 
         font-size: 16px; line-height: 32px; 
         border-bottom: solid 1px #ffcbac; width: 90%; 
-        margin: 0px 4.8% 0px 4.8%; font-family: 'HelveticaNeue';
+        margin: 0px 4.8% 0px 4.8%; font-family:'Optima';
     }
    
     div.mainContent ul li[class^='context']:nth-of-type(4) div a.btn_half{

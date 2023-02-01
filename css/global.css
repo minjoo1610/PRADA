@@ -25,7 +25,8 @@ body{
     .emContainer .btn_confirm,
     .emContainer aside div:nth-of-type(2) a.btn_confirm,
     .findBox .btn_confirm,
-    [class^='context']{
+    [class^='context'],
+    div.mainContent ul li[class^='context']:nth-of-type(4) div input[type="email"]{
         font-family: 'Optima';
     }
     .galleriaContainer > h2,
