@@ -7816,6 +7816,7 @@
         line-height: 32px;
         color: #333333;
         margin-bottom: 40px;
+        font-weight: normal;
     }
     [class$='Box'] p{
         font-size: 18px;
