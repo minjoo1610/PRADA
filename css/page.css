@@ -123,7 +123,7 @@
    
     div.mainContent ul li[class^='context']:nth-of-type(4) div a.btn_half{
         width: 85px; background-color: #ffcbac; color: #666666; 
-        margin: 30px 37% 0px;
+        margin: 30px 34% 0px;
     } 
     div.mainContent + video{
         width: 93%; margin: 0 auto; display: block;
