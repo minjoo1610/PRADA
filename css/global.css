@@ -26,6 +26,7 @@ body{
     .emContainer aside div:nth-of-type(2) a.btn_confirm,
     .findBox .btn_confirm,
     [class^='context'],
+    [class^='user'] h2,
     div.mainContent ul li[class^='context']:nth-of-type(4) div input[type="email"]{
         font-family: 'Optima';
     }
@@ -40,7 +41,6 @@ body{
     }
     
     div.userBox a.btn_confirm,
-    [class^='user'] h2,
     [class$='Box'] a.btn_confirm{
         font-family: 'Optima Medium';
     }
