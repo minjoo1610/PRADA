@@ -1433,7 +1433,7 @@
     }
     [class$='Box'] h2{
         font-size: 32px; line-height: 32px; color: #333333;
-        margin-bottom: 40px;
+        margin-bottom: 40px; font-weight: normal;
     }
     [class$='Box'] p{
         font-size: 16px; color: #666666; font-weight: 300;
@@ -4638,6 +4638,7 @@
         line-height: 32px;
         color: #333333;
         margin-bottom: 40px;
+        font-weight: normal;
     }
     [class$='Box'] p{
         font-size: 18px;
