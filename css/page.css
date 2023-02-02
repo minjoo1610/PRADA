@@ -8850,7 +8850,7 @@
     .accountContainer > form ul li:last-of-type input[type='checkbox']+label{
         box-sizing: border-box; display: block;  padding: 15px 22% 15px 15px;
         clear: left; border-bottom: 1px solid #f2f2f2;
-        font-size: 14px; line-height: 32px; color: #000000; font-weight: 300;
+        font-size: 14px; line-height: 18px; color: #000000; font-weight: 300;
         position: relative;
     }
     
