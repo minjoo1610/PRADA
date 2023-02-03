@@ -27,7 +27,8 @@ body{
     .findBox .btn_confirm,
     [class^='context'],
     [class^='user'] h2,
-    div.mainContent ul li[class^='context']:nth-of-type(4) div input[type="email"]{
+    div.mainContent ul li[class^='context']:nth-of-type(4) div input[type="email"],
+    .detailContainer aside .btn.blackWhite{
         font-family: 'Optima';
     }
     .galleriaContainer > h2,
