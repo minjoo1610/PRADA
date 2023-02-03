@@ -1170,10 +1170,8 @@
         width: 100%;
     }
     .emContainer > div > h2{
-        font-size: 32px;
-        line-height: 32px;
-        color: #333333;
-        margin-bottom: 40px;
+        font-size: 32px; line-height: 32px;
+        color: #333333; margin-bottom: 40px; font-weight: normal;
     }
     .emContainer > div > p{
         font-size: 16px;
@@ -1344,7 +1342,7 @@
     }
     .emContainer aside h3{
         font-size: 20px; line-height: 30px; color: #333333;
-        margin-bottom: 30px; text-align: center;
+        margin-bottom: 30px; text-align: center; font-weight: normal;
     }
     .emContainer aside h3:last-of-type{
         margin-bottom: 45px;
@@ -4365,10 +4363,8 @@
         width: 100%;
     }
     .emContainer > div > h2{
-        font-size: 40px;
-        line-height: 32px;
-        color: #333333;
-        margin-bottom: 73px;
+        font-size: 40px; line-height: 32px;
+        color: #333333; margin-bottom: 73px; font-weight: normal;
     }
     .emContainer > div > p{
         font-size: 18px;
@@ -4542,9 +4538,8 @@
         width: 100%; 
     }
     .emContainer aside h3{
-        font-size: 30px;
-        color: #333333;
-        margin-bottom: 50px;
+        font-size: 30px; color: #333333;
+        margin-bottom: 50px; font-weight: normal;
     }
     .emContainer aside div{
         margin-bottom: 54px; text-align: right; position: relative;
@@ -7551,10 +7546,9 @@
         width: 46.4%;
     }
     .emContainer > div > h2{
-        font-size: 40px;
-        line-height: 32px;
-        color: #333333;
-        margin-bottom: 73px;
+        font-size: 40px; line-height: 32px;
+        color: #333333; margin-bottom: 73px;
+        font-weight: normal;
     }
     .emContainer > div > p{
         font-size: 18px;
@@ -7719,9 +7713,8 @@
         width: 45.7%; margin-left: 4.7%;
     }
     .emContainer aside h3{
-        font-size: 30px;
-        color: #333333;
-        margin-bottom: 50px;
+        font-size: 30px; color: #333333;
+        margin-bottom: 50px; font-weight: normal;
     }
     .emContainer aside div{
         margin-bottom: 33px; text-align: right; position: relative;
