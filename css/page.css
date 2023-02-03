@@ -320,7 +320,7 @@
     content: url('../images/row.png'); display: block; float: right;
    }
    .detailContainer aside.open details[open] summary:after{
-    content: url('../images/_arrow_top_white_18dp.png');
+    content: url('../images/_arrow_top_white_18dp.png'); display: block;
    }
    .detailContainer aside.open details[open] summary{
     background-color: black; color: white; font-weight: 500;
