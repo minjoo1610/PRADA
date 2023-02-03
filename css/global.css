@@ -849,7 +849,7 @@ section.galleiraList > .galleriaBack span,
         width: 100%;
     }
     header > div nav{
-        position: absolute; right: 0%; top: 25px;
+        position: absolute; right: 0%; top: 20px;
         width: calc(100% - 76px); text-align: right;
     }
     header > div nav.fnbOpen{
@@ -859,8 +859,12 @@ section.galleiraList > .galleriaBack span,
         display: inline-block; width: 22px;
         vertical-align: middle;
     }
-    header > div nav ul li:not(:first-child, :nth-of-type(2)){
-        margin-left: 3%;
+    
+    header > div nav ul li:not(:first-child){
+        margin-left: 2.2%;
+    }
+    header > div nav ul li:first-of-type{
+        margin-left: 0%;
     }
     header > div nav ul li:last-child{
         margin-right: 0px;
@@ -878,6 +882,7 @@ section.galleiraList > .galleriaBack span,
     }
     header > div nav ul li input[value="searchContainer"]{
         background-image: url('../images/search-solid.svg');
+        margin: 0 auto;
     }
     header > div nav ul li a.notSignin{
         background-image: url('../images/user_login_icon.jpg'); display: inline-block; 
