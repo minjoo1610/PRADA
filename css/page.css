@@ -3101,10 +3101,10 @@
         font-weight: 400;
     }
     .subscribeContainer > .subscribeapply form fieldset input{
-        display: block; 
-        width: 100%; box-sizing: border-box; border: none;
+        display: block; width: 100%; box-sizing: border-box; border: none;
         border-bottom: 1px solid #f2f2f2; padding: 15px 5.7%;
         margin-bottom: 10px; font-size: 14px; font-weight: 200;
+        font-family: 'HelveticaNeue';
     }
     .subscribeContainer > .subscribeapply form fieldset input:first-of-type{
         padding: 15px 0.9%;
@@ -6292,10 +6292,10 @@
         font-weight: 100;
     }
     .subscribeContainer > .subscribeapply form fieldset input{
-        display: block; 
-        width: 100%; box-sizing: border-box; border: none;
+        display: block; width: 100%; box-sizing: border-box; border: none;
         border-bottom: 1px solid #f2f2f2; padding: 15px;
         margin-bottom: 38px; font-size: 14px; font-weight: 200;
+        font-family: 'HelveticaNeue';
     }
     .subscribeContainer > .subscribeapply form fieldset input:first-of-type{
         padding: 15px 0.9%;
@@ -9423,10 +9423,10 @@
         font-weight: 100;
     }
     .subscribeContainer > .subscribeapply form fieldset input{
-        display: block; 
-        width: 100%; box-sizing: border-box; border: none;
-        border-bottom: 1px solid #f2f2f2; padding: 15px;
-        margin-bottom: 38px; font-size: 14px; font-weight: 200;
+        display: block; width: 100%; box-sizing: border-box; border: none;
+        border-bottom: 1px solid #f2f2f2; padding: 15px; 
+        margin-bottom: 38px; font-size: 14px;
+        font-family: 'HelveticaNeue'; font-weight: 200;
     }
     .subscribeContainer > .subscribeapply form fieldset input[type='email']::placeholder{
         color: #000;
