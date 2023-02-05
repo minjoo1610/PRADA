@@ -2755,8 +2755,7 @@
         content: ''; display: block; clear: both;
     }
     .sppayment h2{
-        width: 100%;
-        font-size: 32px; 
+        width: 100%; font-size: 32px; font-weight: normal;
         color: #000; margin: 100px 0px 60px;
     }
     
@@ -5961,8 +5960,7 @@
         content: ''; display: block; clear: both;
     }
     .sppayment h2{
-        width: 100%;
-        font-size: 40px;
+        width: 100%; font-size: 40px; font-weight: normal;
         color: #000; margin: 219px 0px 98px;
     }
     .sppayment > *{
@@ -8244,6 +8242,7 @@
         font-weight: 100; color: #000; box-sizing: border-box; border-bottom: 1px solid #f2f2f2;
         padding: 40px 5.1%; cursor: pointer; 
         background: url('../images/arrow_row_icon.jpg') right 20px top 45px/ 15px no-repeat;
+
     }
     .faq_Area .faq_Detail ul li.active > strong{
         font-weight: 500; color: #333333;
@@ -9077,9 +9076,8 @@
         content: ''; display: block; clear: both;
     }
     .sppayment h2{
-        width: 51.8%;
-        font-size: 40px;
-        color: #000; margin-bottom: 103px;
+        width: 51.8%; font-size: 40px; color: #000; 
+        font-weight: normal; margin-bottom: 103px;
     }
     .sppayment > *{
         float: left;
