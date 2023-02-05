@@ -1032,7 +1032,7 @@ section.galleiraList > .galleriaBack span,
         font-style: italic; 
     }
     footer > div:last-child span a:not(:first-of-type){
-        margin-left:70px;
+        margin-left:35px;
     }
     footer > div:last-child span a:last-of-type{
         margin-right: 0px ;
