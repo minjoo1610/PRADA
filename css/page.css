@@ -8146,7 +8146,7 @@
     }
     .storecontainer > div > form fieldset:nth-of-type(2) ul li input[type='checkbox']+label{
         box-sizing: border-box; display: block; width: 100%; 
-        font-size: 16px; line-height: 20px; color: #000000; font-weight: 300;
+        font-size: 14px; line-height: 20px; color: #000000; font-weight: 100;
         background: url('../images/check_box_icon.png') 0px center / 14px no-repeat;
         padding: 0px 2.7% 0px 5.4%;
     }
