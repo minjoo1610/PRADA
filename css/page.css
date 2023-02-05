@@ -1716,14 +1716,10 @@
         margin-bottom: 25px;
     }
     .storecontainer > div > form fieldset:first-of-type input[type='search']{
-        box-sizing: border-box;
-        width: 100%;
-        border: 1px solid #f2f2f2;
-        padding: 24px 5.7%;
-        font-size: 11px;
-        line-height: 15px;
-        font-weight: 400;
-        color: #000;
+        box-sizing: border-box; width: 100%;
+        border: 1px solid #f2f2f2; padding: 24px 5.7%;
+        font-size: 11px; line-height: 15px;
+        font-weight: 400; color: #000; font-family: 'HelveticaNeue';
     }
     .storecontainer > div > form fieldset:first-of-type input[type='search']::placeholder{
         color: #000;
@@ -1745,12 +1741,12 @@
     .storecontainer > div > form fieldset:nth-of-type(2) input[type='button']{
         background: url('../images/arrow_row_icon.jpg') right 15px center / 15px no-repeat; width: 100%;
         font-size: 16px; font-weight: 700; line-height: 60px; border: 1px solid #f2f2f2; font-weight: 100; display: block;
-        padding: 0 5.7%; text-align: left; 
+        padding: 0 5.7%; text-align: left; font-family: 'HelveticaNeue';
     }
     
     .storecontainer > div > form fieldset:nth-of-type(2) input[type='button'].active{
         background-image: url('../images/arrow_top_icon.jpg');
-        font-weight: 700;
+        font-weight: 700; font-family: 'HelveticaNeue';
     }
     .storecontainer > div > form fieldset:nth-of-type(2) ul{
         display: none;
@@ -4918,13 +4914,10 @@
         position: relative;
     }
     .storecontainer > div > form fieldset:first-of-type input[type='search']{
-        box-sizing: border-box;
-        width: 100%;
-        border: 1px solid #f2f2f2;
-        padding: 24px 2.6%;
-        font-size: 16px;
-        font-weight: 300;
-        color: #000;
+        box-sizing: border-box; width: 100%;
+        border: 1px solid #f2f2f2; padding: 24px 2.6%;
+        font-size: 16px; font-weight: 300;
+        color: #000; font-family: 'HelveticaNeue';
     }
     .storecontainer > div > form fieldset:first-of-type input[type='search']::placeholder{
         color: #000;
@@ -4945,11 +4938,11 @@
     .storecontainer > div > form fieldset:nth-of-type(2) input[type='button']{
         background: url('../images/arrow_row_icon.jpg') right 15px center / 15px no-repeat; width: 100%;
         font-size: 16px; line-height: 60px; border: 1px solid #f2f2f2; font-weight: 100; display: block;
-        padding: 0 2.6%; text-align: left; 
+        padding: 0 2.6%; text-align: left; font-family: 'HelveticaNeue';
     }
     .storecontainer > div > form fieldset:nth-of-type(2) input[type='button'].active{
         background-image: url('../images/arrow_top_icon.jpg');
-        font-weight: 700;
+        font-weight: 700; font-family: 'HelveticaNeue';
     }
     .storecontainer > div > form fieldset:nth-of-type(2) ul{
         display: none;
@@ -8100,13 +8093,10 @@
         position: relative;
     }
     .storecontainer > div > form fieldset:first-of-type input[type='search']{
-        box-sizing: border-box;
-        width: 100%;
-        border: 1px solid #f2f2f2;
-        padding: 24px 2.7%;
-        font-size: 16px;
-        font-weight: 300;
-        color: #000;
+        box-sizing: border-box; width: 100%;
+        border: 1px solid #f2f2f2; padding: 24px 2.7%;
+        font-size: 16px; font-weight: 300; color: #000;
+        font-family: 'HelveticaNeue';
     }
     .storecontainer > div > form fieldset:first-of-type input[type='search']::placeholder{
         color: #000;
@@ -8128,7 +8118,7 @@
     .storecontainer > div > form fieldset:nth-of-type(2) input[type='button']{
         background: url('../images/arrow_row_icon.jpg') right 15px center / 15px no-repeat; width: 100%;
         font-size: 16px; line-height: 60px; border: 1px solid #f2f2f2; font-weight: 100; display: block;
-        padding: 0px 2.7%; text-align: left; 
+        padding: 0px 2.7%; text-align: left; font-family: 'HelveticaNeue';
     }
     
     .storecontainer > div > form fieldset:nth-of-type(2) input[type='button'].active{
