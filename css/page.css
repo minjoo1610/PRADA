@@ -7974,8 +7974,8 @@
     #vsdetaile_popup{
         display: none; box-sizing: border-box;
         background-color: #fff; position: absolute;
-        right: 0; width: 46%;
-        margin: 370px 10% 0px; padding: 30px 1%;
+        right: 0; width: 35%;
+        margin: 350px 15.5% 0px; padding: 30px 1%;
 
     }
     #vsdetaile_popup h3{
