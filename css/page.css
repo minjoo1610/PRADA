@@ -1718,7 +1718,7 @@
     .storecontainer > div > form fieldset:first-of-type input[type='search']{
         box-sizing: border-box; width: 100%;
         border: 1px solid #f2f2f2; padding: 24px 5.7%;
-        font-size: 11px; line-height: 15px;
+        font-size: 16px; line-height: 15px;
         font-weight: 400; color: #000; font-family: 'HelveticaNeue';
     }
     .storecontainer > div > form fieldset:first-of-type input[type='search']::placeholder{
@@ -1774,7 +1774,7 @@
     }
     .storecontainer > div > form fieldset:nth-of-type(2) ul li input[type='checkbox']+label{
         box-sizing: border-box; display: block; width: 100%; 
-        font-size: 16px; line-height: 20px; color: #000000; font-weight: 300;
+        font-size: 14px; line-height: 20px; color: #000000; font-weight: 300;
         background: url('../images/check_box_icon.png') 0px center / 14px no-repeat;
         padding: 0px 15px 0px 30px;
     }
