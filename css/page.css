@@ -320,7 +320,7 @@
     content: url('../images/row.png'); display: block; float: right;
    }
    .detailContainer aside.open details[open] summary:after{
-    content: url('../images/_arrow_top_white_18dp.png'); display: block; float: right;
+    content: url('../images/arrow_top_white_18dp.png'); display: block; float: right;
    }
    .detailContainer aside.open details[open] summary{
     background-color: black; color: white; font-weight: 500;
@@ -3518,7 +3518,7 @@
     content: url('../images/row.png'); display: block; float: right;
    }
    .detailContainer aside.open details[open] summary:after{
-    content: url('../images/_arrow_top_white_18dp.png'); display: block; float: right;
+    content: url('../images/arrow_top_white_18dp.png'); display: block; float: right;
    }
    .detailContainer aside.open details[open] summary{
     background-color: black; color: white; font-weight: 500;
@@ -6691,7 +6691,7 @@
     content: url('../images/row.png'); display: block; float: right;
    }
    .detailContainer aside details[open] summary:after{
-    content: url('../images/_arrow_top_white_18dp.png'); display: block; float: right;
+    content: url('../images/arrow_top_white_18dp.png'); display: block; float: right;
    }
    .detailContainer aside details[open] summary{
     background-color: black; color: white; font-weight: 500;
