@@ -471,8 +471,7 @@
    }
    div.listParadasphere h2{
     font-size: 22px; color: #333333;
-    text-align: center;
-    
+    text-align: center; font-weight: normal;
    }
    div.listParadasphere ul{
     list-style: none; margin: 26px 0px 0px;
