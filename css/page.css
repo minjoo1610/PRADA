@@ -3664,7 +3664,7 @@
    }
    div.listParadasphere h2{
     font-size: 60px; color: #333333;
-    text-align: center;
+    text-align: center; font-weight: normal;
     
    }
    div.listParadasphere ul{
@@ -6850,7 +6850,7 @@
    }
    div.listParadasphere h2{
     font-size: 60px; color: #333333;
-    text-align: center;
+    text-align: center; font-weight: normal;
    }
    div.listParadasphere ul{
     list-style: none; margin: 90px 0px 0px;
