@@ -665,8 +665,8 @@ section.galleiraList > .galleriaBack span,
     }
     .wishNcart input.btn_close{
         background: url('../images/close_black_24dp.svg') center / 20px no-repeat;
-        position: absolute; top: 35px;
-        box-sizing: border-box; right: 20px;
+        position: absolute; top: 30px;
+        box-sizing: border-box; right: 10px;
         border: none; text-indent: -9999px;
     }
     
