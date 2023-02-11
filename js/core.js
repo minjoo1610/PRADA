@@ -1,7 +1,7 @@
 $(document).ready(function(){
     gnbControl();
-    customBxSlider(".mainSlider",1,1,0,0,true,null);
-    customBxSlider(".pscarousel",1,1,0,0,true,".customPager");
+    customBxSlider(".mainSlider",null);
+    customBxSlider(".pscarousel",".customPager");
     toggleFunc(".wishNcart [id$='Container'] ol.wishBox li figure figcaption input[value='spicon']");
     toggleFunc(".wishNcart [id$='Container'] .cartBox ol li figure figcaption input[value='whicon']");
     toggleFunc("input[value='hticon']");
@@ -26,13 +26,8 @@ $(document).ready(function(){
     tabControl(".faq_Area nav ul li",".faq_Detail");
     dummyLogin();
 });
-function customBxSlider(target,maxVal,minVal,marginVal,wVal,pagVal,pagCusVal){
+function customBxSlider(target,pagCusVal){
     $(target).bxSlider({
-        maxSlides: maxVal,
-        minSlides: minVal,
-        slideMargin: marginVal,
-        slideWidth: wVal,
-        pager: pagVal,
         pagerCustom : pagCusVal
     });
 }
@@ -46,7 +41,6 @@ function gnbControl(){
         }else if(currentTxt == "menu"){ // 그게아니라 menu라는 글자가 적혀 있을 땐 close라는 글자를 넣어줘라.
             $(this).text("close");
         }
-
         $("#" + openTarget).toggleClass("active"); // # + fnbContainer = #fnbContainer에 active라는 class를 toggle(한번누를땐 넣었다가 또 누르면 빼기) 시켜라.
     });
 }

@@ -1291,7 +1291,7 @@ section.galleiraList > .galleriaBack span,
     }
     .wishNcart [id$='Container'] .cartBox div:first-of-type > #subtotal{
         border-style: none; background-color: #f2f2f2; 
-        font-size: 12px; font-weight: 900; color: #000000; letter-spacing: 1px; 
+        font-size: 12px; font-weight: 700; color: #000000; letter-spacing: 1px; 
         width: 75px;
     }
     .wishNcart [id$='Container'] .cartBox div:first-of-type > span{
