@@ -635,7 +635,7 @@ section.galleiraList > .galleriaBack span,
         background-color: #000;
         font-size: 14px;
         color: #ffffff;
-        font-weight: 100;
+        font-weight: 500;
         padding: 10px 15px;
         text-decoration: none;
     }
@@ -1126,7 +1126,7 @@ section.galleiraList > .galleriaBack span,
         background-color: #000;
         font-size: 18px;
         color: #ffffff;
-        font-weight: 100;
+        font-weight: 500;
         padding: 15px 20px;
         font-family: 'HelveticaNeue';
         text-decoration: none;
@@ -1567,7 +1567,7 @@ section.galleiraList > .galleriaBack span,
         background-color: #000;
         font-size: 18px;
         color: #ffffff;
-        font-weight: 100;
+        font-weight: 500;
         padding: 15px 20px;
         font-family: 'HelveticaNeue';
         text-decoration: none;
