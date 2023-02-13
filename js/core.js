@@ -58,7 +58,7 @@ function toggleFunc(target){
 function detailScroll(target){ //.detailContainer aside가 대상임 
     if (window.matchMedia("(min-width: 1280px)").matches) {
         var containerH = $(target).height(); // 우측면 aside의 높이 구하기.
-        var scrollLock = containerH / 2; // 그 높이가 절반이 지나갔을때 수치를 구하기.
+        var scrollLock = containerH; // 그 높이가 절반이 지나갔을때 수치를 구하기.
         $(window).scroll(function(){ // browser에 scroll이 작동 되었을 때
             if($(this).scrollTop() > scrollLock){ // 만약 browser의 scrollTop(스크롤막대의윗면)이 aside 높이의 절반보다 커지면
                 $(target).addClass("lock"); // aside에 lock 걸기
