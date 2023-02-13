@@ -82,7 +82,7 @@ function detailScroll(target){ //.detailContainer aside가 대상임
 function popupControl(openBtn){ // 팝업컨트롤 오픈버튼 
     var popupName = null;
     $(openBtn).click(function(){ // 오픈 버튼을 클릭했을 때 실행해라
-        popupName = "#" + $(this).attr('data-popup'); //팝업네임은 이 아이디 데이터파업을 찾아라 
+        popupName = "#" + $(this).attr('data-popup'); //팝업네임은 이 아이디 데이터 팝업을 찾아라 
         $(popupName).addClass("active"); // 팝업네임은 클래스 엑티브를 추가해라 
     });
     $(".btn_close").click(function(){ // 닫기 버튼을 클릭했을때 실행해라 
