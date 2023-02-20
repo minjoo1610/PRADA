@@ -32,16 +32,16 @@ function customBxSlider(target,pagCusVal){
     });
 }
 function gnbControl(){
-    $("#fnbButton").click(function(){ // fnbButton 아이디를 클릭 했을때 익명함수 실행
-        var currentTxt = $(this).text(); // currentTxt 라는 변수에 this(#fnbButton)의 글자(menu)를 담아라
-        var openTarget = $(this).attr('data-container'); // openTarget 이라는 변수에 this(#fnbButton)의 속성(attribute) data-container(fnbContainer) 값을 담아라.
+    $("#fnbButton").click(function(){ 
+        var currentTxt = $(this).text(); 
+        var openTarget = $(this).attr('data-container'); 
 
-        if(currentTxt == "close"){ // currentTxt라는 변수에 close 가 적혀 있을 땐 menu라는 글자를 넣어주고
+        if(currentTxt == "close"){ 
             $(this).text("menu");
-        }else if(currentTxt == "menu"){ // 그게아니라 menu라는 글자가 적혀 있을 땐 close라는 글자를 넣어줘라.
+        }else if(currentTxt == "menu"){ 
             $(this).text("close");
         }
-        $("#" + openTarget).toggleClass("active"); // # + fnbContainer = #fnbContainer에 active라는 class를 toggle(한번누를땐 넣었다가 또 누르면 빼기) 시켜라.
+        $("#" + openTarget).toggleClass("active"); 
     });
 }
 
@@ -49,21 +49,18 @@ function toggleFunc(target){
     $(target).click(function(){
         $(this).toggleClass('active');
     });
-    /*
-        toggleFunc의 target 이라는 매개변수를 통해 대상이 들어오면
-        그 대상이 클릭되었을때 클릭한 당사자(this)만 class를 toggle 한다.(toggleClass)
-    */
+   
 }
 
-function detailScroll(target){ //.detailContainer aside가 대상임 
+function detailScroll(target){ 
     if (window.matchMedia("(min-width: 1280px)").matches) {
-        var containerH = $(target).height(); // 우측면 aside의 높이 구하기.
-        var scrollLock = containerH; // 그 높이가 절반이 지나갔을때 수치를 구하기.
-        $(window).scroll(function(){ // browser에 scroll이 작동 되었을 때
-            if($(this).scrollTop() > scrollLock){ // 만약 browser의 scrollTop(스크롤막대의윗면)이 aside 높이의 절반보다 커지면
-                $(target).addClass("lock"); // aside에 lock 걸기
-            }else{ // 그 외 나머지 상황엔
-                $(target).removeClass("lock"); // aside에 lock 풀기
+        var containerH = $(target).height(); 
+        var scrollLock = containerH; 
+        $(window).scroll(function(){ 
+            if($(this).scrollTop() > scrollLock){ 
+                $(target).addClass("lock"); 
+            }else{ 
+                $(target).removeClass("lock"); 
             }
         });
     }else if(window.matchMedia("(max-width: 1279px)").matches){
@@ -79,14 +76,14 @@ function detailScroll(target){ //.detailContainer aside가 대상임
         });
     }
 }
-function popupControl(openBtn){ // 팝업컨트롤 오픈버튼 
+function popupControl(openBtn){  
     var popupName = null;
-    $(openBtn).click(function(){ // 오픈 버튼을 클릭했을 때 실행해라
-        popupName = "#" + $(this).attr('data-popup'); //팝업네임은 이 아이디 데이터 팝업을 찾아라 
-        $(popupName).addClass("active"); // 팝업네임은 클래스 엑티브를 추가해라 
+    $(openBtn).click(function(){
+        popupName = "#" + $(this).attr('data-popup'); 
+        $(popupName).addClass("active"); 
     });
-    $(".btn_close").click(function(){ // 닫기 버튼을 클릭했을때 실행해라 
-        $(popupName).removeClass("active"); // 실행했을때 팝업네임은 클래스 엑티브를 제거해라 
+    $(".btn_close").click(function(){ 
+        $(popupName).removeClass("active");  
     });
 }
 
@@ -107,8 +104,8 @@ function asideControl(openBtn){
         $(containerName).children("div").removeClass("active");
         $(containerName).children(depth2Name).addClass("active");
     });
-    $(".btn_close").click(function(){ // 닫기 버튼을 클릭했을때 실행해라 
-        $(containerName).removeClass("active"); // 실행했을때 팝업네임은 클래스 엑티브를 제거해라 
+    $(".btn_close").click(function(){ 
+        $(containerName).removeClass("active");  
     });
 }
 function asideTabControl(menu,box){
@@ -122,36 +119,35 @@ function asideTabControl(menu,box){
     });
 }
 function detailCartCall(){
-    $(".detailContainer a.btn.blackWhite").click(function(){
-        $(".wishNcart").addClass("active");
-        $(".wishNcart ul li:nth-child(2)").addClass("active");
+    $(".detailContainer a.btn.blackWhite").click(function(){ 
+        $(".wishNcart").addClass("active"); 
+        $(".wishNcart ul li:nth-child(2)").addClass("active"); 
     });
-    $(".btn_close").click(function(){
+    $(".btn_close").click(function(){ 
         $(".wishNcart").removeClass("active"); 
     });
 }
 
-function tabControl(target,panel){
-    var currentTab = null;
-    var thisOffSet = $("header").height();
-    $(target).click(function(){
+function tabControl(target,panel){ 
+    var currentTab = null; 
+    var thisOffSet = $("header").height(); 
+    $(target).click(function(){ 
         currentTab = "#" + $(this).attr("data-tabname");
         $(target).removeClass("active");
-        $(this).addClass("active");
-        $(panel).removeClass("active");
-        $(currentTab).addClass("active");
+        $(this).addClass("active"); 
+        $(panel).removeClass("active"); 
+        $(currentTab).addClass("active"); 
         $(window).scrollTop(thisOffSet);
     });
 }
 function wishBoxSwap(){
-    $("input[value='delete']").click(function(){
-        // console.log($(this));
-        $(this).closest("[class*='Box']").removeClass("active");
-        $(".emptyBox").addClass("active");
+    $("input[value='delete']").click(function(){ 
+        $(this).closest("[class*='Box']").removeClass("active"); 
+        $(".emptyBox").addClass("active"); 
     });
 }
 function dummyLogin(){
-    $(".notSignin > *").click(function(){
-        $("#gotoSignIn").addClass("active");
+    $(".notSignin > *").click(function(){ 
+        $("#gotoSignIn").addClass("active"); 
     });
 }
