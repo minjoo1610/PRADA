@@ -1543,7 +1543,7 @@ section.galleiraList > .galleriaBack span,
     }
     /* button Module */
     #gotoSignIn{
-        position: absolute; top: 29%; left: 28%;
+        position: fixed; top: 29%; left: 28%;
         width: 43.75%;
         background-color: #ffffff;
         padding: 120px 65px;
