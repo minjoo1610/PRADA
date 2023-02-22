@@ -137,6 +137,7 @@ function tabControl(target,panel){
         $(this).addClass("active"); 
         $(panel).removeClass("active"); 
         $(currentTab).addClass("active"); 
+        $(window).scrollTop(this);
         $(window).scrollTop(thisOffSet);
     });
 }
