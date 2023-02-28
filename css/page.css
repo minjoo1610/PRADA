@@ -3029,11 +3029,13 @@
     }
     #subscribe_popup,
     #subscribecc_popup{
-        position: fixed; top: 29%; left: 3.5%;
+        position: fixed; 
+        top: 29%; 
+        left: 3.5%;
         width: 100%;
-        max-width: 260px;
+        max-width: 92.8%;
         background-color: #ffffff;
-        padding: 55px 5% 30px;
+        padding: 55px 3% 30px;
         text-align: center;
         box-sizing: border-box;
         border: 1px solid #000;
