@@ -7,12 +7,13 @@ $(document).ready(function(){
     toggleFunc("input[value='hticon']");
     toggleFunc(".storecontainer div fieldset:nth-of-type(2) input[type='button']");
     toggleFunc(".faq_Area .faq_Detail ul li");
+
     if (window.matchMedia("(max-width: 767px)").matches) {
         toggleFunc("#fnbContainer div ul li:first-child");
     }
-    tabControl(".ppmenu div ul li h3","[id^='ppName']");
-    tabControl(".ppmenu div ul li h3","[id^='tsName']");
-    tabControl(".ppmenu div ul li h3","[id^='tuName']");
+    tabControl(".ppmenu > div ul li h3",".ppmenu [id^='tuName']");
+    tabControl(".ppmenu > div ul li h3",".ppmenu [id^='ppName']");
+    tabControl(".ppmenu > div ul li h3",".ppmenu [id^='tsName']");
     detailScroll(".detailContainer aside");
     $(".fitvidsElement").fitVids();
     asideControl("header nav ul li input[type='button']:not(#fnbButton)");
