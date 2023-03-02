@@ -185,6 +185,7 @@
    }
    [class$='List'] ul li figure figcaption a{
     color: white; text-decoration: none;
+    display: block;
    }
 
    [class$='List'] ul li figure figcaption dl dt{
@@ -3384,6 +3385,7 @@
    }
    [class$='List'] ul li figure figcaption a{
     color: white; text-decoration: none;
+    display: block;
    }
 
    [class$='List'] ul li figure figcaption dl dt{
@@ -6567,6 +6569,7 @@
    }
    [class$='List'] ul li figure figcaption a{
     color: white; text-decoration: none;
+    display: block;
    }
 
    [class$='List'] ul li figure figcaption dl dt{
@@ -8465,7 +8468,7 @@
     }
     .ppmenu [id^='tuName'] p{
         margin-bottom: 45px;
-    }   
+    }    
 
 
 

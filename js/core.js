@@ -143,6 +143,7 @@ function tabControl(target,panel){
         $(window).scrollTop(thisOffSet);
     });
 }
+
 function wishBoxSwap(){
     $("input[value='delete']").click(function(){ 
         $(this).closest("[class*='Box']").removeClass("active"); 
