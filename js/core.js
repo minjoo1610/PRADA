@@ -144,6 +144,7 @@ function tabControl(target,panel){
     });
 }
 
+
 function wishBoxSwap(){
     $("input[value='delete']").click(function(){ 
         $(this).closest("[class*='Box']").removeClass("active"); 
