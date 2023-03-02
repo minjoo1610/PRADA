@@ -860,7 +860,7 @@ section.galleiraList > .galleriaBack span,
         vertical-align: middle;
     }
     
-    header > div nav ul li:not(:first-child){
+    header > div nav ul li:nth-child(3){
         margin-left: 2.2%;
     }
     header > div nav ul li:first-of-type{
