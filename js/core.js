@@ -141,7 +141,6 @@ function tabControl(target,panel){
         $(currentTab).addClass("activation"); 
         thisOffSet= $(this).offset().top - headerHeight;
         $(window).scrollTop(thisOffSet);
-        console.log(thisOffSet);
     });
 }
 
