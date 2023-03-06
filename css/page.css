@@ -8340,16 +8340,16 @@
         cursor: pointer;
     }
     
-    .ppmenu > div ul li h3.active{
+    .ppmenu > div ul li h3.activation{
         font-weight: 500;
         letter-spacing: 0px;
         color: #333;
         font-size: 16px;
         background: url('../images/right_icon.png') right 15px top 50%/ 10px no-repeat;
     }
-    .ppmenu [id^='tuName'],
-    .ppmenu [id^='ppName'],
-    .ppmenu [id^='tsName']{
+    .ppmenu ul li div[id^='tuName'],
+    .ppmenu ul li div[id^='ppName'],
+    .ppmenu ul li div[id^='tsName']{
         width: 73%;
         padding: 15px 3%;
         margin-left: 4%;
@@ -8359,9 +8359,12 @@
         font-size: 16px; font-weight: 100; line-height: 30px;
         color: #000;
     }
+    .ppmenu ul li div.activation{
+        display: block;
+    }
    
     
-    .ppmenu [id^='ppName'] a,
+    /* .ppmenu [id^='ppName'] a,
     .ppmenu [id^='tsName'] a{
         color: #000;
         text-decoration: none;
@@ -8468,7 +8471,7 @@
     }
     .ppmenu [id^='tuName'] p{
         margin-bottom: 45px;
-    }   
+    }    */
 
 
 

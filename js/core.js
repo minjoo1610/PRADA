@@ -134,13 +134,14 @@ function tabControl(target,panel){
     var thisOffSet = null;
     var headerHeight = $("header").height();
     $(target).click(function(){ 
-        thisOffSet= $(this).offset().top - headerHeight;
         currentTab = "#" + $(this).attr("data-tabname");
-        $(target).removeClass("active");
-        $(this).addClass("active"); 
-        $(panel).removeClass("active"); 
-        $(currentTab).addClass("active"); 
+        $(target).removeClass("activation");
+        $(this).addClass("activation"); 
+        $(panel).removeClass("activation"); 
+        $(currentTab).addClass("activation"); 
+        thisOffSet= $(this).offset().top - headerHeight;
         $(window).scrollTop(thisOffSet);
+        console.log(thisOffSet);
     });
 }
 
