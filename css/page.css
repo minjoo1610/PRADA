@@ -8364,7 +8364,7 @@
     }
    
     
-    /* .ppmenu [id^='ppName'] a,
+    .ppmenu [id^='ppName'] a,
     .ppmenu [id^='tsName'] a{
         color: #000;
         text-decoration: none;
@@ -8471,7 +8471,7 @@
     }
     .ppmenu [id^='tuName'] p{
         margin-bottom: 45px;
-    }    */
+    }   
 
 
 
