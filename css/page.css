@@ -106,7 +106,7 @@
     }
 
     div.mainContent ul li[class^='context']:nth-of-type(4) div{
-        padding: 80% 1% 30px; color: hsl(164, 100%, 12%);
+        padding: 80% 1% 30px; 
     }
    
     div.mainContent ul li[class^='context']:nth-of-type(4) div p{

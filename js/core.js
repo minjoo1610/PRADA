@@ -7,7 +7,7 @@ $(document).ready(function(){
     toggleFunc("input[value='hticon']");
     toggleFunc(".storecontainer div fieldset:nth-of-type(2) input[type='button']");
     toggleFunc(".faq_Area .faq_Detail ul li");
-
+    toggleFunc(".ppmenu > div ul li h3");
     if (window.matchMedia("(max-width: 767px)").matches) {
         toggleFunc("#fnbContainer div ul li:first-child");
     }
