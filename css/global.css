@@ -54,7 +54,7 @@ body{
         background-color: transparent; font-style: normal;
     }
     [class^='color']:not(:first-of-type){
-        margin-left: -3%;
+        margin-left: 3%;
     }
     .colorCG{
         color: #8b7c75;
