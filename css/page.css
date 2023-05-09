@@ -8207,7 +8207,6 @@
 
     }
     /* store Fin */
-
     .faq_Area{
         max-width: 1160px; margin: 0 auto; display: block;
     }
@@ -8232,8 +8231,8 @@
     }
     .faq_Area nav ul li{
         float: left; width: 20%; box-sizing: border-box;
-        display: none; box-sizing: border-box; border: 1px solid #f2f2f2;
-        padding: 15px 0px; text-align: center; font-weight: 100;
+        display: block; box-sizing: border-box; border: 1px solid #f2f2f2;
+        padding: 15px 0px; text-align: center; 
     }
     .faq_Area nav ul li.active{
         font-weight: 500; border: 1px solid #000;
@@ -8257,7 +8256,6 @@
         font-weight: 100; color: #000; box-sizing: border-box; border-bottom: 1px solid #f2f2f2;
         padding: 40px 5.1%; cursor: pointer; 
         background: url('../images/arrow_row_icon.jpg') right 20px top 45px/ 15px no-repeat;
-
     }
     .faq_Area .faq_Detail ul li.active > strong{
         font-weight: 500; color: #333333;
@@ -8312,7 +8310,6 @@
         display: block;
     }
     /* FAQ Fin */
-
     
     .ppmenu{
         padding-top: 195px;

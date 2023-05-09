@@ -1,19 +1,20 @@
 $(document).ready(function(){
     gnbControl();
-    customBxSlider(".mainSlider",null);
-    customBxSlider(".pscarousel",".customPager");
+    customBxSlider(".mainSlider",1,1,0,0,true,null);
+    customBxSlider(".pscarousel",1,1,0,0,true,".customPager");
     toggleFunc(".wishNcart [id$='Container'] ol.wishBox li figure figcaption input[value='spicon']");
     toggleFunc(".wishNcart [id$='Container'] .cartBox ol li figure figcaption input[value='whicon']");
-    toggleFunc("input[value='hticon']");
+    toggleFunc("[class$='List'] ul li figure figcaption input[type='button']");
+    toggleFunc(".detailContainer aside h2 a");
     toggleFunc(".storecontainer div fieldset:nth-of-type(2) input[type='button']");
     toggleFunc(".faq_Area .faq_Detail ul li");
-    toggleFunc(".ppmenu > div ul li h3");
+    toggleFunc(".detailContainer aside h2 a");
     if (window.matchMedia("(max-width: 767px)").matches) {
         toggleFunc("#fnbContainer div ul li:first-child");
     }
-    tabControl(".ppmenu > div ul li h3",".ppmenu [id^='tuName']");
-    tabControl(".ppmenu > div ul li h3",".ppmenu [id^='ppName']");
-    tabControl(".ppmenu > div ul li h3",".ppmenu [id^='tsName']");
+    tabControl(".ppmenu div ul li h3","[id^='ppName']");
+    tabControl(".ppmenu div ul li h3","[id^='tsName']");
+    tabControl(".ppmenu div ul li h3","[id^='tuName']");
     detailScroll(".detailContainer aside");
     $(".fitvidsElement").fitVids();
     asideControl("header nav ul li input[type='button']:not(#fnbButton)");
@@ -112,7 +113,7 @@ function asideControl(openBtn){
 function asideTabControl(menu,box){
     var boxName = null;
     $(menu).click(function(){
-        boxName = "#" + $(this).attr('data-container');
+        boxName = "#" + $(this).attr('data-tabname');
         $(box).removeClass("active");
         $(boxName).addClass("active");
         $(menu).removeClass("active");
@@ -135,10 +136,10 @@ function tabControl(target,panel){
     var headerHeight = $("header").height();
     $(target).click(function(){ 
         currentTab = "#" + $(this).attr("data-tabname");
-        $(target).removeClass("activation");
-        $(this).addClass("activation"); 
-        $(panel).removeClass("activation"); 
-        $(currentTab).addClass("activation"); 
+        $(target).removeClass("active");
+        $(this).addClass("active"); 
+        $(panel).removeClass("active"); 
+        $(currentTab).addClass("active"); 
         thisOffSet= $(this).offset().top - headerHeight;
         $(window).scrollTop(thisOffSet);
         console.log(thisOffSet);
