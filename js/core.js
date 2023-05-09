@@ -133,7 +133,7 @@ function tabControl(target,panel){
     var thisOffSet = null;
     var headerHeight = $("header").height();
     $(target).click(function(){ 
-        currentTab = "#" + $(this).attr("data-tabname");
+        currentTab = "#" + $(this).attr("data-container");
         $(target).removeClass("active");
         $(this).addClass("active"); 
         $(panel).removeClass("active"); 
