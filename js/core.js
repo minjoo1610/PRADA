@@ -30,7 +30,7 @@ $(document).ready(function(){
 });
 function customBxSlider(target,pagCusVal){
     $(target).bxSlider({
-        pager: pagVal
+        pagerCustom : pagCusVal
     });
 }
 function gnbControl(){
