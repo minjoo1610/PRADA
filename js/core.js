@@ -30,6 +30,11 @@ $(document).ready(function(){
 });
 function customBxSlider(target,pagCusVal){
     $(target).bxSlider({
+        maxSlides: maxVal,
+        minSlides: minVal,
+        slideMargin: marginVal,
+        slideWidth: wVal,
+        pager: pagVal,
         pagerCustom : pagCusVal
     });
 }
