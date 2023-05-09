@@ -128,19 +128,17 @@ function detailCartCall(){
         $(".wishNcart").removeClass("active"); 
     });
 }
-function tabControl(target,panel){ 
-    var currentTab = null; 
-    var thisOffSet = null;
-    var headerHeight = $("header").height();
-    $(target).click(function(){ 
+function tabControl(target,panel){
+    var currentTab = null;
+    var thisOffSet = $("header").height();
+    $(target).click(function(){
         currentTab = "#" + $(this).attr("data-tabname");
         $(target).removeClass("active");
-        $(this).addClass("active"); 
-        $(panel).removeClass("active"); 
-        $(currentTab).addClass("active"); 
-        thisOffSet= $(this).offset().top - headerHeight;
+        $(this).addClass("active");
+        $(panel).removeClass("active");
+        $(currentTab).addClass("active");
         $(window).scrollTop(thisOffSet);
-        console.log(thisOffSet);
+
     });
 }
 
