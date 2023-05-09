@@ -112,7 +112,7 @@ function asideControl(openBtn){
 function asideTabControl(menu,box){
     var boxName = null;
     $(menu).click(function(){
-        boxName = "#" + $(this).attr('data-tabname');
+        boxName = "#" + $(this).attr("data-container");
         $(box).removeClass("active");
         $(boxName).addClass("active");
         $(menu).removeClass("active");
@@ -133,7 +133,7 @@ function tabControl(target,panel){
     var thisOffSet = null;
     var headerHeight = $("header").height();
     $(target).click(function(){ 
-        currentTab = "#" + $(this).attr("data-container");
+        currentTab = "#" + $(this).attr("data-tabname");
         $(target).removeClass("active");
         $(this).addClass("active"); 
         $(panel).removeClass("active"); 
