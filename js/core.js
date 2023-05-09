@@ -28,9 +28,9 @@ $(document).ready(function(){
     tabControl(".faq_Area nav ul li",".faq_Detail");
     dummyLogin();
 });
-function customBxSlider(target,pagCusVal){
+function customBxSlider(target,pagVal){
     $(target).bxSlider({
-        pagerCustom : pagCusVal
+        pagerCustom : pagVal
     });
 }
 function gnbControl(){
