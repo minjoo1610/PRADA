@@ -28,9 +28,14 @@ $(document).ready(function(){
     tabControl(".faq_Area nav ul li",".faq_Detail");
     dummyLogin();
 });
-function customBxSlider(target,pagVal){
+function customBxSlider(target,maxVal,minVal,marginVal,wVal,pagVal,pagCusVal){
     $(target).bxSlider({
-        pagerCustom : pagVal
+        maxSlides: maxVal,
+        minSlides: minVal,
+        slideMargin: marginVal,
+        slideWidth: wVal,
+        pager: pagVal,
+        pagerCustom : pagCusVal
     });
 }
 function gnbControl(){
@@ -43,6 +48,7 @@ function gnbControl(){
         }else if(currentTxt == "menu"){ 
             $(this).text("close");
         }
+
         $("#" + openTarget).toggleClass("active"); 
     });
 }
@@ -51,12 +57,13 @@ function toggleFunc(target){
     $(target).click(function(){
         $(this).toggleClass('active');
     });
+ 
 }
 
 function detailScroll(target){ 
     if (window.matchMedia("(min-width: 1280px)").matches) {
-        var containerH = $(target).height(); 
-        var scrollLock = containerH; 
+        var containerH = $(target).height(); // 
+        var scrollLock = containerH / 2; 
         $(window).scroll(function(){ 
             if($(this).scrollTop() > scrollLock){ 
                 $(target).addClass("lock"); 
@@ -77,14 +84,14 @@ function detailScroll(target){
         });
     }
 }
-function popupControl(openBtn){  
+function popupControl(openBtn){
     var popupName = null;
-    $(openBtn).click(function(){
+    $(openBtn).click(function(){ 
         popupName = "#" + $(this).attr('data-popup'); 
         $(popupName).addClass("active"); 
     });
-    $(".btn_close").click(function(){ 
-        $(popupName).removeClass("active");  
+    $(".btn_close").click(function(){
+        $(popupName).removeClass("active"); 
     });
 }
 
@@ -106,13 +113,13 @@ function asideControl(openBtn){
         $(containerName).children(depth2Name).addClass("active");
     });
     $(".btn_close").click(function(){ 
-        $(containerName).removeClass("active");  
+        $(containerName).removeClass("active"); 
     });
 }
 function asideTabControl(menu,box){
     var boxName = null;
     $(menu).click(function(){
-        boxName = "#" + $(this).attr("data-container");
+        boxName = "#" + $(this).attr('data-container');
         $(box).removeClass("active");
         $(boxName).addClass("active");
         $(menu).removeClass("active");
@@ -120,38 +127,36 @@ function asideTabControl(menu,box){
     });
 }
 function detailCartCall(){
-    $(".detailContainer a.btn.blackWhite").click(function(){ 
-        $(".wishNcart").addClass("active"); 
-        $(".wishNcart ul li:nth-child(2)").addClass("active"); 
+    $(".detailContainer a.btn.blackWhite").click(function(){
+        $(".wishNcart").addClass("active");
+        $(".wishNcart ul li:nth-child(2)").addClass("active");
     });
-    $(".btn_close").click(function(){ 
+    $(".btn_close").click(function(){
         $(".wishNcart").removeClass("active"); 
     });
 }
+
 function tabControl(target,panel){
-    var thisOffSet = null;
-    var headerHeight = $("header").height();
-    $(target).click(function(){ 
+    var currentTab = null;
+    var thisOffSet = $("header").height();
+    $(target).click(function(){
         currentTab = "#" + $(this).attr("data-tabname");
         $(target).removeClass("active");
-        $(this).addClass("active"); 
-        $(panel).removeClass("active"); 
-        $(currentTab).addClass("active"); 
-        thisOffSet= $(this).offset().top - headerHeight;
+        $(this).addClass("active");
+        $(panel).removeClass("active");
+        $(currentTab).addClass("active");
         $(window).scrollTop(thisOffSet);
-        console.log(thisOffSet);
-
     });
 }
-
 function wishBoxSwap(){
-    $("input[value='delete']").click(function(){ 
-        $(this).closest("[class*='Box']").removeClass("active"); 
-        $(".emptyBox").addClass("active"); 
+    $("input[value='delete']").click(function(){
+        // console.log($(this));
+        $(this).closest("[class*='Box']").removeClass("active");
+        $(".emptyBox").addClass("active");
     });
 }
 function dummyLogin(){
-    $(".notSignin > *").click(function(){ 
-        $("#gotoSignIn").addClass("active"); 
+    $(".notSignin > *").click(function(){
+        $("#gotoSignIn").addClass("active");
     });
 }
