@@ -51,7 +51,6 @@ function toggleFunc(target){
     $(target).click(function(){
         $(this).toggleClass('active');
     });
-   
 }
 
 function detailScroll(target){ 
