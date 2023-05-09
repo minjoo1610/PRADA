@@ -128,7 +128,6 @@ function detailCartCall(){
         $(".wishNcart").removeClass("active"); 
     });
 }
-
 function tabControl(target,panel){ 
     var currentTab = null; 
     var thisOffSet = null;
